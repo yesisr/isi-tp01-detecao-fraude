@@ -1,0 +1,161 @@
+[
+    {
+        "id": "tab1",
+        "type": "tab",
+        "label": "Fraude - MQTT e PostgreSQL",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "brk1",
+        "type": "mqtt-broker",
+        "name": "mosquitto",
+        "broker": "mosquitto:1883",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true
+    },
+    {
+        "id": "6e535a96f145543a",
+        "type": "postgreSQLConfig",
+        "name": "",
+        "host": "postgres",
+        "hostFieldType": "str",
+        "port": 5432,
+        "portFieldType": "num",
+        "database": "fraude",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": 10,
+        "maxFieldType": "num",
+        "idle": 1000,
+        "idleFieldType": "num",
+        "connectionTimeout": 10000,
+        "connectionTimeoutFieldType": "num",
+        "userFieldType": "cred",
+        "userEnv": "",
+        "passwordFieldType": "cred",
+        "passwordEnv": ""
+    },
+    {
+        "id": "inj1",
+        "type": "inject",
+        "z": "tab1",
+        "name": "a cada 2s",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 240,
+        "wires": [
+            [
+                "fn1"
+            ]
+        ]
+    },
+    {
+        "id": "fn1",
+        "type": "function",
+        "z": "tab1",
+        "name": "gerar transacao",
+        "func": "var mccs = [\"5411\",\"5541\",\"5812\",\"5912\",\"7995\",\"6011\",\"6051\",\"4829\"];\nfunction pick(a) { return a[Math.floor(Math.random()*a.length)]; }\nvar agora = new Date();\nvar cartao = \"C\" + String(Math.floor(Math.random()*500)+1).padStart(5,\"0\");\nvar valor = Math.round((Math.random()*350+3)*100)/100;\nvar pais = pick([\"PT\",\"PT\",\"PT\",\"ES\",\"FR\",\"BR\"]);\nif (Math.random() < 0.08) { valor *= 4; pais = \"XX\"; }\nmsg.payload = {\n    id: agora.getTime().toString(),\n    ts: agora.toISOString(),\n    cartao: cartao,\n    mcc: pick(mccs),\n    valor: valor,\n    pais: pais\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 240,
+        "wires": [
+            [
+                "mqo1"
+            ]
+        ]
+    },
+    {
+        "id": "mqo1",
+        "type": "mqtt out",
+        "z": "tab1",
+        "name": "publicar",
+        "topic": "fraude/transacoes",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "brk1",
+        "x": 550,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "mqi1",
+        "type": "mqtt in",
+        "z": "tab1",
+        "name": "recebe",
+        "topic": "fraude/transacoes",
+        "qos": "",
+        "datatype": "auto-detect",
+        "broker": "brk1",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 90,
+        "y": 360,
+        "wires": [
+            [
+                "5ee314c9822be0b2"
+            ]
+        ]
+    },
+    {
+        "id": "5ee314c9822be0b2",
+        "type": "json",
+        "z": "tab1",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": true,
+        "x": 270,
+        "y": 360,
+        "wires": [
+            [
+                "8ee4d26071963e60"
+            ]
+        ]
+    },
+    {
+        "id": "8ee4d26071963e60",
+        "type": "postgresql",
+        "z": "tab1",
+        "name": "",
+        "query": "INSERT INTO stg_stream(payload) VALUES ($1)",
+        "postgreSQLConfig": "6e535a96f145543a",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 670,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    }
+]
