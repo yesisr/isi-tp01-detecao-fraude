@@ -1,0 +1,27 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: etl
+      POSTGRES_PASSWORD: etl
+      POSTGRES_DB: fraude
+    ports: ["5432:5432"]
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./sql:/docker-entrypoint-initdb.d:ro
+  mosquitto:
+    image: eclipse-mosquitto:2
+    ports: ["1883:1883"]
+    volumes:
+      - ./mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+  node-red:
+    image: nodered/node-red:latest
+    ports: ["1880:1880"]
+    volumes:
+      - ./node-red:/data
+  grafana:
+    image: grafana/grafana:latest
+    ports: ["3000:3000"]
+
+volumes:
+  pgdata:

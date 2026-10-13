@@ -1,0 +1,4502 @@
+[
+ {
+  "id_cartao": "C00001",
+  "id_cliente": "CL00001",
+  "nome_cliente": "Sofia  Rodrigues LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 9452.45,
+  "emitido_em": "2024-05-27"
+ },
+ {
+  "id_cartao": "C00002",
+  "id_cliente": "CL00287",
+  "nome_cliente": "Joao Silva - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 6269.48,
+  "emitido_em": "2021-07-15"
+ },
+ {
+  "id_cartao": "C00003",
+  "id_cliente": "CL00066",
+  "nome_cliente": "Bruno Alves, Lda. - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 8589.3,
+  "emitido_em": "2023-04-11"
+ },
+ {
+  "id_cartao": "C00004",
+  "id_cliente": "CL00231",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 3265.53,
+  "emitido_em": "2022-07-03"
+ },
+ {
+  "id_cartao": "C00005",
+  "id_cliente": "CL00282",
+  "nome_cliente": "Maria   Fernandes, LDA & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 3278.26,
+  "emitido_em": "2026-06-03"
+ },
+ {
+  "id_cartao": "C00006",
+  "id_cliente": "CL00208",
+  "nome_cliente": "Joao Silva S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4400.77,
+  "emitido_em": "2022-08-23"
+ },
+ {
+  "id_cartao": "C00007",
+  "id_cliente": "CL00021",
+  "nome_cliente": "Maria   Fernandes, LDA - Filial 2",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 7103.48,
+  "emitido_em": "2026-03-04"
+ },
+ {
+  "id_cartao": "C00008",
+  "id_cliente": "CL00055",
+  "nome_cliente": "Rui Pereira & Filhos LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 5530.26,
+  "emitido_em": "2022-08-31"
+ },
+ {
+  "id_cartao": "C00009",
+  "id_cliente": "CL00087",
+  "nome_cliente": "Tiago  Nunes S.A. & Filhos",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 8393.59,
+  "emitido_em": "2023-03-23"
+ },
+ {
+  "id_cartao": "C00010",
+  "id_cliente": "CL00262",
+  "nome_cliente": "Maria   Fernandes, LDA - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 3550.41,
+  "emitido_em": "2025-09-09"
+ },
+ {
+  "id_cartao": "C00011",
+  "id_cliente": "CL00233",
+  "nome_cliente": "Rui Pereira & Filhos & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 9557.11,
+  "emitido_em": "2025-10-03"
+ },
+ {
+  "id_cartao": "C00012",
+  "id_cliente": "CL00016",
+  "nome_cliente": "Rui Pereira & Filhos",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 2689.98,
+  "emitido_em": "2022-07-09"
+ },
+ {
+  "id_cartao": "C00013",
+  "id_cliente": "CL00086",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 9598.68,
+  "emitido_em": "2022-05-20"
+ },
+ {
+  "id_cartao": "C00014",
+  "id_cliente": "CL00255",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 6357.91,
+  "emitido_em": "2023-04-16"
+ },
+ {
+  "id_cartao": "C00015",
+  "id_cliente": "CL00311",
+  "nome_cliente": "CARLA  MENDES S.A.",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 2899.29,
+  "emitido_em": "2021-08-25"
+ },
+ {
+  "id_cartao": "C00016",
+  "id_cliente": "CL00176",
+  "nome_cliente": "Tiago  Nunes S.A. - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2395.99,
+  "emitido_em": "2026-07-10"
+ },
+ {
+  "id_cartao": "C00017",
+  "id_cliente": "CL00350",
+  "nome_cliente": "Pedro  Miguel  Sousa & Filhos",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 8220.55,
+  "emitido_em": "2024-10-16"
+ },
+ {
+  "id_cartao": "C00018",
+  "id_cliente": "CL00236",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 4294.84,
+  "emitido_em": "2026-05-28"
+ },
+ {
+  "id_cartao": "C00019",
+  "id_cliente": "CL00348",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 2117.4,
+  "emitido_em": "2025-04-23"
+ },
+ {
+  "id_cartao": "C00020",
+  "id_cliente": "CL00258",
+  "nome_cliente": "Tiago  Nunes S.A. LDA",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 7679.8,
+  "emitido_em": "2025-07-09"
+ },
+ {
+  "id_cartao": "C00021",
+  "id_cliente": "CL00003",
+  "nome_cliente": "Maria   Fernandes, LDA - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 6025.71,
+  "emitido_em": "2021-11-18"
+ },
+ {
+  "id_cartao": "C00022",
+  "id_cliente": "CL00253",
+  "nome_cliente": "Pedro  Miguel  Sousa - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 6595.52,
+  "emitido_em": "2023-04-23"
+ },
+ {
+  "id_cartao": "C00023",
+  "id_cliente": "CL00009",
+  "nome_cliente": "Joao Silva - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7148.79,
+  "emitido_em": "2024-09-20"
+ },
+ {
+  "id_cartao": "C00024",
+  "id_cliente": "CL00294",
+  "nome_cliente": "Helena Bastos da Silva Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2749.64,
+  "emitido_em": "2021-11-01"
+ },
+ {
+  "id_cartao": "C00025",
+  "id_cliente": "CL00081",
+  "nome_cliente": "Joao Silva",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 2539.88,
+  "emitido_em": "2025-04-19"
+ },
+ {
+  "id_cartao": "C00026",
+  "id_cliente": "CL00311",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 3806.35,
+  "emitido_em": "2022-06-09"
+ },
+ {
+  "id_cartao": "C00027",
+  "id_cliente": "CL00036",
+  "nome_cliente": "CARLA  MENDES S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4774.25,
+  "emitido_em": "2022-08-18"
+ },
+ {
+  "id_cartao": "C00028",
+  "id_cliente": "CL00351",
+  "nome_cliente": "Helena Bastos da Silva - Filial 2",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 7557.88,
+  "emitido_em": "2025-02-12"
+ },
+ {
+  "id_cartao": "C00029",
+  "id_cliente": "CL00244",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 4326.52,
+  "emitido_em": "2023-11-15"
+ },
+ {
+  "id_cartao": "C00030",
+  "id_cliente": "CL00158",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 3494.4,
+  "emitido_em": "2024-01-13"
+ },
+ {
+  "id_cartao": "C00031",
+  "id_cliente": "CL00368",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 9474.3,
+  "emitido_em": "2022-02-28"
+ },
+ {
+  "id_cartao": "C00032",
+  "id_cliente": "CL00076",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 4969.94,
+  "emitido_em": "2025-12-07"
+ },
+ {
+  "id_cartao": "C00033",
+  "id_cliente": "CL00202",
+  "nome_cliente": "Maria   Fernandes, LDA S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 6171.99,
+  "emitido_em": "2024-10-04"
+ },
+ {
+  "id_cartao": "C00034",
+  "id_cliente": "CL00338",
+  "nome_cliente": "Bruno Alves, Lda. LDA",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 562.41,
+  "emitido_em": "2023-01-03"
+ },
+ {
+  "id_cartao": "C00035",
+  "id_cliente": "CL00343",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 3217.28,
+  "emitido_em": "2021-10-14"
+ },
+ {
+  "id_cartao": "C00036",
+  "id_cliente": "CL00367",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 8489.1,
+  "emitido_em": "2024-08-18"
+ },
+ {
+  "id_cartao": "C00037",
+  "id_cliente": "CL00231",
+  "nome_cliente": "Ana-Paula Costa S.A. - Filial 2",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 6889.54,
+  "emitido_em": "2023-03-14"
+ },
+ {
+  "id_cartao": "C00038",
+  "id_cliente": "CL00192",
+  "nome_cliente": "Helena Bastos da Silva S.A.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 2574.76,
+  "emitido_em": "2023-06-18"
+ },
+ {
+  "id_cartao": "C00039",
+  "id_cliente": "CL00084",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 9928.45,
+  "emitido_em": "2023-10-22"
+ },
+ {
+  "id_cartao": "C00040",
+  "id_cliente": "CL00112",
+  "nome_cliente": "Helena Bastos da Silva S.A.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 978.22,
+  "emitido_em": "2023-05-12"
+ },
+ {
+  "id_cartao": "C00041",
+  "id_cliente": "CL00261",
+  "nome_cliente": "Joao Silva Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 1066.07,
+  "emitido_em": "2022-03-31"
+ },
+ {
+  "id_cartao": "C00042",
+  "id_cliente": "CL00114",
+  "nome_cliente": "Helena Bastos da Silva Unipessoal Lda.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 799.3,
+  "emitido_em": "2021-06-05"
+ },
+ {
+  "id_cartao": "C00043",
+  "id_cliente": "CL00234",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 7314.96,
+  "emitido_em": "2026-03-07"
+ },
+ {
+  "id_cartao": "C00044",
+  "id_cliente": "CL00336",
+  "nome_cliente": "Rui Pereira & Filhos",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 1574.94,
+  "emitido_em": "2026-07-22"
+ },
+ {
+  "id_cartao": "C00045",
+  "id_cliente": "CL00023",
+  "nome_cliente": "Helena Bastos da Silva - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 993.71,
+  "emitido_em": "2022-07-16"
+ },
+ {
+  "id_cartao": "C00046",
+  "id_cliente": "CL00056",
+  "nome_cliente": "Pedro  Miguel  Sousa Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 6861.43,
+  "emitido_em": "2024-07-23"
+ },
+ {
+  "id_cartao": "C00047",
+  "id_cliente": "CL00036",
+  "nome_cliente": "Maria   Fernandes, LDA Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 9639.1,
+  "emitido_em": "2021-11-22"
+ },
+ {
+  "id_cartao": "C00048",
+  "id_cliente": "CL00032",
+  "nome_cliente": "Joao Silva",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 1812.18,
+  "emitido_em": "2024-02-13"
+ },
+ {
+  "id_cartao": "C00049",
+  "id_cliente": "CL00305",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7612.03,
+  "emitido_em": "2025-03-16"
+ },
+ {
+  "id_cartao": "C00050",
+  "id_cliente": "CL00007",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 8382.36,
+  "emitido_em": "2023-04-27"
+ },
+ {
+  "id_cartao": "C00051",
+  "id_cliente": "CL00392",
+  "nome_cliente": "CARLA  MENDES - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4901.98,
+  "emitido_em": "2026-04-30"
+ },
+ {
+  "id_cartao": "C00052",
+  "id_cliente": "CL00072",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7754.9,
+  "emitido_em": "2023-08-19"
+ },
+ {
+  "id_cartao": "C00053",
+  "id_cliente": "CL00288",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4433.83,
+  "emitido_em": "2023-02-11"
+ },
+ {
+  "id_cartao": "C00054",
+  "id_cliente": "CL00280",
+  "nome_cliente": "CARLA  MENDES & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 9883.76,
+  "emitido_em": "2026-06-29"
+ },
+ {
+  "id_cartao": "C00055",
+  "id_cliente": "CL00174",
+  "nome_cliente": "Helena Bastos da Silva & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 6266.92,
+  "emitido_em": "2021-09-11"
+ },
+ {
+  "id_cartao": "C00056",
+  "id_cliente": "CL00182",
+  "nome_cliente": "Joao Silva Unipessoal Lda.",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 4319.02,
+  "emitido_em": "2026-06-10"
+ },
+ {
+  "id_cartao": "C00057",
+  "id_cliente": "CL00213",
+  "nome_cliente": "Helena Bastos da Silva LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 4532.71,
+  "emitido_em": "2024-03-07"
+ },
+ {
+  "id_cartao": "C00058",
+  "id_cliente": "CL00191",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 5069.68,
+  "emitido_em": "2025-02-23"
+ },
+ {
+  "id_cartao": "C00059",
+  "id_cliente": "CL00069",
+  "nome_cliente": "Joao Silva",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 1430.95,
+  "emitido_em": "2025-11-01"
+ },
+ {
+  "id_cartao": "C00060",
+  "id_cliente": "CL00093",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4322.09,
+  "emitido_em": "2026-05-14"
+ },
+ {
+  "id_cartao": "C00061",
+  "id_cliente": "CL00337",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 5715.8,
+  "emitido_em": "2026-02-02"
+ },
+ {
+  "id_cartao": "C00062",
+  "id_cliente": "CL00372",
+  "nome_cliente": "CARLA  MENDES - Filial 2",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 5022.04,
+  "emitido_em": "2022-09-13"
+ },
+ {
+  "id_cartao": "C00063",
+  "id_cliente": "CL00112",
+  "nome_cliente": "Sofia  Rodrigues LDA",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 9922.32,
+  "emitido_em": "2025-02-15"
+ },
+ {
+  "id_cartao": "C00064",
+  "id_cliente": "CL00225",
+  "nome_cliente": "Joao Silva",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 4079.78,
+  "emitido_em": "2026-04-16"
+ },
+ {
+  "id_cartao": "C00065",
+  "id_cliente": "CL00127",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 7708.24,
+  "emitido_em": "2021-07-20"
+ },
+ {
+  "id_cartao": "C00066",
+  "id_cliente": "CL00308",
+  "nome_cliente": "Tiago  Nunes S.A. S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 5816.18,
+  "emitido_em": "2025-01-03"
+ },
+ {
+  "id_cartao": "C00067",
+  "id_cliente": "CL00184",
+  "nome_cliente": "Maria   Fernandes, LDA S.A.",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 6765.56,
+  "emitido_em": "2024-12-10"
+ },
+ {
+  "id_cartao": "C00068",
+  "id_cliente": "CL00007",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 3017.61,
+  "emitido_em": "2022-05-01"
+ },
+ {
+  "id_cartao": "C00069",
+  "id_cliente": "CL00362",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7188.96,
+  "emitido_em": "2021-11-09"
+ },
+ {
+  "id_cartao": "C00070",
+  "id_cliente": "CL00270",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 5481.7,
+  "emitido_em": "2022-03-04"
+ },
+ {
+  "id_cartao": "C00071",
+  "id_cliente": "CL00175",
+  "nome_cliente": "Ana-Paula Costa S.A. S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 2085.11,
+  "emitido_em": "2026-03-13"
+ },
+ {
+  "id_cartao": "C00072",
+  "id_cliente": "CL00014",
+  "nome_cliente": "Tiago  Nunes S.A. Unipessoal Lda.",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 4368.05,
+  "emitido_em": "2025-04-02"
+ },
+ {
+  "id_cartao": "C00073",
+  "id_cliente": "CL00141",
+  "nome_cliente": "Bruno Alves, Lda. & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2189.44,
+  "emitido_em": "2025-09-05"
+ },
+ {
+  "id_cartao": "C00074",
+  "id_cliente": "CL00098",
+  "nome_cliente": "Sofia  Rodrigues S.A.",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 5946.27,
+  "emitido_em": "2026-06-08"
+ },
+ {
+  "id_cartao": "C00075",
+  "id_cliente": "CL00332",
+  "nome_cliente": "Ana-Paula Costa S.A. S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 7662.69,
+  "emitido_em": "2022-05-04"
+ },
+ {
+  "id_cartao": "C00076",
+  "id_cliente": "CL00232",
+  "nome_cliente": "Pedro  Miguel  Sousa Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 720.08,
+  "emitido_em": "2025-02-26"
+ },
+ {
+  "id_cartao": "C00077",
+  "id_cliente": "CL00035",
+  "nome_cliente": "Rui Pereira & Filhos - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 5053.93,
+  "emitido_em": "2021-08-13"
+ },
+ {
+  "id_cartao": "C00078",
+  "id_cliente": "CL00025",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4573.0,
+  "emitido_em": "2023-05-09"
+ },
+ {
+  "id_cartao": "C00079",
+  "id_cliente": "CL00058",
+  "nome_cliente": "CARLA  MENDES Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 964.47,
+  "emitido_em": "2022-06-02"
+ },
+ {
+  "id_cartao": "C00080",
+  "id_cliente": "CL00310",
+  "nome_cliente": "Rui Pereira & Filhos Unipessoal Lda.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 9209.91,
+  "emitido_em": "2021-12-11"
+ },
+ {
+  "id_cartao": "C00081",
+  "id_cliente": "CL00214",
+  "nome_cliente": "Maria   Fernandes, LDA & Filhos",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 3390.96,
+  "emitido_em": "2022-06-12"
+ },
+ {
+  "id_cartao": "C00082",
+  "id_cliente": "CL00061",
+  "nome_cliente": "Tiago  Nunes S.A. Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 5362.51,
+  "emitido_em": "2023-04-14"
+ },
+ {
+  "id_cartao": "C00083",
+  "id_cliente": "CL00202",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 1070.06,
+  "emitido_em": "2023-04-03"
+ },
+ {
+  "id_cartao": "C00084",
+  "id_cliente": "CL00162",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 8867.27,
+  "emitido_em": "2023-01-03"
+ },
+ {
+  "id_cartao": "C00085",
+  "id_cliente": "CL00006",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 4382.22,
+  "emitido_em": "2023-09-21"
+ },
+ {
+  "id_cartao": "C00086",
+  "id_cliente": "CL00112",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 7868.74,
+  "emitido_em": "2023-04-30"
+ },
+ {
+  "id_cartao": "C00087",
+  "id_cliente": "CL00030",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 6168.51,
+  "emitido_em": "2024-04-12"
+ },
+ {
+  "id_cartao": "C00088",
+  "id_cliente": "CL00069",
+  "nome_cliente": "Maria   Fernandes, LDA - Filial 2",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 3483.99,
+  "emitido_em": "2023-10-21"
+ },
+ {
+  "id_cartao": "C00089",
+  "id_cliente": "CL00045",
+  "nome_cliente": "Ana-Paula Costa S.A. & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 8207.84,
+  "emitido_em": "2025-01-03"
+ },
+ {
+  "id_cartao": "C00090",
+  "id_cliente": "CL00348",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 9877.0,
+  "emitido_em": "2025-05-04"
+ },
+ {
+  "id_cartao": "C00091",
+  "id_cliente": "CL00008",
+  "nome_cliente": "Bruno Alves, Lda. LDA",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 8665.26,
+  "emitido_em": "2021-12-09"
+ },
+ {
+  "id_cartao": "C00092",
+  "id_cliente": "CL00251",
+  "nome_cliente": "Pedro  Miguel  Sousa & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 920.92,
+  "emitido_em": "2025-01-13"
+ },
+ {
+  "id_cartao": "C00093",
+  "id_cliente": "CL00318",
+  "nome_cliente": "Tiago  Nunes S.A. S.A.",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 6860.16,
+  "emitido_em": "2025-01-27"
+ },
+ {
+  "id_cartao": "C00094",
+  "id_cliente": "CL00047",
+  "nome_cliente": "Ana-Paula Costa S.A. & Filhos",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 4104.5,
+  "emitido_em": "2024-05-28"
+ },
+ {
+  "id_cartao": "C00095",
+  "id_cliente": "CL00311",
+  "nome_cliente": "Sofia  Rodrigues LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 1993.92,
+  "emitido_em": "2026-01-05"
+ },
+ {
+  "id_cartao": "C00096",
+  "id_cliente": "CL00190",
+  "nome_cliente": "Joao Silva S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 3045.35,
+  "emitido_em": "2026-04-23"
+ },
+ {
+  "id_cartao": "C00097",
+  "id_cliente": "CL00089",
+  "nome_cliente": "Tiago  Nunes S.A. - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 6022.27,
+  "emitido_em": "2021-07-12"
+ },
+ {
+  "id_cartao": "C00098",
+  "id_cliente": "CL00078",
+  "nome_cliente": "Pedro  Miguel  Sousa - Filial 2",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 1971.04,
+  "emitido_em": "2021-09-18"
+ },
+ {
+  "id_cartao": "C00099",
+  "id_cliente": "CL00158",
+  "nome_cliente": "Tiago  Nunes S.A. Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 548.92,
+  "emitido_em": "2023-03-20"
+ },
+ {
+  "id_cartao": "C00100",
+  "id_cliente": "CL00063",
+  "nome_cliente": "Tiago  Nunes S.A. LDA",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 3095.23,
+  "emitido_em": "2022-02-21"
+ },
+ {
+  "id_cartao": "C00101",
+  "id_cliente": "CL00091",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 2386.9,
+  "emitido_em": "2024-05-22"
+ },
+ {
+  "id_cartao": "C00102",
+  "id_cliente": "CL00086",
+  "nome_cliente": "Ana-Paula Costa S.A. S.A.",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 6401.42,
+  "emitido_em": "2023-10-29"
+ },
+ {
+  "id_cartao": "C00103",
+  "id_cliente": "CL00036",
+  "nome_cliente": "Rui Pereira & Filhos Unipessoal Lda.",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 2201.27,
+  "emitido_em": "2026-06-30"
+ },
+ {
+  "id_cartao": "C00104",
+  "id_cliente": "CL00160",
+  "nome_cliente": "Bruno Alves, Lda. & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4646.67,
+  "emitido_em": "2022-07-05"
+ },
+ {
+  "id_cartao": "C00105",
+  "id_cliente": "CL00345",
+  "nome_cliente": "Maria   Fernandes, LDA Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 683.37,
+  "emitido_em": "2025-05-13"
+ },
+ {
+  "id_cartao": "C00106",
+  "id_cliente": "CL00169",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 6511.44,
+  "emitido_em": "2026-04-23"
+ },
+ {
+  "id_cartao": "C00107",
+  "id_cliente": "CL00188",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 9534.28,
+  "emitido_em": "2026-01-31"
+ },
+ {
+  "id_cartao": "C00108",
+  "id_cliente": "CL00123",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7550.36,
+  "emitido_em": "2024-04-22"
+ },
+ {
+  "id_cartao": "C00109",
+  "id_cliente": "CL00120",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 3341.39,
+  "emitido_em": "2023-10-24"
+ },
+ {
+  "id_cartao": "C00110",
+  "id_cliente": "CL00083",
+  "nome_cliente": "Pedro  Miguel  Sousa & Filhos",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 9118.07,
+  "emitido_em": "2026-07-07"
+ },
+ {
+  "id_cartao": "C00111",
+  "id_cliente": "CL00124",
+  "nome_cliente": "Bruno Alves, Lda. S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 5697.63,
+  "emitido_em": "2022-09-14"
+ },
+ {
+  "id_cartao": "C00112",
+  "id_cliente": "CL00250",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 1677.62,
+  "emitido_em": "2024-10-27"
+ },
+ {
+  "id_cartao": "C00113",
+  "id_cliente": "CL00262",
+  "nome_cliente": "CARLA  MENDES S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 1183.63,
+  "emitido_em": "2022-02-05"
+ },
+ {
+  "id_cartao": "C00114",
+  "id_cliente": "CL00258",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 7403.32,
+  "emitido_em": "2026-04-01"
+ },
+ {
+  "id_cartao": "C00115",
+  "id_cliente": "CL00027",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 1376.62,
+  "emitido_em": "2023-08-08"
+ },
+ {
+  "id_cartao": "C00116",
+  "id_cliente": "CL00105",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 4681.65,
+  "emitido_em": "2022-04-19"
+ },
+ {
+  "id_cartao": "C00117",
+  "id_cliente": "CL00384",
+  "nome_cliente": "Joao Silva",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 2629.91,
+  "emitido_em": "2026-04-17"
+ },
+ {
+  "id_cartao": "C00118",
+  "id_cliente": "CL00065",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 8191.14,
+  "emitido_em": "2023-01-26"
+ },
+ {
+  "id_cartao": "C00119",
+  "id_cliente": "CL00363",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 2769.45,
+  "emitido_em": "2025-03-02"
+ },
+ {
+  "id_cartao": "C00120",
+  "id_cliente": "CL00385",
+  "nome_cliente": "Ana-Paula Costa S.A. S.A.",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 501.54,
+  "emitido_em": "2025-04-27"
+ },
+ {
+  "id_cartao": "C00121",
+  "id_cliente": "CL00269",
+  "nome_cliente": "Joao Silva - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 5831.4,
+  "emitido_em": "2025-09-20"
+ },
+ {
+  "id_cartao": "C00122",
+  "id_cliente": "CL00001",
+  "nome_cliente": "Joao Silva",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 5686.0,
+  "emitido_em": "2024-10-10"
+ },
+ {
+  "id_cartao": "C00123",
+  "id_cliente": "CL00244",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 617.38,
+  "emitido_em": "2023-07-13"
+ },
+ {
+  "id_cartao": "C00124",
+  "id_cliente": "CL00050",
+  "nome_cliente": "Sofia  Rodrigues & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 4595.96,
+  "emitido_em": "2021-07-30"
+ },
+ {
+  "id_cartao": "C00125",
+  "id_cliente": "CL00171",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 758.02,
+  "emitido_em": "2023-05-26"
+ },
+ {
+  "id_cartao": "C00126",
+  "id_cliente": "CL00126",
+  "nome_cliente": "Rui Pereira & Filhos S.A.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 2554.69,
+  "emitido_em": "2022-08-11"
+ },
+ {
+  "id_cartao": "C00127",
+  "id_cliente": "CL00151",
+  "nome_cliente": "Sofia  Rodrigues Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 3135.64,
+  "emitido_em": "2025-11-20"
+ },
+ {
+  "id_cartao": "C00128",
+  "id_cliente": "CL00226",
+  "nome_cliente": "Bruno Alves, Lda. - Filial 2",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 2701.7,
+  "emitido_em": "2026-08-11"
+ },
+ {
+  "id_cartao": "C00129",
+  "id_cliente": "CL00386",
+  "nome_cliente": "CARLA  MENDES - Filial 2",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 760.61,
+  "emitido_em": "2024-08-04"
+ },
+ {
+  "id_cartao": "C00130",
+  "id_cliente": "CL00399",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 9356.33,
+  "emitido_em": "2025-10-11"
+ },
+ {
+  "id_cartao": "C00131",
+  "id_cliente": "CL00358",
+  "nome_cliente": "Pedro  Miguel  Sousa & Filhos",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 9585.87,
+  "emitido_em": "2023-05-29"
+ },
+ {
+  "id_cartao": "C00132",
+  "id_cliente": "CL00194",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 3521.76,
+  "emitido_em": "2023-01-25"
+ },
+ {
+  "id_cartao": "C00133",
+  "id_cliente": "CL00352",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 7578.24,
+  "emitido_em": "2022-02-25"
+ },
+ {
+  "id_cartao": "C00134",
+  "id_cliente": "CL00323",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 1229.64,
+  "emitido_em": "2022-08-18"
+ },
+ {
+  "id_cartao": "C00135",
+  "id_cliente": "CL00063",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 9643.24,
+  "emitido_em": "2021-12-02"
+ },
+ {
+  "id_cartao": "C00136",
+  "id_cliente": "CL00357",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 2112.2,
+  "emitido_em": "2026-01-19"
+ },
+ {
+  "id_cartao": "C00137",
+  "id_cliente": "CL00254",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 2974.52,
+  "emitido_em": "2022-01-12"
+ },
+ {
+  "id_cartao": "C00138",
+  "id_cliente": "CL00229",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 4480.31,
+  "emitido_em": "2022-12-31"
+ },
+ {
+  "id_cartao": "C00139",
+  "id_cliente": "CL00314",
+  "nome_cliente": "Bruno Alves, Lda. - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 1779.78,
+  "emitido_em": "2025-05-19"
+ },
+ {
+  "id_cartao": "C00140",
+  "id_cliente": "CL00043",
+  "nome_cliente": "Helena Bastos da Silva LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7510.82,
+  "emitido_em": "2021-09-12"
+ },
+ {
+  "id_cartao": "C00141",
+  "id_cliente": "CL00144",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 8898.93,
+  "emitido_em": "2026-07-28"
+ },
+ {
+  "id_cartao": "C00142",
+  "id_cliente": "CL00272",
+  "nome_cliente": "Joao Silva S.A.",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 4636.79,
+  "emitido_em": "2023-04-19"
+ },
+ {
+  "id_cartao": "C00143",
+  "id_cliente": "CL00080",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 3216.45,
+  "emitido_em": "2025-03-02"
+ },
+ {
+  "id_cartao": "C00144",
+  "id_cliente": "CL00136",
+  "nome_cliente": "Pedro  Miguel  Sousa Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4714.82,
+  "emitido_em": "2025-02-05"
+ },
+ {
+  "id_cartao": "C00145",
+  "id_cliente": "CL00123",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 4433.33,
+  "emitido_em": "2022-09-07"
+ },
+ {
+  "id_cartao": "C00146",
+  "id_cliente": "CL00367",
+  "nome_cliente": "Helena Bastos da Silva S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7389.78,
+  "emitido_em": "2022-02-07"
+ },
+ {
+  "id_cartao": "C00147",
+  "id_cliente": "CL00277",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2856.63,
+  "emitido_em": "2025-01-20"
+ },
+ {
+  "id_cartao": "C00148",
+  "id_cliente": "CL00244",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 5851.31,
+  "emitido_em": "2025-03-20"
+ },
+ {
+  "id_cartao": "C00149",
+  "id_cliente": "CL00211",
+  "nome_cliente": "Bruno Alves, Lda. S.A.",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 6298.58,
+  "emitido_em": "2024-08-08"
+ },
+ {
+  "id_cartao": "C00150",
+  "id_cliente": "CL00019",
+  "nome_cliente": "Bruno Alves, Lda. S.A.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 1579.15,
+  "emitido_em": "2024-10-22"
+ },
+ {
+  "id_cartao": "C00151",
+  "id_cliente": "CL00062",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 6239.57,
+  "emitido_em": "2026-06-03"
+ },
+ {
+  "id_cartao": "C00152",
+  "id_cliente": "CL00220",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 1648.37,
+  "emitido_em": "2022-10-12"
+ },
+ {
+  "id_cartao": "C00153",
+  "id_cliente": "CL00336",
+  "nome_cliente": "Maria   Fernandes, LDA LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2998.61,
+  "emitido_em": "2025-11-23"
+ },
+ {
+  "id_cartao": "C00154",
+  "id_cliente": "CL00355",
+  "nome_cliente": "CARLA  MENDES & Filhos",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 2848.1,
+  "emitido_em": "2026-04-23"
+ },
+ {
+  "id_cartao": "C00155",
+  "id_cliente": "CL00240",
+  "nome_cliente": "Joao Silva",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 792.23,
+  "emitido_em": "2024-10-06"
+ },
+ {
+  "id_cartao": "C00156",
+  "id_cliente": "CL00365",
+  "nome_cliente": "Maria   Fernandes, LDA Unipessoal Lda.",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 6166.73,
+  "emitido_em": "2022-12-27"
+ },
+ {
+  "id_cartao": "C00157",
+  "id_cliente": "CL00299",
+  "nome_cliente": "Tiago  Nunes S.A. Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 5202.19,
+  "emitido_em": "2024-07-31"
+ },
+ {
+  "id_cartao": "C00158",
+  "id_cliente": "CL00353",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 8818.87,
+  "emitido_em": "2025-12-01"
+ },
+ {
+  "id_cartao": "C00159",
+  "id_cliente": "CL00371",
+  "nome_cliente": "Joao Silva",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 558.71,
+  "emitido_em": "2024-06-08"
+ },
+ {
+  "id_cartao": "C00160",
+  "id_cliente": "CL00280",
+  "nome_cliente": "Pedro  Miguel  Sousa - Filial 2",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 2244.97,
+  "emitido_em": "2024-08-19"
+ },
+ {
+  "id_cartao": "C00161",
+  "id_cliente": "CL00371",
+  "nome_cliente": "Pedro  Miguel  Sousa & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2222.34,
+  "emitido_em": "2023-06-11"
+ },
+ {
+  "id_cartao": "C00162",
+  "id_cliente": "CL00313",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 8644.65,
+  "emitido_em": "2024-09-24"
+ },
+ {
+  "id_cartao": "C00163",
+  "id_cliente": "CL00340",
+  "nome_cliente": "CARLA  MENDES Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7232.44,
+  "emitido_em": "2024-08-03"
+ },
+ {
+  "id_cartao": "C00164",
+  "id_cliente": "CL00195",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 9847.96,
+  "emitido_em": "2022-11-08"
+ },
+ {
+  "id_cartao": "C00165",
+  "id_cliente": "CL00278",
+  "nome_cliente": "Maria   Fernandes, LDA - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2936.58,
+  "emitido_em": "2022-05-02"
+ },
+ {
+  "id_cartao": "C00166",
+  "id_cliente": "CL00130",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 2871.38,
+  "emitido_em": "2026-03-11"
+ },
+ {
+  "id_cartao": "C00167",
+  "id_cliente": "CL00165",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 810.93,
+  "emitido_em": "2025-05-17"
+ },
+ {
+  "id_cartao": "C00168",
+  "id_cliente": "CL00354",
+  "nome_cliente": "Sofia  Rodrigues - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 8284.99,
+  "emitido_em": "2024-05-29"
+ },
+ {
+  "id_cartao": "C00169",
+  "id_cliente": "CL00211",
+  "nome_cliente": "Joao Silva",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 2815.16,
+  "emitido_em": "2024-05-28"
+ },
+ {
+  "id_cartao": "C00170",
+  "id_cliente": "CL00167",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 795.59,
+  "emitido_em": "2025-01-29"
+ },
+ {
+  "id_cartao": "C00171",
+  "id_cliente": "CL00124",
+  "nome_cliente": "Rui Pereira & Filhos LDA",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 6263.87,
+  "emitido_em": "2025-09-27"
+ },
+ {
+  "id_cartao": "C00172",
+  "id_cliente": "CL00357",
+  "nome_cliente": "Joao Silva",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 7829.16,
+  "emitido_em": "2026-07-10"
+ },
+ {
+  "id_cartao": "C00173",
+  "id_cliente": "CL00235",
+  "nome_cliente": "Bruno Alves, Lda. & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 3647.45,
+  "emitido_em": "2021-05-07"
+ },
+ {
+  "id_cartao": "C00174",
+  "id_cliente": "CL00366",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 721.13,
+  "emitido_em": "2022-09-16"
+ },
+ {
+  "id_cartao": "C00175",
+  "id_cliente": "CL00324",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7209.75,
+  "emitido_em": "2022-09-01"
+ },
+ {
+  "id_cartao": "C00176",
+  "id_cliente": "CL00155",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 5724.64,
+  "emitido_em": "2023-02-27"
+ },
+ {
+  "id_cartao": "C00177",
+  "id_cliente": "CL00139",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 7930.45,
+  "emitido_em": "2022-08-15"
+ },
+ {
+  "id_cartao": "C00178",
+  "id_cliente": "CL00138",
+  "nome_cliente": "CARLA  MENDES S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 5585.85,
+  "emitido_em": "2024-01-25"
+ },
+ {
+  "id_cartao": "C00179",
+  "id_cliente": "CL00101",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4446.47,
+  "emitido_em": "2023-09-15"
+ },
+ {
+  "id_cartao": "C00180",
+  "id_cliente": "CL00069",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 6729.01,
+  "emitido_em": "2022-10-26"
+ },
+ {
+  "id_cartao": "C00181",
+  "id_cliente": "CL00336",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 6298.43,
+  "emitido_em": "2022-04-11"
+ },
+ {
+  "id_cartao": "C00182",
+  "id_cliente": "CL00307",
+  "nome_cliente": "Joao Silva - Filial 2",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 855.03,
+  "emitido_em": "2024-09-30"
+ },
+ {
+  "id_cartao": "C00183",
+  "id_cliente": "CL00229",
+  "nome_cliente": "Rui Pereira & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 5352.75,
+  "emitido_em": "2022-02-01"
+ },
+ {
+  "id_cartao": "C00184",
+  "id_cliente": "CL00369",
+  "nome_cliente": "Rui Pereira & Filhos",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 4429.22,
+  "emitido_em": "2026-01-16"
+ },
+ {
+  "id_cartao": "C00185",
+  "id_cliente": "CL00031",
+  "nome_cliente": "Tiago  Nunes S.A. S.A.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 2968.51,
+  "emitido_em": "2024-05-02"
+ },
+ {
+  "id_cartao": "C00186",
+  "id_cliente": "CL00181",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 5236.43,
+  "emitido_em": "2022-02-17"
+ },
+ {
+  "id_cartao": "C00187",
+  "id_cliente": "CL00179",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 3227.32,
+  "emitido_em": "2022-01-28"
+ },
+ {
+  "id_cartao": "C00188",
+  "id_cliente": "CL00254",
+  "nome_cliente": "Rui Pereira & Filhos S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 6960.46,
+  "emitido_em": "2024-11-08"
+ },
+ {
+  "id_cartao": "C00189",
+  "id_cliente": "CL00317",
+  "nome_cliente": "Joao Silva",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4265.95,
+  "emitido_em": "2021-08-12"
+ },
+ {
+  "id_cartao": "C00190",
+  "id_cliente": "CL00275",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 3824.69,
+  "emitido_em": "2023-07-26"
+ },
+ {
+  "id_cartao": "C00191",
+  "id_cliente": "CL00048",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 4070.56,
+  "emitido_em": "2022-12-16"
+ },
+ {
+  "id_cartao": "C00192",
+  "id_cliente": "CL00167",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 9449.19,
+  "emitido_em": "2026-02-03"
+ },
+ {
+  "id_cartao": "C00193",
+  "id_cliente": "CL00144",
+  "nome_cliente": "Maria   Fernandes, LDA - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 6650.46,
+  "emitido_em": "2025-07-21"
+ },
+ {
+  "id_cartao": "C00194",
+  "id_cliente": "CL00360",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 4022.6,
+  "emitido_em": "2026-03-14"
+ },
+ {
+  "id_cartao": "C00195",
+  "id_cliente": "CL00254",
+  "nome_cliente": "CARLA  MENDES S.A.",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 5694.28,
+  "emitido_em": "2026-06-03"
+ },
+ {
+  "id_cartao": "C00196",
+  "id_cliente": "CL00106",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 4350.28,
+  "emitido_em": "2023-07-08"
+ },
+ {
+  "id_cartao": "C00197",
+  "id_cliente": "CL00159",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 7693.85,
+  "emitido_em": "2021-12-18"
+ },
+ {
+  "id_cartao": "C00198",
+  "id_cliente": "CL00089",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 9861.28,
+  "emitido_em": "2022-04-17"
+ },
+ {
+  "id_cartao": "C00199",
+  "id_cliente": "CL00394",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 8012.16,
+  "emitido_em": "2024-04-17"
+ },
+ {
+  "id_cartao": "C00200",
+  "id_cliente": "CL00144",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4788.47,
+  "emitido_em": "2021-07-31"
+ },
+ {
+  "id_cartao": "C00201",
+  "id_cliente": "CL00282",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 9399.31,
+  "emitido_em": "2023-01-07"
+ },
+ {
+  "id_cartao": "C00202",
+  "id_cliente": "CL00008",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 9729.61,
+  "emitido_em": "2023-04-09"
+ },
+ {
+  "id_cartao": "C00203",
+  "id_cliente": "CL00301",
+  "nome_cliente": "Bruno Alves, Lda. & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 9793.55,
+  "emitido_em": "2023-12-26"
+ },
+ {
+  "id_cartao": "C00204",
+  "id_cliente": "CL00207",
+  "nome_cliente": "CARLA  MENDES LDA",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 4917.76,
+  "emitido_em": "2026-03-25"
+ },
+ {
+  "id_cartao": "C00205",
+  "id_cliente": "CL00145",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4941.92,
+  "emitido_em": "2022-11-09"
+ },
+ {
+  "id_cartao": "C00206",
+  "id_cliente": "CL00183",
+  "nome_cliente": "Rui Pereira & Filhos LDA",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 8897.33,
+  "emitido_em": "2023-09-01"
+ },
+ {
+  "id_cartao": "C00207",
+  "id_cliente": "CL00067",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 4119.86,
+  "emitido_em": "2021-07-27"
+ },
+ {
+  "id_cartao": "C00208",
+  "id_cliente": "CL00055",
+  "nome_cliente": "Bruno Alves, Lda. - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 7231.84,
+  "emitido_em": "2023-10-01"
+ },
+ {
+  "id_cartao": "C00209",
+  "id_cliente": "CL00305",
+  "nome_cliente": "Helena Bastos da Silva Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4990.62,
+  "emitido_em": "2022-11-28"
+ },
+ {
+  "id_cartao": "C00210",
+  "id_cliente": "CL00145",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 9147.34,
+  "emitido_em": "2021-06-22"
+ },
+ {
+  "id_cartao": "C00211",
+  "id_cliente": "CL00080",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 3478.51,
+  "emitido_em": "2023-06-24"
+ },
+ {
+  "id_cartao": "C00212",
+  "id_cliente": "CL00153",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 7175.36,
+  "emitido_em": "2026-04-21"
+ },
+ {
+  "id_cartao": "C00213",
+  "id_cliente": "CL00089",
+  "nome_cliente": "Sofia  Rodrigues S.A.",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 6558.12,
+  "emitido_em": "2021-07-07"
+ },
+ {
+  "id_cartao": "C00214",
+  "id_cliente": "CL00140",
+  "nome_cliente": "Rui Pereira & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 3830.64,
+  "emitido_em": "2025-09-03"
+ },
+ {
+  "id_cartao": "C00215",
+  "id_cliente": "CL00005",
+  "nome_cliente": "Pedro  Miguel  Sousa S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 6099.75,
+  "emitido_em": "2025-04-10"
+ },
+ {
+  "id_cartao": "C00216",
+  "id_cliente": "CL00025",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 9454.43,
+  "emitido_em": "2021-04-21"
+ },
+ {
+  "id_cartao": "C00217",
+  "id_cliente": "CL00297",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 3220.32,
+  "emitido_em": "2026-01-01"
+ },
+ {
+  "id_cartao": "C00218",
+  "id_cliente": "CL00036",
+  "nome_cliente": "Ana-Paula Costa S.A. S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 2278.52,
+  "emitido_em": "2024-08-19"
+ },
+ {
+  "id_cartao": "C00219",
+  "id_cliente": "CL00028",
+  "nome_cliente": "Helena Bastos da Silva S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7910.88,
+  "emitido_em": "2025-10-18"
+ },
+ {
+  "id_cartao": "C00220",
+  "id_cliente": "CL00326",
+  "nome_cliente": "CARLA  MENDES & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 3216.71,
+  "emitido_em": "2023-07-11"
+ },
+ {
+  "id_cartao": "C00221",
+  "id_cliente": "CL00075",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 8496.8,
+  "emitido_em": "2021-08-15"
+ },
+ {
+  "id_cartao": "C00222",
+  "id_cliente": "CL00270",
+  "nome_cliente": "Rui Pereira & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 9292.65,
+  "emitido_em": "2025-09-11"
+ },
+ {
+  "id_cartao": "C00223",
+  "id_cliente": "CL00224",
+  "nome_cliente": "Helena Bastos da Silva S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2824.26,
+  "emitido_em": "2024-09-25"
+ },
+ {
+  "id_cartao": "C00224",
+  "id_cliente": "CL00288",
+  "nome_cliente": "Rui Pereira & Filhos LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 9319.81,
+  "emitido_em": "2026-02-11"
+ },
+ {
+  "id_cartao": "C00225",
+  "id_cliente": "CL00027",
+  "nome_cliente": "Sofia  Rodrigues LDA",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 6854.78,
+  "emitido_em": "2023-04-29"
+ },
+ {
+  "id_cartao": "C00226",
+  "id_cliente": "CL00148",
+  "nome_cliente": "Helena Bastos da Silva LDA",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 2152.23,
+  "emitido_em": "2023-10-02"
+ },
+ {
+  "id_cartao": "C00227",
+  "id_cliente": "CL00385",
+  "nome_cliente": "Sofia  Rodrigues & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2655.26,
+  "emitido_em": "2022-02-09"
+ },
+ {
+  "id_cartao": "C00228",
+  "id_cliente": "CL00147",
+  "nome_cliente": "Tiago  Nunes S.A. LDA",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 4701.38,
+  "emitido_em": "2025-12-23"
+ },
+ {
+  "id_cartao": "C00229",
+  "id_cliente": "CL00365",
+  "nome_cliente": "Maria   Fernandes, LDA - Filial 2",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 8288.72,
+  "emitido_em": "2022-08-25"
+ },
+ {
+  "id_cartao": "C00230",
+  "id_cliente": "CL00277",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 5411.37,
+  "emitido_em": "2023-10-11"
+ },
+ {
+  "id_cartao": "C00231",
+  "id_cliente": "CL00163",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 3576.67,
+  "emitido_em": "2025-05-18"
+ },
+ {
+  "id_cartao": "C00232",
+  "id_cliente": "CL00357",
+  "nome_cliente": "Ana-Paula Costa S.A. LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 7709.28,
+  "emitido_em": "2025-10-17"
+ },
+ {
+  "id_cartao": "C00233",
+  "id_cliente": "CL00083",
+  "nome_cliente": "Rui Pereira & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 5259.93,
+  "emitido_em": "2025-10-19"
+ },
+ {
+  "id_cartao": "C00234",
+  "id_cliente": "CL00331",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 2510.76,
+  "emitido_em": "2026-05-15"
+ },
+ {
+  "id_cartao": "C00235",
+  "id_cliente": "CL00012",
+  "nome_cliente": "CARLA  MENDES - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 9173.59,
+  "emitido_em": "2023-08-02"
+ },
+ {
+  "id_cartao": "C00236",
+  "id_cliente": "CL00123",
+  "nome_cliente": "Bruno Alves, Lda. Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7281.3,
+  "emitido_em": "2026-02-02"
+ },
+ {
+  "id_cartao": "C00237",
+  "id_cliente": "CL00378",
+  "nome_cliente": "Maria   Fernandes, LDA - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 4058.17,
+  "emitido_em": "2025-04-10"
+ },
+ {
+  "id_cartao": "C00238",
+  "id_cliente": "CL00237",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 5934.67,
+  "emitido_em": "2021-10-10"
+ },
+ {
+  "id_cartao": "C00239",
+  "id_cliente": "CL00378",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 3364.87,
+  "emitido_em": "2025-03-01"
+ },
+ {
+  "id_cartao": "C00240",
+  "id_cliente": "CL00084",
+  "nome_cliente": "Sofia  Rodrigues & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 7814.42,
+  "emitido_em": "2023-05-03"
+ },
+ {
+  "id_cartao": "C00241",
+  "id_cliente": "CL00235",
+  "nome_cliente": "Rui Pereira & Filhos S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 1388.69,
+  "emitido_em": "2026-08-03"
+ },
+ {
+  "id_cartao": "C00242",
+  "id_cliente": "CL00347",
+  "nome_cliente": "Joao Silva & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 9308.02,
+  "emitido_em": "2025-04-05"
+ },
+ {
+  "id_cartao": "C00243",
+  "id_cliente": "CL00271",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 9205.07,
+  "emitido_em": "2021-07-18"
+ },
+ {
+  "id_cartao": "C00244",
+  "id_cliente": "CL00241",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 6333.5,
+  "emitido_em": "2021-04-25"
+ },
+ {
+  "id_cartao": "C00245",
+  "id_cliente": "CL00049",
+  "nome_cliente": "Bruno Alves, Lda. S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 6808.64,
+  "emitido_em": "2025-07-05"
+ },
+ {
+  "id_cartao": "C00246",
+  "id_cliente": "CL00211",
+  "nome_cliente": "Bruno Alves, Lda. Unipessoal Lda.",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 1196.57,
+  "emitido_em": "2023-06-04"
+ },
+ {
+  "id_cartao": "C00247",
+  "id_cliente": "CL00027",
+  "nome_cliente": "Maria   Fernandes, LDA S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 2214.25,
+  "emitido_em": "2021-07-09"
+ },
+ {
+  "id_cartao": "C00248",
+  "id_cliente": "CL00125",
+  "nome_cliente": "Bruno Alves, Lda. - Filial 2",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 6880.2,
+  "emitido_em": "2023-11-18"
+ },
+ {
+  "id_cartao": "C00249",
+  "id_cliente": "CL00256",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 3485.13,
+  "emitido_em": "2022-11-25"
+ },
+ {
+  "id_cartao": "C00250",
+  "id_cliente": "CL00211",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4187.86,
+  "emitido_em": "2024-05-06"
+ },
+ {
+  "id_cartao": "C00251",
+  "id_cliente": "CL00120",
+  "nome_cliente": "Tiago  Nunes S.A. Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 4690.36,
+  "emitido_em": "2023-02-08"
+ },
+ {
+  "id_cartao": "C00252",
+  "id_cliente": "CL00157",
+  "nome_cliente": "Tiago  Nunes S.A. Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 8036.96,
+  "emitido_em": "2026-05-16"
+ },
+ {
+  "id_cartao": "C00253",
+  "id_cliente": "CL00398",
+  "nome_cliente": "Helena Bastos da Silva LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 2631.77,
+  "emitido_em": "2025-04-25"
+ },
+ {
+  "id_cartao": "C00254",
+  "id_cliente": "CL00038",
+  "nome_cliente": "Maria   Fernandes, LDA & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 6192.26,
+  "emitido_em": "2022-06-10"
+ },
+ {
+  "id_cartao": "C00255",
+  "id_cliente": "CL00010",
+  "nome_cliente": "CARLA  MENDES S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4901.49,
+  "emitido_em": "2023-01-13"
+ },
+ {
+  "id_cartao": "C00256",
+  "id_cliente": "CL00107",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 3097.55,
+  "emitido_em": "2024-06-05"
+ },
+ {
+  "id_cartao": "C00257",
+  "id_cliente": "CL00105",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2282.32,
+  "emitido_em": "2025-02-22"
+ },
+ {
+  "id_cartao": "C00258",
+  "id_cliente": "CL00036",
+  "nome_cliente": "CARLA  MENDES - Filial 2",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 1825.92,
+  "emitido_em": "2025-06-09"
+ },
+ {
+  "id_cartao": "C00259",
+  "id_cliente": "CL00297",
+  "nome_cliente": "Tiago  Nunes S.A. - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 3530.56,
+  "emitido_em": "2024-05-01"
+ },
+ {
+  "id_cartao": "C00260",
+  "id_cliente": "CL00317",
+  "nome_cliente": "Joao Silva S.A.",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 6910.97,
+  "emitido_em": "2021-11-05"
+ },
+ {
+  "id_cartao": "C00261",
+  "id_cliente": "CL00308",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 7914.37,
+  "emitido_em": "2024-05-08"
+ },
+ {
+  "id_cartao": "C00262",
+  "id_cliente": "CL00107",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 8925.09,
+  "emitido_em": "2025-01-07"
+ },
+ {
+  "id_cartao": "C00263",
+  "id_cliente": "CL00070",
+  "nome_cliente": "Helena Bastos da Silva S.A.",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 8657.86,
+  "emitido_em": "2023-06-18"
+ },
+ {
+  "id_cartao": "C00264",
+  "id_cliente": "CL00014",
+  "nome_cliente": "Ana-Paula Costa S.A. Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 6735.97,
+  "emitido_em": "2025-11-27"
+ },
+ {
+  "id_cartao": "C00265",
+  "id_cliente": "CL00253",
+  "nome_cliente": "Helena Bastos da Silva LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 9278.66,
+  "emitido_em": "2022-04-10"
+ },
+ {
+  "id_cartao": "C00266",
+  "id_cliente": "CL00211",
+  "nome_cliente": "CARLA  MENDES LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 5421.44,
+  "emitido_em": "2025-04-18"
+ },
+ {
+  "id_cartao": "C00267",
+  "id_cliente": "CL00030",
+  "nome_cliente": "Sofia  Rodrigues S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 2411.36,
+  "emitido_em": "2024-07-11"
+ },
+ {
+  "id_cartao": "C00268",
+  "id_cliente": "CL00090",
+  "nome_cliente": "Sofia  Rodrigues - Filial 2",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 4740.13,
+  "emitido_em": "2023-01-08"
+ },
+ {
+  "id_cartao": "C00269",
+  "id_cliente": "CL00358",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 5886.93,
+  "emitido_em": "2022-08-17"
+ },
+ {
+  "id_cartao": "C00270",
+  "id_cliente": "CL00200",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 5428.29,
+  "emitido_em": "2021-10-02"
+ },
+ {
+  "id_cartao": "C00271",
+  "id_cliente": "CL00213",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 2028.52,
+  "emitido_em": "2022-01-20"
+ },
+ {
+  "id_cartao": "C00272",
+  "id_cliente": "CL00256",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 6225.99,
+  "emitido_em": "2026-01-19"
+ },
+ {
+  "id_cartao": "C00273",
+  "id_cliente": "CL00117",
+  "nome_cliente": "Ana-Paula Costa S.A. - Filial 2",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 2420.17,
+  "emitido_em": "2025-05-11"
+ },
+ {
+  "id_cartao": "C00274",
+  "id_cliente": "CL00063",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 1321.89,
+  "emitido_em": "2022-03-30"
+ },
+ {
+  "id_cartao": "C00275",
+  "id_cliente": "CL00240",
+  "nome_cliente": "Helena Bastos da Silva Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 7184.95,
+  "emitido_em": "2025-09-24"
+ },
+ {
+  "id_cartao": "C00276",
+  "id_cliente": "CL00210",
+  "nome_cliente": "Rui Pereira & Filhos Unipessoal Lda.",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 2816.64,
+  "emitido_em": "2025-05-03"
+ },
+ {
+  "id_cartao": "C00277",
+  "id_cliente": "CL00101",
+  "nome_cliente": "Pedro  Miguel  Sousa - Filial 2",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 9163.49,
+  "emitido_em": "2025-07-12"
+ },
+ {
+  "id_cartao": "C00278",
+  "id_cliente": "CL00046",
+  "nome_cliente": "Pedro  Miguel  Sousa Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 3632.86,
+  "emitido_em": "2026-07-18"
+ },
+ {
+  "id_cartao": "C00279",
+  "id_cliente": "CL00089",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 3085.2,
+  "emitido_em": "2021-12-19"
+ },
+ {
+  "id_cartao": "C00280",
+  "id_cliente": "CL00277",
+  "nome_cliente": "Rui Pereira & Filhos & Filhos",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 6379.65,
+  "emitido_em": "2026-01-03"
+ },
+ {
+  "id_cartao": "C00281",
+  "id_cliente": "CL00012",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7758.22,
+  "emitido_em": "2026-06-17"
+ },
+ {
+  "id_cartao": "C00282",
+  "id_cliente": "CL00389",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 8053.85,
+  "emitido_em": "2026-04-05"
+ },
+ {
+  "id_cartao": "C00283",
+  "id_cliente": "CL00375",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 9313.69,
+  "emitido_em": "2025-03-14"
+ },
+ {
+  "id_cartao": "C00284",
+  "id_cliente": "CL00107",
+  "nome_cliente": "Pedro  Miguel  Sousa - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 1993.25,
+  "emitido_em": "2026-07-29"
+ },
+ {
+  "id_cartao": "C00285",
+  "id_cliente": "CL00174",
+  "nome_cliente": "Bruno Alves, Lda. LDA",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 5012.57,
+  "emitido_em": "2025-02-26"
+ },
+ {
+  "id_cartao": "C00286",
+  "id_cliente": "CL00063",
+  "nome_cliente": "Ana-Paula Costa S.A. LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 9622.2,
+  "emitido_em": "2025-11-04"
+ },
+ {
+  "id_cartao": "C00287",
+  "id_cliente": "CL00197",
+  "nome_cliente": "Rui Pereira & Filhos S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7166.96,
+  "emitido_em": "2023-11-30"
+ },
+ {
+  "id_cartao": "C00288",
+  "id_cliente": "CL00175",
+  "nome_cliente": "Joao Silva & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 1260.73,
+  "emitido_em": "2025-05-11"
+ },
+ {
+  "id_cartao": "C00289",
+  "id_cliente": "CL00215",
+  "nome_cliente": "Bruno Alves, Lda. & Filhos",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 9762.98,
+  "emitido_em": "2023-05-13"
+ },
+ {
+  "id_cartao": "C00290",
+  "id_cliente": "CL00169",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 9249.61,
+  "emitido_em": "2022-03-13"
+ },
+ {
+  "id_cartao": "C00291",
+  "id_cliente": "CL00366",
+  "nome_cliente": "Tiago  Nunes S.A. Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 9227.15,
+  "emitido_em": "2026-01-31"
+ },
+ {
+  "id_cartao": "C00292",
+  "id_cliente": "CL00127",
+  "nome_cliente": "Helena Bastos da Silva & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 8870.39,
+  "emitido_em": "2023-07-21"
+ },
+ {
+  "id_cartao": "C00293",
+  "id_cliente": "CL00260",
+  "nome_cliente": "CARLA  MENDES & Filhos",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 4180.71,
+  "emitido_em": "2026-01-27"
+ },
+ {
+  "id_cartao": "C00294",
+  "id_cliente": "CL00222",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 3106.45,
+  "emitido_em": "2025-06-13"
+ },
+ {
+  "id_cartao": "C00295",
+  "id_cliente": "CL00069",
+  "nome_cliente": "Bruno Alves, Lda. & Filhos",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 5570.19,
+  "emitido_em": "2024-12-09"
+ },
+ {
+  "id_cartao": "C00296",
+  "id_cliente": "CL00192",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 8215.24,
+  "emitido_em": "2021-05-15"
+ },
+ {
+  "id_cartao": "C00297",
+  "id_cliente": "CL00367",
+  "nome_cliente": "Joao Silva & Filhos",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 8057.42,
+  "emitido_em": "2023-01-28"
+ },
+ {
+  "id_cartao": "C00298",
+  "id_cliente": "CL00378",
+  "nome_cliente": "CARLA  MENDES - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 798.82,
+  "emitido_em": "2025-09-07"
+ },
+ {
+  "id_cartao": "C00299",
+  "id_cliente": "CL00112",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 1074.44,
+  "emitido_em": "2022-09-29"
+ },
+ {
+  "id_cartao": "C00300",
+  "id_cliente": "CL00149",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 2559.04,
+  "emitido_em": "2026-06-15"
+ },
+ {
+  "id_cartao": "C00301",
+  "id_cliente": "CL00194",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 1395.47,
+  "emitido_em": "2025-01-08"
+ },
+ {
+  "id_cartao": "C00302",
+  "id_cliente": "CL00398",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 3590.57,
+  "emitido_em": "2022-09-18"
+ },
+ {
+  "id_cartao": "C00303",
+  "id_cliente": "CL00112",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 4606.55,
+  "emitido_em": "2023-05-23"
+ },
+ {
+  "id_cartao": "C00304",
+  "id_cliente": "CL00049",
+  "nome_cliente": "Pedro  Miguel  Sousa Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 9683.92,
+  "emitido_em": "2022-01-30"
+ },
+ {
+  "id_cartao": "C00305",
+  "id_cliente": "CL00177",
+  "nome_cliente": "Tiago  Nunes S.A. Unipessoal Lda.",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 8104.02,
+  "emitido_em": "2024-05-29"
+ },
+ {
+  "id_cartao": "C00306",
+  "id_cliente": "CL00132",
+  "nome_cliente": "Rui Pereira & Filhos LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 4340.65,
+  "emitido_em": "2025-10-14"
+ },
+ {
+  "id_cartao": "C00307",
+  "id_cliente": "CL00245",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 4272.96,
+  "emitido_em": "2025-08-07"
+ },
+ {
+  "id_cartao": "C00308",
+  "id_cliente": "CL00262",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 5961.33,
+  "emitido_em": "2022-08-13"
+ },
+ {
+  "id_cartao": "C00309",
+  "id_cliente": "CL00002",
+  "nome_cliente": "Maria   Fernandes, LDA LDA",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 3294.03,
+  "emitido_em": "2025-01-23"
+ },
+ {
+  "id_cartao": "C00310",
+  "id_cliente": "CL00338",
+  "nome_cliente": "Helena Bastos da Silva & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7701.44,
+  "emitido_em": "2022-11-13"
+ },
+ {
+  "id_cartao": "C00311",
+  "id_cliente": "CL00162",
+  "nome_cliente": "Tiago  Nunes S.A. LDA",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 6074.82,
+  "emitido_em": "2021-11-27"
+ },
+ {
+  "id_cartao": "C00312",
+  "id_cliente": "CL00279",
+  "nome_cliente": "Rui Pereira & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4825.4,
+  "emitido_em": "2025-02-18"
+ },
+ {
+  "id_cartao": "C00313",
+  "id_cliente": "CL00107",
+  "nome_cliente": "Rui Pereira & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 1026.96,
+  "emitido_em": "2024-01-21"
+ },
+ {
+  "id_cartao": "C00314",
+  "id_cliente": "CL00147",
+  "nome_cliente": "Sofia  Rodrigues LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7500.11,
+  "emitido_em": "2021-05-02"
+ },
+ {
+  "id_cartao": "C00315",
+  "id_cliente": "CL00330",
+  "nome_cliente": "Ana-Paula Costa S.A. & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2483.9,
+  "emitido_em": "2022-09-27"
+ },
+ {
+  "id_cartao": "C00316",
+  "id_cliente": "CL00082",
+  "nome_cliente": "Maria   Fernandes, LDA S.A.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 3859.97,
+  "emitido_em": "2026-02-17"
+ },
+ {
+  "id_cartao": "C00317",
+  "id_cliente": "CL00153",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 8128.76,
+  "emitido_em": "2022-10-23"
+ },
+ {
+  "id_cartao": "C00318",
+  "id_cliente": "CL00273",
+  "nome_cliente": "Helena Bastos da Silva LDA",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 8448.45,
+  "emitido_em": "2025-09-26"
+ },
+ {
+  "id_cartao": "C00319",
+  "id_cliente": "CL00134",
+  "nome_cliente": "Sofia  Rodrigues Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 1100.33,
+  "emitido_em": "2024-09-07"
+ },
+ {
+  "id_cartao": "C00320",
+  "id_cliente": "CL00248",
+  "nome_cliente": "Sofia  Rodrigues Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 1315.04,
+  "emitido_em": "2022-09-17"
+ },
+ {
+  "id_cartao": "C00321",
+  "id_cliente": "CL00245",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 4870.68,
+  "emitido_em": "2023-06-16"
+ },
+ {
+  "id_cartao": "C00322",
+  "id_cliente": "CL00391",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 3684.85,
+  "emitido_em": "2022-11-10"
+ },
+ {
+  "id_cartao": "C00323",
+  "id_cliente": "CL00132",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 7014.52,
+  "emitido_em": "2022-08-19"
+ },
+ {
+  "id_cartao": "C00324",
+  "id_cliente": "CL00247",
+  "nome_cliente": "Joao Silva",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 5826.68,
+  "emitido_em": "2023-09-17"
+ },
+ {
+  "id_cartao": "C00325",
+  "id_cliente": "CL00059",
+  "nome_cliente": "Bruno Alves, Lda. Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4145.0,
+  "emitido_em": "2021-10-11"
+ },
+ {
+  "id_cartao": "C00326",
+  "id_cliente": "CL00020",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 9549.52,
+  "emitido_em": "2021-09-12"
+ },
+ {
+  "id_cartao": "C00327",
+  "id_cliente": "CL00243",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 5242.78,
+  "emitido_em": "2026-03-15"
+ },
+ {
+  "id_cartao": "C00328",
+  "id_cliente": "CL00387",
+  "nome_cliente": "Sofia  Rodrigues Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7499.36,
+  "emitido_em": "2022-11-04"
+ },
+ {
+  "id_cartao": "C00329",
+  "id_cliente": "CL00232",
+  "nome_cliente": "Joao Silva S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 3441.66,
+  "emitido_em": "2025-01-25"
+ },
+ {
+  "id_cartao": "C00330",
+  "id_cliente": "CL00247",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 6566.9,
+  "emitido_em": "2026-02-05"
+ },
+ {
+  "id_cartao": "C00331",
+  "id_cliente": "CL00036",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 8768.05,
+  "emitido_em": "2025-01-21"
+ },
+ {
+  "id_cartao": "C00332",
+  "id_cliente": "CL00073",
+  "nome_cliente": "Helena Bastos da Silva LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2641.13,
+  "emitido_em": "2025-12-18"
+ },
+ {
+  "id_cartao": "C00333",
+  "id_cliente": "CL00217",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 8603.77,
+  "emitido_em": "2022-08-02"
+ },
+ {
+  "id_cartao": "C00334",
+  "id_cliente": "CL00144",
+  "nome_cliente": "Sofia  Rodrigues - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 9969.81,
+  "emitido_em": "2025-12-18"
+ },
+ {
+  "id_cartao": "C00335",
+  "id_cliente": "CL00163",
+  "nome_cliente": "Maria   Fernandes, LDA & Filhos",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 1307.63,
+  "emitido_em": "2021-08-11"
+ },
+ {
+  "id_cartao": "C00336",
+  "id_cliente": "CL00079",
+  "nome_cliente": "Tiago  Nunes S.A. S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7703.54,
+  "emitido_em": "2023-02-05"
+ },
+ {
+  "id_cartao": "C00337",
+  "id_cliente": "CL00325",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 1502.82,
+  "emitido_em": "2025-09-18"
+ },
+ {
+  "id_cartao": "C00338",
+  "id_cliente": "CL00021",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 1117.57,
+  "emitido_em": "2025-08-11"
+ },
+ {
+  "id_cartao": "C00339",
+  "id_cliente": "CL00234",
+  "nome_cliente": "Bruno Alves, Lda. S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2782.63,
+  "emitido_em": "2021-08-21"
+ },
+ {
+  "id_cartao": "C00340",
+  "id_cliente": "CL00171",
+  "nome_cliente": "Ana-Paula Costa S.A. Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2717.55,
+  "emitido_em": "2025-07-27"
+ },
+ {
+  "id_cartao": "C00341",
+  "id_cliente": "CL00201",
+  "nome_cliente": "Helena Bastos da Silva - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7749.77,
+  "emitido_em": "2023-12-21"
+ },
+ {
+  "id_cartao": "C00342",
+  "id_cliente": "CL00141",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 8038.69,
+  "emitido_em": "2024-03-12"
+ },
+ {
+  "id_cartao": "C00343",
+  "id_cliente": "CL00314",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 3892.32,
+  "emitido_em": "2021-11-27"
+ },
+ {
+  "id_cartao": "C00344",
+  "id_cliente": "CL00199",
+  "nome_cliente": "Sofia  Rodrigues S.A.",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 5777.79,
+  "emitido_em": "2023-08-24"
+ },
+ {
+  "id_cartao": "C00345",
+  "id_cliente": "CL00042",
+  "nome_cliente": "Sofia  Rodrigues LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 583.47,
+  "emitido_em": "2022-11-20"
+ },
+ {
+  "id_cartao": "C00346",
+  "id_cliente": "CL00289",
+  "nome_cliente": "Joao Silva",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 2090.08,
+  "emitido_em": "2025-05-10"
+ },
+ {
+  "id_cartao": "C00347",
+  "id_cliente": "CL00182",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 6636.76,
+  "emitido_em": "2025-12-24"
+ },
+ {
+  "id_cartao": "C00348",
+  "id_cliente": "CL00080",
+  "nome_cliente": "Tiago  Nunes S.A. S.A.",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 9965.02,
+  "emitido_em": "2022-06-05"
+ },
+ {
+  "id_cartao": "C00349",
+  "id_cliente": "CL00049",
+  "nome_cliente": "Rui Pereira & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 5176.37,
+  "emitido_em": "2023-08-31"
+ },
+ {
+  "id_cartao": "C00350",
+  "id_cliente": "CL00273",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 8631.68,
+  "emitido_em": "2024-09-03"
+ },
+ {
+  "id_cartao": "C00351",
+  "id_cliente": "CL00348",
+  "nome_cliente": "Rui Pereira & Filhos",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 8855.87,
+  "emitido_em": "2021-12-29"
+ },
+ {
+  "id_cartao": "C00352",
+  "id_cliente": "CL00192",
+  "nome_cliente": "Joao Silva Unipessoal Lda.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 7115.65,
+  "emitido_em": "2025-04-03"
+ },
+ {
+  "id_cartao": "C00353",
+  "id_cliente": "CL00192",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4646.7,
+  "emitido_em": "2021-08-12"
+ },
+ {
+  "id_cartao": "C00354",
+  "id_cliente": "CL00293",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 8810.49,
+  "emitido_em": "2026-06-16"
+ },
+ {
+  "id_cartao": "C00355",
+  "id_cliente": "CL00160",
+  "nome_cliente": "Tiago  Nunes S.A. S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 3567.67,
+  "emitido_em": "2022-12-03"
+ },
+ {
+  "id_cartao": "C00356",
+  "id_cliente": "CL00286",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 3259.36,
+  "emitido_em": "2024-12-08"
+ },
+ {
+  "id_cartao": "C00357",
+  "id_cliente": "CL00099",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7321.76,
+  "emitido_em": "2024-10-27"
+ },
+ {
+  "id_cartao": "C00358",
+  "id_cliente": "CL00027",
+  "nome_cliente": "Rui Pereira & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 678.19,
+  "emitido_em": "2024-11-02"
+ },
+ {
+  "id_cartao": "C00359",
+  "id_cliente": "CL00109",
+  "nome_cliente": "Sofia  Rodrigues Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 6196.57,
+  "emitido_em": "2024-06-19"
+ },
+ {
+  "id_cartao": "C00360",
+  "id_cliente": "CL00145",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 1028.43,
+  "emitido_em": "2025-01-18"
+ },
+ {
+  "id_cartao": "C00361",
+  "id_cliente": "CL00398",
+  "nome_cliente": "Bruno Alves, Lda. LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 9665.85,
+  "emitido_em": "2022-09-10"
+ },
+ {
+  "id_cartao": "C00362",
+  "id_cliente": "CL00105",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 9331.75,
+  "emitido_em": "2024-10-11"
+ },
+ {
+  "id_cartao": "C00363",
+  "id_cliente": "CL00140",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7427.44,
+  "emitido_em": "2024-10-01"
+ },
+ {
+  "id_cartao": "C00364",
+  "id_cliente": "CL00280",
+  "nome_cliente": "Helena Bastos da Silva Unipessoal Lda.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 2368.32,
+  "emitido_em": "2025-12-07"
+ },
+ {
+  "id_cartao": "C00365",
+  "id_cliente": "CL00258",
+  "nome_cliente": "Rui Pereira & Filhos S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7165.33,
+  "emitido_em": "2021-11-16"
+ },
+ {
+  "id_cartao": "C00366",
+  "id_cliente": "CL00163",
+  "nome_cliente": "Sofia  Rodrigues Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 1471.22,
+  "emitido_em": "2022-02-14"
+ },
+ {
+  "id_cartao": "C00367",
+  "id_cliente": "CL00317",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 1527.02,
+  "emitido_em": "2022-01-28"
+ },
+ {
+  "id_cartao": "C00368",
+  "id_cliente": "CL00329",
+  "nome_cliente": "Rui Pereira & Filhos & Filhos",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 5367.24,
+  "emitido_em": "2024-12-24"
+ },
+ {
+  "id_cartao": "C00369",
+  "id_cliente": "CL00399",
+  "nome_cliente": "Sofia  Rodrigues LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 1373.1,
+  "emitido_em": "2025-08-27"
+ },
+ {
+  "id_cartao": "C00370",
+  "id_cliente": "CL00363",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 2855.47,
+  "emitido_em": "2023-04-23"
+ },
+ {
+  "id_cartao": "C00371",
+  "id_cliente": "CL00002",
+  "nome_cliente": "CARLA  MENDES & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 5474.43,
+  "emitido_em": "2022-07-09"
+ },
+ {
+  "id_cartao": "C00372",
+  "id_cliente": "CL00049",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 5901.49,
+  "emitido_em": "2022-01-03"
+ },
+ {
+  "id_cartao": "C00373",
+  "id_cliente": "CL00097",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2736.0,
+  "emitido_em": "2021-09-21"
+ },
+ {
+  "id_cartao": "C00374",
+  "id_cliente": "CL00322",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 3165.89,
+  "emitido_em": "2021-10-18"
+ },
+ {
+  "id_cartao": "C00375",
+  "id_cliente": "CL00211",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 3890.89,
+  "emitido_em": "2021-07-30"
+ },
+ {
+  "id_cartao": "C00376",
+  "id_cliente": "CL00090",
+  "nome_cliente": "Tiago  Nunes S.A. LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 3669.57,
+  "emitido_em": "2025-10-30"
+ },
+ {
+  "id_cartao": "C00377",
+  "id_cliente": "CL00081",
+  "nome_cliente": "CARLA  MENDES LDA",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 2594.15,
+  "emitido_em": "2026-04-04"
+ },
+ {
+  "id_cartao": "C00378",
+  "id_cliente": "CL00381",
+  "nome_cliente": "Tiago  Nunes S.A. - Filial 2",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 7082.04,
+  "emitido_em": "2023-06-14"
+ },
+ {
+  "id_cartao": "C00379",
+  "id_cliente": "CL00234",
+  "nome_cliente": "Bruno Alves, Lda. - Filial 2",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 8257.75,
+  "emitido_em": "2024-03-11"
+ },
+ {
+  "id_cartao": "C00380",
+  "id_cliente": "CL00217",
+  "nome_cliente": "Rui Pereira & Filhos Unipessoal Lda.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 2576.72,
+  "emitido_em": "2021-10-09"
+ },
+ {
+  "id_cartao": "C00381",
+  "id_cliente": "CL00145",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 3749.75,
+  "emitido_em": "2022-10-09"
+ },
+ {
+  "id_cartao": "C00382",
+  "id_cliente": "CL00216",
+  "nome_cliente": "Ana-Paula Costa S.A. & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 5877.17,
+  "emitido_em": "2024-08-25"
+ },
+ {
+  "id_cartao": "C00383",
+  "id_cliente": "CL00340",
+  "nome_cliente": "Ana-Paula Costa S.A. & Filhos",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 8411.49,
+  "emitido_em": "2024-06-01"
+ },
+ {
+  "id_cartao": "C00384",
+  "id_cliente": "CL00308",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 7716.19,
+  "emitido_em": "2021-05-13"
+ },
+ {
+  "id_cartao": "C00385",
+  "id_cliente": "CL00315",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 9026.83,
+  "emitido_em": "2025-04-21"
+ },
+ {
+  "id_cartao": "C00386",
+  "id_cliente": "CL00347",
+  "nome_cliente": "Rui Pereira & Filhos LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 1426.58,
+  "emitido_em": "2022-12-08"
+ },
+ {
+  "id_cartao": "C00387",
+  "id_cliente": "CL00220",
+  "nome_cliente": "Pedro  Miguel  Sousa LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 9794.62,
+  "emitido_em": "2021-10-18"
+ },
+ {
+  "id_cartao": "C00388",
+  "id_cliente": "CL00379",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 8650.28,
+  "emitido_em": "2024-05-04"
+ },
+ {
+  "id_cartao": "C00389",
+  "id_cliente": "CL00100",
+  "nome_cliente": "Joao Silva & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 5511.76,
+  "emitido_em": "2024-11-29"
+ },
+ {
+  "id_cartao": "C00390",
+  "id_cliente": "CL00338",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 5984.41,
+  "emitido_em": "2021-10-07"
+ },
+ {
+  "id_cartao": "C00391",
+  "id_cliente": "CL00384",
+  "nome_cliente": "Helena Bastos da Silva LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 1684.05,
+  "emitido_em": "2022-12-22"
+ },
+ {
+  "id_cartao": "C00392",
+  "id_cliente": "CL00344",
+  "nome_cliente": "Joao Silva",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 2381.44,
+  "emitido_em": "2024-06-27"
+ },
+ {
+  "id_cartao": "C00393",
+  "id_cliente": "CL00002",
+  "nome_cliente": "Joao Silva S.A.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 6672.87,
+  "emitido_em": "2023-06-27"
+ },
+ {
+  "id_cartao": "C00394",
+  "id_cliente": "CL00164",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2996.78,
+  "emitido_em": "2022-08-10"
+ },
+ {
+  "id_cartao": "C00395",
+  "id_cliente": "CL00066",
+  "nome_cliente": "Joao Silva",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 5995.03,
+  "emitido_em": "2023-01-25"
+ },
+ {
+  "id_cartao": "C00396",
+  "id_cliente": "CL00069",
+  "nome_cliente": "Rui Pereira & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 5931.77,
+  "emitido_em": "2022-01-02"
+ },
+ {
+  "id_cartao": "C00397",
+  "id_cliente": "CL00083",
+  "nome_cliente": "Joao Silva - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2828.78,
+  "emitido_em": "2021-09-27"
+ },
+ {
+  "id_cartao": "C00398",
+  "id_cliente": "CL00322",
+  "nome_cliente": "CARLA  MENDES - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7780.14,
+  "emitido_em": "2024-01-05"
+ },
+ {
+  "id_cartao": "C00399",
+  "id_cliente": "CL00028",
+  "nome_cliente": "Helena Bastos da Silva - Filial 2",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 4721.05,
+  "emitido_em": "2023-08-13"
+ },
+ {
+  "id_cartao": "C00400",
+  "id_cliente": "CL00196",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 5921.01,
+  "emitido_em": "2025-02-24"
+ },
+ {
+  "id_cartao": "C00401",
+  "id_cliente": "CL00219",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 5400.36,
+  "emitido_em": "2021-08-23"
+ },
+ {
+  "id_cartao": "C00402",
+  "id_cliente": "CL00121",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 3638.53,
+  "emitido_em": "2025-02-13"
+ },
+ {
+  "id_cartao": "C00403",
+  "id_cliente": "CL00040",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 9864.44,
+  "emitido_em": "2022-08-18"
+ },
+ {
+  "id_cartao": "C00404",
+  "id_cliente": "CL00206",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7664.93,
+  "emitido_em": "2023-04-13"
+ },
+ {
+  "id_cartao": "C00405",
+  "id_cliente": "CL00295",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 1627.12,
+  "emitido_em": "2024-07-16"
+ },
+ {
+  "id_cartao": "C00406",
+  "id_cliente": "CL00161",
+  "nome_cliente": "Tiago  Nunes S.A. S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 1944.34,
+  "emitido_em": "2022-05-28"
+ },
+ {
+  "id_cartao": "C00407",
+  "id_cliente": "CL00267",
+  "nome_cliente": "Bruno Alves, Lda. Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 3086.9,
+  "emitido_em": "2023-02-05"
+ },
+ {
+  "id_cartao": "C00408",
+  "id_cliente": "CL00335",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 3453.5,
+  "emitido_em": "2024-12-24"
+ },
+ {
+  "id_cartao": "C00409",
+  "id_cliente": "CL00333",
+  "nome_cliente": "Maria   Fernandes, LDA - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 6073.15,
+  "emitido_em": "2022-11-11"
+ },
+ {
+  "id_cartao": "C00410",
+  "id_cliente": "CL00027",
+  "nome_cliente": "Joao Silva S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 6110.92,
+  "emitido_em": "2023-04-01"
+ },
+ {
+  "id_cartao": "C00411",
+  "id_cliente": "CL00167",
+  "nome_cliente": "Sofia  Rodrigues - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 5135.9,
+  "emitido_em": "2021-11-04"
+ },
+ {
+  "id_cartao": "C00412",
+  "id_cliente": "CL00152",
+  "nome_cliente": "Tiago  Nunes S.A. LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 6097.64,
+  "emitido_em": "2022-04-16"
+ },
+ {
+  "id_cartao": "C00413",
+  "id_cliente": "CL00218",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 9242.58,
+  "emitido_em": "2024-05-11"
+ },
+ {
+  "id_cartao": "C00414",
+  "id_cliente": "CL00149",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 6382.11,
+  "emitido_em": "2025-11-20"
+ },
+ {
+  "id_cartao": "C00415",
+  "id_cliente": "CL00399",
+  "nome_cliente": "Helena Bastos da Silva Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7718.92,
+  "emitido_em": "2026-02-09"
+ },
+ {
+  "id_cartao": "C00416",
+  "id_cliente": "CL00281",
+  "nome_cliente": "Bruno Alves, Lda. LDA",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 7541.87,
+  "emitido_em": "2022-07-22"
+ },
+ {
+  "id_cartao": "C00417",
+  "id_cliente": "CL00201",
+  "nome_cliente": "Tiago  Nunes S.A. LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 8439.85,
+  "emitido_em": "2022-05-17"
+ },
+ {
+  "id_cartao": "C00418",
+  "id_cliente": "CL00350",
+  "nome_cliente": "Joao Silva LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 9650.73,
+  "emitido_em": "2022-03-04"
+ },
+ {
+  "id_cartao": "C00419",
+  "id_cliente": "CL00146",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 9901.32,
+  "emitido_em": "2021-06-03"
+ },
+ {
+  "id_cartao": "C00420",
+  "id_cliente": "CL00254",
+  "nome_cliente": "Rui Pereira & Filhos",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 3167.41,
+  "emitido_em": "2024-10-15"
+ },
+ {
+  "id_cartao": "C00421",
+  "id_cliente": "CL00094",
+  "nome_cliente": "Joao Silva - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 8752.15,
+  "emitido_em": "2022-06-24"
+ },
+ {
+  "id_cartao": "C00422",
+  "id_cliente": "CL00279",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 779.3,
+  "emitido_em": "2023-10-25"
+ },
+ {
+  "id_cartao": "C00423",
+  "id_cliente": "CL00208",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 8439.7,
+  "emitido_em": "2024-06-02"
+ },
+ {
+  "id_cartao": "C00424",
+  "id_cliente": "CL00366",
+  "nome_cliente": "Pedro  Miguel  Sousa LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 6660.68,
+  "emitido_em": "2023-11-08"
+ },
+ {
+  "id_cartao": "C00425",
+  "id_cliente": "CL00011",
+  "nome_cliente": "Bruno Alves, Lda. Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 3652.14,
+  "emitido_em": "2026-02-16"
+ },
+ {
+  "id_cartao": "C00426",
+  "id_cliente": "CL00019",
+  "nome_cliente": "Ana-Paula Costa S.A. LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 4622.59,
+  "emitido_em": "2022-07-01"
+ },
+ {
+  "id_cartao": "C00427",
+  "id_cliente": "CL00152",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 9730.09,
+  "emitido_em": "2021-05-25"
+ },
+ {
+  "id_cartao": "C00428",
+  "id_cliente": "CL00266",
+  "nome_cliente": "Maria   Fernandes, LDA S.A.",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 4499.03,
+  "emitido_em": "2025-01-01"
+ },
+ {
+  "id_cartao": "C00429",
+  "id_cliente": "CL00029",
+  "nome_cliente": "Tiago  Nunes S.A. & Filhos",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 2472.04,
+  "emitido_em": "2021-05-01"
+ },
+ {
+  "id_cartao": "C00430",
+  "id_cliente": "CL00384",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 9440.38,
+  "emitido_em": "2022-06-20"
+ },
+ {
+  "id_cartao": "C00431",
+  "id_cliente": "CL00362",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4027.2,
+  "emitido_em": "2026-08-11"
+ },
+ {
+  "id_cartao": "C00432",
+  "id_cliente": "CL00346",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 6474.1,
+  "emitido_em": "2023-03-27"
+ },
+ {
+  "id_cartao": "C00433",
+  "id_cliente": "CL00336",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 9604.97,
+  "emitido_em": "2023-08-25"
+ },
+ {
+  "id_cartao": "C00434",
+  "id_cliente": "CL00057",
+  "nome_cliente": "CARLA  MENDES & Filhos",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 8820.58,
+  "emitido_em": "2022-06-06"
+ },
+ {
+  "id_cartao": "C00435",
+  "id_cliente": "CL00017",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 6430.49,
+  "emitido_em": "2024-03-14"
+ },
+ {
+  "id_cartao": "C00436",
+  "id_cliente": "CL00044",
+  "nome_cliente": "Joao Silva LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 8800.85,
+  "emitido_em": "2021-12-31"
+ },
+ {
+  "id_cartao": "C00437",
+  "id_cliente": "CL00311",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7623.72,
+  "emitido_em": "2025-05-19"
+ },
+ {
+  "id_cartao": "C00438",
+  "id_cliente": "CL00088",
+  "nome_cliente": "Sofia  Rodrigues S.A.",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 2797.85,
+  "emitido_em": "2025-05-20"
+ },
+ {
+  "id_cartao": "C00439",
+  "id_cliente": "CL00255",
+  "nome_cliente": "CARLA  MENDES - Filial 2",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 2407.21,
+  "emitido_em": "2025-01-17"
+ },
+ {
+  "id_cartao": "C00440",
+  "id_cliente": "CL00083",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 1643.24,
+  "emitido_em": "2024-10-02"
+ },
+ {
+  "id_cartao": "C00441",
+  "id_cliente": "CL00006",
+  "nome_cliente": "Joao Silva LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4829.13,
+  "emitido_em": "2023-12-17"
+ },
+ {
+  "id_cartao": "C00442",
+  "id_cliente": "CL00227",
+  "nome_cliente": "Sofia  Rodrigues S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 6713.84,
+  "emitido_em": "2022-11-11"
+ },
+ {
+  "id_cartao": "C00443",
+  "id_cliente": "CL00372",
+  "nome_cliente": "Maria   Fernandes, LDA - Filial 2",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 9553.9,
+  "emitido_em": "2021-09-01"
+ },
+ {
+  "id_cartao": "C00444",
+  "id_cliente": "CL00038",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 4760.63,
+  "emitido_em": "2026-01-16"
+ },
+ {
+  "id_cartao": "C00445",
+  "id_cliente": "CL00209",
+  "nome_cliente": "Rui Pereira & Filhos Unipessoal Lda.",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 1381.8,
+  "emitido_em": "2026-05-21"
+ },
+ {
+  "id_cartao": "C00446",
+  "id_cliente": "CL00158",
+  "nome_cliente": "Sofia  Rodrigues - Filial 2",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 4952.93,
+  "emitido_em": "2022-02-19"
+ },
+ {
+  "id_cartao": "C00447",
+  "id_cliente": "CL00332",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 9160.82,
+  "emitido_em": "2026-05-08"
+ },
+ {
+  "id_cartao": "C00448",
+  "id_cliente": "CL00246",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 954.37,
+  "emitido_em": "2023-07-20"
+ },
+ {
+  "id_cartao": "C00449",
+  "id_cliente": "CL00115",
+  "nome_cliente": "Bruno Alves, Lda. Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 1741.41,
+  "emitido_em": "2024-09-02"
+ },
+ {
+  "id_cartao": "C00450",
+  "id_cliente": "CL00236",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4018.66,
+  "emitido_em": "2023-10-25"
+ },
+ {
+  "id_cartao": "C00451",
+  "id_cliente": "CL00097",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 4142.65,
+  "emitido_em": "2024-10-01"
+ },
+ {
+  "id_cartao": "C00452",
+  "id_cliente": "CL00321",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 7415.04,
+  "emitido_em": "2025-01-22"
+ },
+ {
+  "id_cartao": "C00453",
+  "id_cliente": "CL00255",
+  "nome_cliente": "Sofia  Rodrigues",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 9509.17,
+  "emitido_em": "2022-09-15"
+ },
+ {
+  "id_cartao": "C00454",
+  "id_cliente": "CL00254",
+  "nome_cliente": "Sofia  Rodrigues Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 9316.79,
+  "emitido_em": "2023-07-26"
+ },
+ {
+  "id_cartao": "C00455",
+  "id_cliente": "CL00214",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 4576.69,
+  "emitido_em": "2024-10-12"
+ },
+ {
+  "id_cartao": "C00456",
+  "id_cliente": "CL00133",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 3690.55,
+  "emitido_em": "2022-08-27"
+ },
+ {
+  "id_cartao": "C00457",
+  "id_cliente": "CL00226",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 9033.45,
+  "emitido_em": "2024-02-18"
+ },
+ {
+  "id_cartao": "C00458",
+  "id_cliente": "CL00243",
+  "nome_cliente": "Helena Bastos da Silva & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 5304.71,
+  "emitido_em": "2023-12-14"
+ },
+ {
+  "id_cartao": "C00459",
+  "id_cliente": "CL00394",
+  "nome_cliente": "CARLA  MENDES & Filhos",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 2558.3,
+  "emitido_em": "2025-07-12"
+ },
+ {
+  "id_cartao": "C00460",
+  "id_cliente": "CL00319",
+  "nome_cliente": "Pedro  Miguel  Sousa - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 3981.08,
+  "emitido_em": "2022-01-09"
+ },
+ {
+  "id_cartao": "C00461",
+  "id_cliente": "CL00106",
+  "nome_cliente": "Joao Silva - Filial 2",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 2536.7,
+  "emitido_em": "2024-07-17"
+ },
+ {
+  "id_cartao": "C00462",
+  "id_cliente": "CL00008",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 3384.94,
+  "emitido_em": "2024-08-30"
+ },
+ {
+  "id_cartao": "C00463",
+  "id_cliente": "CL00177",
+  "nome_cliente": "Maria   Fernandes, LDA & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 1683.57,
+  "emitido_em": "2025-04-01"
+ },
+ {
+  "id_cartao": "C00464",
+  "id_cliente": "CL00056",
+  "nome_cliente": "Maria   Fernandes, LDA LDA",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 8391.48,
+  "emitido_em": "2022-04-28"
+ },
+ {
+  "id_cartao": "C00465",
+  "id_cliente": "CL00281",
+  "nome_cliente": "Rui Pereira & Filhos LDA",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 1941.28,
+  "emitido_em": "2023-12-14"
+ },
+ {
+  "id_cartao": "C00466",
+  "id_cliente": "CL00127",
+  "nome_cliente": "CARLA  MENDES",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 1482.51,
+  "emitido_em": "2024-12-14"
+ },
+ {
+  "id_cartao": "C00467",
+  "id_cliente": "CL00224",
+  "nome_cliente": "CARLA  MENDES & Filhos",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 7613.74,
+  "emitido_em": "2025-07-27"
+ },
+ {
+  "id_cartao": "C00468",
+  "id_cliente": "CL00327",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 8093.07,
+  "emitido_em": "2026-03-26"
+ },
+ {
+  "id_cartao": "C00469",
+  "id_cliente": "CL00044",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 8317.87,
+  "emitido_em": "2024-10-03"
+ },
+ {
+  "id_cartao": "C00470",
+  "id_cliente": "CL00027",
+  "nome_cliente": "Maria   Fernandes, LDA - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2046.39,
+  "emitido_em": "2022-09-14"
+ },
+ {
+  "id_cartao": "C00471",
+  "id_cliente": "CL00002",
+  "nome_cliente": "Sofia  Rodrigues & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 8256.26,
+  "emitido_em": "2024-06-29"
+ },
+ {
+  "id_cartao": "C00472",
+  "id_cliente": "CL00029",
+  "nome_cliente": "Joao Silva",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 8064.04,
+  "emitido_em": "2023-05-06"
+ },
+ {
+  "id_cartao": "C00473",
+  "id_cliente": "CL00167",
+  "nome_cliente": "Joao Silva Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4587.96,
+  "emitido_em": "2025-09-01"
+ },
+ {
+  "id_cartao": "C00474",
+  "id_cliente": "CL00076",
+  "nome_cliente": "Bruno Alves, Lda. S.A.",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 846.06,
+  "emitido_em": "2021-09-17"
+ },
+ {
+  "id_cartao": "C00475",
+  "id_cliente": "CL00239",
+  "nome_cliente": "Rui Pereira & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4939.88,
+  "emitido_em": "2024-04-08"
+ },
+ {
+  "id_cartao": "C00476",
+  "id_cliente": "CL00050",
+  "nome_cliente": "Tiago  Nunes S.A. - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 5069.67,
+  "emitido_em": "2022-03-23"
+ },
+ {
+  "id_cartao": "C00477",
+  "id_cliente": "CL00170",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "BR",
+  "tipo": "credito",
+  "limite": 9429.61,
+  "emitido_em": "2025-01-06"
+ },
+ {
+  "id_cartao": "C00478",
+  "id_cliente": "CL00112",
+  "nome_cliente": "Ana-Paula Costa S.A. S.A.",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 2384.39,
+  "emitido_em": "2026-04-13"
+ },
+ {
+  "id_cartao": "C00479",
+  "id_cliente": "CL00114",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 2410.9,
+  "emitido_em": "2025-03-06"
+ },
+ {
+  "id_cartao": "C00480",
+  "id_cliente": "CL00356",
+  "nome_cliente": "Maria   Fernandes, LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2473.39,
+  "emitido_em": "2023-11-18"
+ },
+ {
+  "id_cartao": "C00481",
+  "id_cliente": "CL00034",
+  "nome_cliente": "Tiago  Nunes S.A.",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 9869.81,
+  "emitido_em": "2025-08-16"
+ },
+ {
+  "id_cartao": "C00482",
+  "id_cliente": "CL00074",
+  "nome_cliente": "Joao Silva",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 6406.77,
+  "emitido_em": "2024-07-10"
+ },
+ {
+  "id_cartao": "C00483",
+  "id_cliente": "CL00096",
+  "nome_cliente": "Ana-Paula Costa S.A. - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 6375.23,
+  "emitido_em": "2025-09-12"
+ },
+ {
+  "id_cartao": "C00484",
+  "id_cliente": "CL00205",
+  "nome_cliente": "Rui Pereira & Filhos & Filhos",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 9729.05,
+  "emitido_em": "2023-11-13"
+ },
+ {
+  "id_cartao": "C00485",
+  "id_cliente": "CL00024",
+  "nome_cliente": "Helena Bastos da Silva Unipessoal Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 7402.55,
+  "emitido_em": "2024-07-22"
+ },
+ {
+  "id_cartao": "C00486",
+  "id_cliente": "CL00220",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 7775.56,
+  "emitido_em": "2026-04-25"
+ },
+ {
+  "id_cartao": "C00487",
+  "id_cliente": "CL00156",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 9594.68,
+  "emitido_em": "2025-11-19"
+ },
+ {
+  "id_cartao": "C00488",
+  "id_cliente": "CL00395",
+  "nome_cliente": "Pedro  Miguel  Sousa",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 5180.67,
+  "emitido_em": "2022-05-16"
+ },
+ {
+  "id_cartao": "C00489",
+  "id_cliente": "CL00211",
+  "nome_cliente": "Bruno Alves, Lda.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 1641.7,
+  "emitido_em": "2025-01-18"
+ },
+ {
+  "id_cartao": "C00490",
+  "id_cliente": "CL00029",
+  "nome_cliente": "Rui Pereira & Filhos",
+  "pais_emissor": "ES",
+  "tipo": "debito",
+  "limite": 4523.74,
+  "emitido_em": "2023-12-08"
+ },
+ {
+  "id_cartao": "C00491",
+  "id_cliente": "CL00162",
+  "nome_cliente": "Tiago  Nunes S.A. S.A.",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2944.28,
+  "emitido_em": "2022-08-06"
+ },
+ {
+  "id_cartao": "C00492",
+  "id_cliente": "CL00246",
+  "nome_cliente": "Rui Pereira & Filhos",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 1238.37,
+  "emitido_em": "2026-06-05"
+ },
+ {
+  "id_cartao": "C00493",
+  "id_cliente": "CL00222",
+  "nome_cliente": "Ana-Paula Costa S.A. & Filhos",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 3198.78,
+  "emitido_em": "2025-04-17"
+ },
+ {
+  "id_cartao": "C00494",
+  "id_cliente": "CL00205",
+  "nome_cliente": "Rui Pereira & Filhos",
+  "pais_emissor": "BR",
+  "tipo": "debito",
+  "limite": 7777.97,
+  "emitido_em": "2023-09-12"
+ },
+ {
+  "id_cartao": "C00495",
+  "id_cliente": "CL00205",
+  "nome_cliente": "Helena Bastos da Silva",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4652.45,
+  "emitido_em": "2023-07-29"
+ },
+ {
+  "id_cartao": "C00496",
+  "id_cliente": "CL00016",
+  "nome_cliente": "Bruno Alves, Lda. - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 4013.41,
+  "emitido_em": "2023-02-05"
+ },
+ {
+  "id_cartao": "C00497",
+  "id_cliente": "CL00320",
+  "nome_cliente": "Rui Pereira & Filhos - Filial 2",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 1250.32,
+  "emitido_em": "2023-02-01"
+ },
+ {
+  "id_cartao": "C00498",
+  "id_cliente": "CL00194",
+  "nome_cliente": "Ana-Paula Costa S.A.",
+  "pais_emissor": "PT",
+  "tipo": "debito",
+  "limite": 5775.14,
+  "emitido_em": "2022-04-06"
+ },
+ {
+  "id_cartao": "C00499",
+  "id_cliente": "CL00283",
+  "nome_cliente": "Helena Bastos da Silva LDA",
+  "pais_emissor": "PT",
+  "tipo": "credito",
+  "limite": 2064.04,
+  "emitido_em": "2023-03-29"
+ },
+ {
+  "id_cartao": "C00500",
+  "id_cliente": "CL00125",
+  "nome_cliente": "Joao Silva S.A.",
+  "pais_emissor": "ES",
+  "tipo": "credito",
+  "limite": 4740.64,
+  "emitido_em": "2024-11-30"
+ }
+]
