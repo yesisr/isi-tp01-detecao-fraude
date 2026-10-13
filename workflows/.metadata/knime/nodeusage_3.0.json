@@ -1,0 +1,240 @@
+{
+    "version": "5.12.0.v202606180846",
+    "created": "2026-10-13 14:35",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.database.extension.postgres.node.connector.PostgreSQLDBConnectorNodeFactory2",
+                "nodename": "PostgreSQL Connector",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 419,
+                "nrcreated": 1,
+                "nrsettingsChanged": 1,
+                "successor": "org.knime.database.node.utility.tableselector.DBTableSelectNodeFactory2",
+                "successornodename": "DB Table Selector"
+            },
+            {
+                "id": "org.knime.database.node.utility.tableselector.DBTableSelectNodeFactory2",
+                "nodename": "DB Table Selector",
+                "nrexecs": 9,
+                "nrfails": 7,
+                "exectime": 320,
+                "nrcreated": 1,
+                "nrsettingsChanged": 9,
+                "successor": "org.knime.database.node.io.reader.DBReadNodeFactory",
+                "successornodename": "DB Reader"
+            },
+            {
+                "id": "org.knime.json.node.filehandling.reader.JSONReaderNodeFactory",
+                "nodename": "JSON Reader",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 128,
+                "nrcreated": 3,
+                "nrsettingsChanged": 5,
+                "successor": "org.knime.json.node.jsonpath.multi.JSONPathNodeFactory",
+                "successornodename": "JSON Path"
+            },
+            {
+                "id": "org.knime.xml.node.filehandling.reader.XMLReaderNodeFactory2",
+                "nodename": "XML Reader",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 38,
+                "nrcreated": 1,
+                "nrsettingsChanged": 1,
+                "successor": "org.knime.xml.node.xpath2.XPathNodeFactory",
+                "successornodename": "XPath"
+            },
+            {
+                "id": "org.knime.xml.node.xpath2.XPathNodeFactory",
+                "nodename": "XPath",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 34,
+                "nrcreated": 1,
+                "nrsettingsChanged": 3,
+                "successor": "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory",
+                "successornodename": "Concatenate"
+            },
+            {
+                "id": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory",
+                "nodename": "CSV Reader",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 72,
+                "nrcreated": 1,
+                "nrsettingsChanged": 1,
+                "successor": "org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeFactory2",
+                "successornodename": "String to Date&Time"
+            },
+            {
+                "id": "org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeFactory2",
+                "nodename": "String to Date&Time",
+                "nrexecs": 11,
+                "nrfails": 0,
+                "exectime": 827,
+                "nrcreated": 1,
+                "nrsettingsChanged": 6,
+                "successor": "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory",
+                "successornodename": "Concatenate"
+            },
+            {
+                "id": "org.knime.database.node.io.reader.DBReadNodeFactory",
+                "nodename": "DB Reader",
+                "nrexecs": 8,
+                "nrfails": 0,
+                "exectime": 425,
+                "nrcreated": 1,
+                "nrsettingsChanged": 0,
+                "successor": "org.knime.json.node.fromstring.StringToJSONNodeFactory",
+                "successornodename": "String to JSON"
+            },
+            {
+                "id": "org.knime.json.node.jsonpath.multi.JSONPathNodeFactory",
+                "nodename": "JSON Path",
+                "nrexecs": 12,
+                "nrfails": 0,
+                "exectime": 968,
+                "nrcreated": 4,
+                "nrsettingsChanged": 17,
+                "successor": "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory",
+                "successornodename": "Column Renamer"
+            },
+            {
+                "id": "org.knime.database.node.manipulation.columnrename2.DBRenameColumn2NodeFactory",
+                "nodename": "DB Column Renamer",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory",
+                "nodename": "Column Renamer",
+                "nrexecs": 15,
+                "nrfails": 0,
+                "exectime": 17,
+                "nrcreated": 2,
+                "nrsettingsChanged": 10,
+                "successor": "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory",
+                "successornodename": "Concatenate"
+            },
+            {
+                "id": "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory",
+                "nodename": "Concatenate",
+                "nrexecs": 16,
+                "nrfails": 0,
+                "exectime": 16,
+                "nrcreated": 2,
+                "nrsettingsChanged": 0,
+                "successor": "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory",
+                "successornodename": "Duplicate Row Filter"
+            },
+            {
+                "id": "org.knime.database.node.manipulation.concatenate.DBConcatenateNodeFactory",
+                "nodename": "DB Concatenate",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
+                "nodename": "Column Filter",
+                "nrexecs": 20,
+                "nrfails": 0,
+                "exectime": 22,
+                "nrcreated": 1,
+                "nrsettingsChanged": 11,
+                "successor": "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory",
+                "successornodename": "Concatenate"
+            },
+            {
+                "id": "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory",
+                "nodename": "Duplicate Row Filter",
+                "nrexecs": 18,
+                "nrfails": 0,
+                "exectime": 2546,
+                "nrcreated": 1,
+                "nrsettingsChanged": 4,
+                "successor": "org.knime.database.node.io.write2.DBWrite2NodeFactory",
+                "successornodename": "DB Writer"
+            },
+            {
+                "id": "org.knime.database.node.io.write2.DBWrite2NodeFactory",
+                "nodename": "DB Writer",
+                "nrexecs": 3,
+                "nrfails": 15,
+                "exectime": 1717,
+                "nrcreated": 2,
+                "nrsettingsChanged": 1,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.json.node.fromtable.TableToJsonNodeFactory",
+                "nodename": "Table to JSON",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 26,
+                "nrcreated": 2,
+                "nrsettingsChanged": 1,
+                "successor": "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory",
+                "successornodename": "Column Renamer"
+            },
+            {
+                "id": "org.knime.json.node.totable.JSONToTableNodeFactory",
+                "nodename": "JSON to Table",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 305,
+                "nrcreated": 2,
+                "nrsettingsChanged": 4,
+                "successor": "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory",
+                "successornodename": "Column Renamer"
+            },
+            {
+                "id": "org.knime.json.node.fromstring.StringToJSONNodeFactory",
+                "nodename": "String to JSON",
+                "nrexecs": 6,
+                "nrfails": 0,
+                "exectime": 576,
+                "nrcreated": 2,
+                "nrsettingsChanged": 4,
+                "successor": "org.knime.json.node.jsonpath.multi.JSONPathNodeFactory",
+                "successornodename": "JSON Path"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        },
+        "createdVia": {
+            "WEB_UI": 30
+        }
+    },
+    "uptime": 3682637,
+    "workflowsOpened": 3,
+    "remoteWorkflowsOpened": 0,
+    "workflowsCreated": 1,
+    "remoteWorkflowsCreated": 0,
+    "columnarStorageWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "webUIPerspectiveSwitches": 0,
+    "javaUIPerspectiveSwitches": 0,
+    "lastUsedPerspective": "none",
+    "launches": 2,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 601868,
+    "crashes": 0,
+    "properlyShutDown": true
+}

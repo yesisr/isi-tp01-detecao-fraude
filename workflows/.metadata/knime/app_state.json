@@ -1,0 +1,22 @@
+{
+  "version" : "5.12.0.v202606180846",
+  "projects" : [ {
+    "name" : "01_ingestao",
+    "active" : true,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "01_ingestao"
+    }
+  } ],
+  "mostRecentlyUsedProjects" : [ {
+    "name" : "01_ingestao",
+    "timeUsed" : "2026-10-13T17:19:34.285078+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "01_ingestao"
+    }
+  } ]
+}
