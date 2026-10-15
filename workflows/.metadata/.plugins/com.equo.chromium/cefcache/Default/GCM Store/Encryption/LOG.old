@@ -1,2 +1,3 @@
-2026/10/13-15:35:32.837 1a403 Creating DB /Users/user/Documents/github_repos/tp-deteccao-fraude/workflows/.metadata/.plugins/com.equo.chromium/cefcache/Default/GCM Store/Encryption since it was missing.
-2026/10/13-15:35:32.858 1a403 Reusing MANIFEST /Users/user/Documents/github_repos/tp-deteccao-fraude/workflows/.metadata/.plugins/com.equo.chromium/cefcache/Default/GCM Store/Encryption/MANIFEST-000001
+2026/10/14-22:56:13.756 1c003 Reusing MANIFEST /Users/user/Documents/github_repos/tp-deteccao-fraude/workflows/.metadata/.plugins/com.equo.chromium/cefcache/Default/GCM Store/Encryption/MANIFEST-000001
+2026/10/14-22:56:13.757 1c003 Recovering log #3
+2026/10/14-22:56:13.757 1c003 Reusing old log /Users/user/Documents/github_repos/tp-deteccao-fraude/workflows/.metadata/.plugins/com.equo.chromium/cefcache/Default/GCM Store/Encryption/000003.log 

@@ -11,7 +11,7 @@
             <entry key="schemaName" type="xstring" value=""/>
             <entry key="tableName" type="xstring" value="stg_stream"/>
         </config>
-        <entry key="customQuery" type="xstring" value="SELECT id_mensagem, recebido_em, payload #&gt;&gt; '{}' AS payload FROM stg_stream"/>
+        <entry key="customQuery" type="xstring" value="SELECT%%00010  ((payload::jsonb #&gt;&gt; '{}')::jsonb -&gt;&gt; 'id') AS id_transacao,%%00010  ((payload::jsonb #&gt;&gt; '{}')::jsonb -&gt;&gt; 'ts') AS data_hora,%%00010  (payload::jsonb #&gt;&gt; '{}')::jsonb -&gt;&gt; 'cartao' AS id_cartao,%%00010  (payload::jsonb #&gt;&gt; '{}')::jsonb -&gt;&gt; 'mcc' AS mcc,%%00010  ((payload::jsonb #&gt;&gt; '{}')::jsonb -&gt;&gt; 'valor')::numeric AS valor,%%00010  (payload::jsonb #&gt;&gt; '{}')::jsonb -&gt;&gt; 'pais' AS pais%%00010FROM stg_stream%%00010"/>
         <entry key="customQuery_is_present" type="xboolean" value="true"/>
         <config key="typeMappingSettings">
             <config key="byNameSettings"/>
@@ -40,7 +40,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.database.port.DBDataPortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.database.port.DBDataPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="PostgreSQL 1c12db6f-d219-47f1-9ab8-de74593364e3"/>
+            <entry key="port_object_summary" type="xstring" value="PostgreSQL 7d063426-c100-4117-9c74-27db3e842832"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -48,6 +48,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="faf881fb-b314-44df-9ba7-a13b6f3e5cec"/>
+        <entry key="file_store_id" type="xstring" value="8c8fd948-5ed1-45d6-ba23-6c875df305e1"/>
     </config>
 </config>

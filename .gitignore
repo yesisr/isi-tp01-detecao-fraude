@@ -1,1 +1,45 @@
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+
+# Python
+.env
+.env.*
+!.env.example
+!.env.*.example
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node.js 
+node_modules/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Node-RED 
+node-red/.config.*
+node-red/flows_cred*.json
+node-red/*.backup
+node-red/flows*.json.backup
+
+# KNIME workspace metadata 
+workflows/.metadata/
+
+# output logs
+exports/
+tmp/
+temp/
+*.log

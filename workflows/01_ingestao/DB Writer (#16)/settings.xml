@@ -46,7 +46,17 @@
             </config>
             <config key="manualFilter">
                 <config key="manuallySelected">
-                    <entry key="array-size" type="xint" value="0"/>
+                    <entry key="array-size" type="xint" value="10"/>
+                    <entry key="0" type="xstring" value="id_transacao"/>
+                    <entry key="1" type="xstring" value="data_hora"/>
+                    <entry key="2" type="xstring" value="id_cartao"/>
+                    <entry key="3" type="xstring" value="mcc"/>
+                    <entry key="4" type="xstring" value="valor"/>
+                    <entry key="5" type="xstring" value="pais"/>
+                    <entry key="6" type="xstring" value="pan"/>
+                    <entry key="7" type="xstring" value="comerciante"/>
+                    <entry key="8" type="xstring" value="canal"/>
+                    <entry key="9" type="xstring" value="moeda"/>
                 </config>
                 <config key="manuallyDeselected">
                     <entry key="array-size" type="xint" value="0"/>
@@ -59,16 +69,16 @@
                 </config>
             </config>
         </config>
-        <entry key="appendStatus" type="xboolean" value="true"/>
+        <entry key="appendStatus" type="xboolean" value="false"/>
         <entry key="statusColumn" type="xstring" value="Write Status"/>
-        <entry key="appendError" type="xboolean" value="true"/>
+        <entry key="appendError" type="xboolean" value="false"/>
         <entry key="errorColumn" type="xstring" value="Write Error"/>
         <entry key="disablePort" type="xboolean" value="false"/>
         <config key="outputMapping">
             <config key="byNameSettings"/>
             <config key="byTypeSettings"/>
         </config>
-        <entry key="actionOnTableExisting" type="xstring" value="APPEND_ROWS"/>
+        <entry key="actionOnTableExisting" type="xstring" value="REMOVE_TABLE"/>
     </config>
     <config key="variables"/>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
@@ -92,14 +102,14 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 14279, Cols: 12"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 13736, Cols: 11"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
             <entry key="index" type="xint" value="2"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.database.port.DBDataPortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.database.port.DBDataPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="PostgreSQL 1c12db6f-d219-47f1-9ab8-de74593364e3"/>
+            <entry key="port_object_summary" type="xstring" value="PostgreSQL 7d063426-c100-4117-9c74-27db3e842832"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_2"/>
@@ -107,6 +117,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="b05264c9-92ed-4cfd-8cc3-499e2dc8b2dc"/>
+        <entry key="file_store_id" type="xstring" value="12c10c2e-c4ee-4a44-84c5-34b5915662ac"/>
     </config>
 </config>
