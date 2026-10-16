@@ -11,14 +11,29 @@
             <entry key="schemaName" type="xstring" value=""/>
             <entry key="tableName" type="xstring" value="stg_ingestao"/>
         </config>
-        <entry key="customQuery" type="xstring" isnull="true" value=""/>
-        <entry key="customQuery_is_present" type="xboolean" value="false"/>
+        <entry key="customQuery" type="xstring" value="SELECT%%00010  t.*,%%00010  COUNT(*) OVER (%%00010    PARTITION BY t.id_cartao%%00010    ORDER BY t.data_hora%%00010    RANGE BETWEEN INTERVAL '10 minutes' PRECEDING AND CURRENT ROW%%00010  ) AS transacoes_10min%%00010FROM #table# AS t"/>
+        <entry key="customQuery_is_present" type="xboolean" value="true"/>
         <config key="typeMappingSettings">
             <config key="byNameSettings"/>
             <config key="byTypeSettings"/>
         </config>
     </config>
     <config key="variables"/>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="custom query para %%00010verificar velocidade"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.database.node.utility.tableselector.DBTableSelectNodeFactory2"/>
@@ -40,7 +55,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.database.port.DBDataPortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.database.port.DBDataPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="PostgreSQL b848c39f-99ec-4196-a56e-6d2b4dfc77c6"/>
+            <entry key="port_object_summary" type="xstring" value="PostgreSQL 5464b61c-d3bc-4860-9bf6-3e2f7083a73b"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -48,6 +63,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="79742cd2-132f-4d34-af04-21b0e5c78cef"/>
+        <entry key="file_store_id" type="xstring" value="45c466e8-b358-48ee-a092-b64f29a73e3a"/>
     </config>
 </config>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
     <entry key="spec_name" type="xstring" value="default"/>
-    <entry key="number_columns" type="xint" value="11"/>
+    <entry key="number_columns" type="xint" value="12"/>
     <config key="column_spec_0">
         <entry key="column_name" type="xstring" value="id_transacao"/>
         <config key="element_names">
@@ -29,7 +29,7 @@
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.time.localdatetime.LocalDateTimeCell"/>
-                <entry key="datacell_serialized" type="xstring" value="rO0ABXNyADhvcmcua25pbWUuY29yZS5kYXRhLnRpbWUubG9jYWxkYXRldGltZS5Mb2NhbERhdGVUaW1lQ2VsbOuti+rRJjLvAgABTAAPbV9sb2NhbERhdGVUaW1ldAAZTGphdmEvdGltZS9Mb2NhbERhdGVUaW1lO3hyABxvcmcua25pbWUuY29yZS5kYXRhLkRhdGFDZWxsZunoiVaJsoACAAB4cHNyAA1qYXZhLnRpbWUuU2VylV2EuhsiSLIMAAB4cHcOBQAAB+oKDxQIFjblWEB4"/>
+                <entry key="datacell_serialized" type="xstring" value="rO0ABXNyADhvcmcua25pbWUuY29yZS5kYXRhLnRpbWUubG9jYWxkYXRldGltZS5Mb2NhbERhdGVUaW1lQ2VsbOuti+rRJjLvAgABTAAPbV9sb2NhbERhdGVUaW1ldAAZTGphdmEvdGltZS9Mb2NhbERhdGVUaW1lO3hyABxvcmcua25pbWUuY29yZS5kYXRhLkRhdGFDZWxsZunoiVaJsoACAAB4cHNyAA1qYXZhLnRpbWUuU2VylV2EuhsiSLIMAAB4cHcOBQAAB+oKEBEQERYsRQB4"/>
             </config>
         </config>
         <config key="column_properties"/>
@@ -61,61 +61,61 @@
                 <config key="0">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="6051"/>
+                        <entry key="StringCell" type="xstring" value="5411"/>
                     </config>
                 </config>
                 <config key="1">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="4829"/>
+                        <entry key="StringCell" type="xstring" value="5812"/>
                     </config>
                 </config>
                 <config key="2">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="5812"/>
+                        <entry key="StringCell" type="xstring" value="5912"/>
                     </config>
                 </config>
                 <config key="3">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="6011"/>
+                        <entry key="StringCell" type="xstring" value="6051"/>
                     </config>
                 </config>
                 <config key="4">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="5912"/>
+                        <entry key="StringCell" type="xstring" value="5541"/>
                     </config>
                 </config>
                 <config key="5">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="5411"/>
+                        <entry key="StringCell" type="xstring" value="7995"/>
                     </config>
                 </config>
                 <config key="6">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="5541"/>
+                        <entry key="StringCell" type="xstring" value="5732"/>
                     </config>
                 </config>
                 <config key="7">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="7995"/>
+                        <entry key="StringCell" type="xstring" value="4829"/>
                     </config>
                 </config>
                 <config key="8">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="5732"/>
+                        <entry key="StringCell" type="xstring" value="4111"/>
                     </config>
                 </config>
                 <config key="9">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="4111"/>
+                        <entry key="StringCell" type="xstring" value="6011"/>
                     </config>
                 </config>
             </config>
@@ -141,7 +141,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="1401.6"/>
+                    <entry key="DoubleCell" type="xdouble" value="1408.88"/>
                 </config>
             </config>
         </config>
@@ -168,55 +168,55 @@
                 <config key="1">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="ES"/>
+                        <entry key="StringCell" type="xstring" value="GB"/>
                     </config>
                 </config>
                 <config key="2">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="BR"/>
+                        <entry key="StringCell" type="xstring" value="XX"/>
                     </config>
                 </config>
                 <config key="3">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="XX"/>
+                        <entry key="StringCell" type="xstring" value="BR"/>
                     </config>
                 </config>
                 <config key="4">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="FR"/>
+                        <entry key="StringCell" type="xstring" value="ES"/>
                     </config>
                 </config>
                 <config key="5">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="NL"/>
+                        <entry key="StringCell" type="xstring" value="FR"/>
                     </config>
                 </config>
                 <config key="6">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="KY"/>
+                        <entry key="StringCell" type="xstring" value="DE"/>
                     </config>
                 </config>
                 <config key="7">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="DE"/>
+                        <entry key="StringCell" type="xstring" value="NL"/>
                     </config>
                 </config>
                 <config key="8">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="GB"/>
+                        <entry key="StringCell" type="xstring" value="US"/>
                     </config>
                 </config>
                 <config key="9">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="US"/>
+                        <entry key="StringCell" type="xstring" value="NG"/>
                     </config>
                 </config>
                 <config key="10">
@@ -228,13 +228,13 @@
                 <config key="11">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="PA"/>
+                        <entry key="StringCell" type="xstring" value="KY"/>
                     </config>
                 </config>
                 <config key="12">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="NG"/>
+                        <entry key="StringCell" type="xstring" value="PA"/>
                     </config>
                 </config>
                 <config key="13">
@@ -268,13 +268,13 @@
                 <config key="0">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="stream"/>
+                        <entry key="StringCell" type="xstring" value="csv"/>
                     </config>
                 </config>
                 <config key="1">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="csv"/>
+                        <entry key="StringCell" type="xstring" value="stream"/>
                     </config>
                 </config>
             </config>
@@ -308,133 +308,133 @@
                 <config key="0">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Maria   Fernandes, LDA, S.A."/>
+                        <entry key="StringCell" type="xstring" value="Pedro  Miguel  Sousa, - Filial 2"/>
                     </config>
                 </config>
                 <config key="1">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Joao Silva, S.A."/>
+                        <entry key="StringCell" type="xstring" value="CARLA  MENDES, - Filial 2"/>
                     </config>
                 </config>
                 <config key="2">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="CARLA  MENDES, &amp; Filhos"/>
+                        <entry key="StringCell" type="xstring" value="Helena Bastos da Silva, S.A."/>
                     </config>
                 </config>
                 <config key="3">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Bruno Alves, Lda., - Filial 2"/>
+                        <entry key="StringCell" type="xstring" value="Maria   Fernandes, LDA, &amp; Filhos"/>
                     </config>
                 </config>
                 <config key="4">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Rui Pereira &amp; Filhos, S.A."/>
+                        <entry key="StringCell" type="xstring" value="Tiago  Nunes S.A., &amp; Filhos"/>
                     </config>
                 </config>
                 <config key="5">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Tiago  Nunes S.A., Unipessoal Lda."/>
+                        <entry key="StringCell" type="xstring" value="Ana-Paula Costa S.A., S.A."/>
                     </config>
                 </config>
                 <config key="6">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Ana-Paula Costa S.A., &amp; Filhos"/>
+                        <entry key="StringCell" type="xstring" value="Sofia  Rodrigues, Unipessoal Lda."/>
                     </config>
                 </config>
                 <config key="7">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Tiago  Nunes S.A., - Filial 2"/>
+                        <entry key="StringCell" type="xstring" value="Sofia  Rodrigues, &amp; Filhos"/>
                     </config>
                 </config>
                 <config key="8">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Maria   Fernandes, LDA, &amp; Filhos"/>
+                        <entry key="StringCell" type="xstring" value="Bruno Alves, Lda., - Filial 2"/>
                     </config>
                 </config>
                 <config key="9">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Ana-Paula Costa S.A., - Filial 2"/>
+                        <entry key="StringCell" type="xstring" value="Ana-Paula Costa S.A., Unipessoal Lda."/>
                     </config>
                 </config>
                 <config key="10">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Ana-Paula Costa S.A., S.A."/>
+                        <entry key="StringCell" type="xstring" value="Tiago  Nunes S.A., - Filial 2"/>
                     </config>
                 </config>
                 <config key="11">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Pedro  Miguel  Sousa, Unipessoal Lda."/>
+                        <entry key="StringCell" type="xstring" value="Helena Bastos da Silva, &amp; Filhos"/>
                     </config>
                 </config>
                 <config key="12">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Tiago  Nunes S.A., S.A."/>
+                        <entry key="StringCell" type="xstring" value="Joao Silva, S.A."/>
                     </config>
                 </config>
                 <config key="13">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Tiago  Nunes S.A., LDA"/>
+                        <entry key="StringCell" type="xstring" value="Joao Silva, Unipessoal Lda."/>
                     </config>
                 </config>
                 <config key="14">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Helena Bastos da Silva, S.A."/>
+                        <entry key="StringCell" type="xstring" value="Joao Silva, &amp; Filhos"/>
                     </config>
                 </config>
                 <config key="15">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Pedro  Miguel  Sousa, S.A."/>
+                        <entry key="StringCell" type="xstring" value="Maria   Fernandes, LDA, S.A."/>
                     </config>
                 </config>
                 <config key="16">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Sofia  Rodrigues, LDA"/>
+                        <entry key="StringCell" type="xstring" value="CARLA  MENDES, S.A."/>
                     </config>
                 </config>
                 <config key="17">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Bruno Alves, Lda., S.A."/>
+                        <entry key="StringCell" type="xstring" value="Maria   Fernandes, LDA, - Filial 2"/>
                     </config>
                 </config>
                 <config key="18">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Pedro  Miguel  Sousa, - Filial 2"/>
+                        <entry key="StringCell" type="xstring" value="Helena Bastos da Silva, LDA"/>
                     </config>
                 </config>
                 <config key="19">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Sofia  Rodrigues, Unipessoal Lda."/>
+                        <entry key="StringCell" type="xstring" value="Rui Pereira &amp; Filhos, LDA"/>
                     </config>
                 </config>
                 <config key="20">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Joao Silva, &amp; Filhos"/>
+                        <entry key="StringCell" type="xstring" value="Maria   Fernandes, LDA, LDA"/>
                     </config>
                 </config>
                 <config key="21">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Joao Silva, Unipessoal Lda."/>
+                        <entry key="StringCell" type="xstring" value="Joao Silva, LDA"/>
                     </config>
                 </config>
                 <config key="22">
@@ -446,85 +446,85 @@
                 <config key="23">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Sofia  Rodrigues, S.A."/>
+                        <entry key="StringCell" type="xstring" value="Pedro  Miguel  Sousa, S.A."/>
                     </config>
                 </config>
                 <config key="24">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="CARLA  MENDES, LDA"/>
+                        <entry key="StringCell" type="xstring" value="Helena Bastos da Silva, - Filial 2"/>
                     </config>
                 </config>
                 <config key="25">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Maria   Fernandes, LDA, Unipessoal Lda."/>
+                        <entry key="StringCell" type="xstring" value="Tiago  Nunes S.A., S.A."/>
                     </config>
                 </config>
                 <config key="26">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Rui Pereira &amp; Filhos, &amp; Filhos"/>
+                        <entry key="StringCell" type="xstring" value="Ana-Paula Costa S.A., &amp; Filhos"/>
                     </config>
                 </config>
                 <config key="27">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Rui Pereira &amp; Filhos, LDA"/>
+                        <entry key="StringCell" type="xstring" value="Rui Pereira &amp; Filhos, Unipessoal Lda."/>
                     </config>
                 </config>
                 <config key="28">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Ana-Paula Costa S.A., Unipessoal Lda."/>
+                        <entry key="StringCell" type="xstring" value="Sofia  Rodrigues, LDA"/>
                     </config>
                 </config>
                 <config key="29">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Tiago  Nunes S.A., &amp; Filhos"/>
+                        <entry key="StringCell" type="xstring" value="Joao Silva, - Filial 2"/>
                     </config>
                 </config>
                 <config key="30">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Joao Silva, - Filial 2"/>
+                        <entry key="StringCell" type="xstring" value="Rui Pereira &amp; Filhos, &amp; Filhos"/>
                     </config>
                 </config>
                 <config key="31">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Helena Bastos da Silva, - Filial 2"/>
+                        <entry key="StringCell" type="xstring" value="Pedro  Miguel  Sousa, LDA"/>
                     </config>
                 </config>
                 <config key="32">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Pedro  Miguel  Sousa, LDA"/>
+                        <entry key="StringCell" type="xstring" value="Bruno Alves, Lda., Unipessoal Lda."/>
                     </config>
                 </config>
                 <config key="33">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Pedro  Miguel  Sousa, &amp; Filhos"/>
+                        <entry key="StringCell" type="xstring" value="Maria   Fernandes, LDA, Unipessoal Lda."/>
                     </config>
                 </config>
                 <config key="34">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Ana-Paula Costa S.A., LDA"/>
+                        <entry key="StringCell" type="xstring" value="Tiago  Nunes S.A., Unipessoal Lda."/>
                     </config>
                 </config>
                 <config key="35">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="CARLA  MENDES, - Filial 2"/>
+                        <entry key="StringCell" type="xstring" value="CARLA  MENDES, &amp; Filhos"/>
                     </config>
                 </config>
                 <config key="36">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Bruno Alves, Lda., LDA"/>
+                        <entry key="StringCell" type="xstring" value="Ana-Paula Costa S.A., - Filial 2"/>
                     </config>
                 </config>
                 <config key="37">
@@ -536,115 +536,115 @@
                 <config key="38">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="CARLA  MENDES, S.A."/>
+                        <entry key="StringCell" type="xstring" value="Pedro  Miguel  Sousa, Unipessoal Lda."/>
                     </config>
                 </config>
                 <config key="39">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Bruno Alves, Lda., Unipessoal Lda."/>
+                        <entry key="StringCell" type="xstring" value="Tiago  Nunes S.A., LDA"/>
                     </config>
                 </config>
                 <config key="40">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Joao Silva, LDA"/>
+                        <entry key="StringCell" type="xstring" value="Bruno Alves, Lda., S.A."/>
                     </config>
                 </config>
                 <config key="41">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Sofia  Rodrigues, &amp; Filhos"/>
+                        <entry key="StringCell" type="xstring" value="Sofia  Rodrigues, S.A."/>
                     </config>
                 </config>
                 <config key="42">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Helena Bastos da Silva, LDA"/>
+                        <entry key="StringCell" type="xstring" value="Ana-Paula Costa S.A., LDA"/>
                     </config>
                 </config>
                 <config key="43">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Maria   Fernandes, LDA, - Filial 2"/>
+                        <entry key="StringCell" type="xstring" value="CARLA  MENDES, Unipessoal Lda."/>
                     </config>
                 </config>
                 <config key="44">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Bruno Alves, Lda., &amp; Filhos"/>
+                        <entry key="StringCell" type="xstring" value="Bruno Alves, Lda., LDA"/>
                     </config>
                 </config>
                 <config key="45">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Maria   Fernandes, LDA, LDA"/>
+                        <entry key="StringCell" type="xstring" value="Rui Pereira &amp; Filhos, S.A."/>
                     </config>
                 </config>
                 <config key="46">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Rui Pereira &amp; Filhos, Unipessoal Lda."/>
+                        <entry key="StringCell" type="xstring" value="Pedro  Miguel  Sousa, &amp; Filhos"/>
                     </config>
                 </config>
                 <config key="47">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Sofia  Rodrigues, - Filial 2"/>
+                        <entry key="StringCell" type="xstring" value="Bruno Alves, Lda., &amp; Filhos"/>
                     </config>
                 </config>
                 <config key="48">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Helena Bastos da Silva, &amp; Filhos"/>
+                        <entry key="StringCell" type="xstring" value="CARLA  MENDES, LDA"/>
                     </config>
                 </config>
                 <config key="49">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Bruno Alves, Lda."/>
+                        <entry key="StringCell" type="xstring" value="Sofia  Rodrigues, - Filial 2"/>
                     </config>
                 </config>
                 <config key="50">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="CARLA  MENDES, Unipessoal Lda."/>
+                        <entry key="StringCell" type="xstring" value="Sofia  Rodrigues"/>
                     </config>
                 </config>
                 <config key="51">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Joao Silva"/>
+                        <entry key="StringCell" type="xstring" value="Maria   Fernandes, LDA"/>
                     </config>
                 </config>
                 <config key="52">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Sofia  Rodrigues"/>
+                        <entry key="StringCell" type="xstring" value="Joao Silva"/>
                     </config>
                 </config>
                 <config key="53">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Rui Pereira &amp; Filhos"/>
+                        <entry key="StringCell" type="xstring" value="Helena Bastos da Silva"/>
                     </config>
                 </config>
                 <config key="54">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Maria   Fernandes, LDA"/>
+                        <entry key="StringCell" type="xstring" value="Tiago  Nunes S.A."/>
                     </config>
                 </config>
                 <config key="55">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Helena Bastos da Silva"/>
+                        <entry key="StringCell" type="xstring" value="Bruno Alves, Lda."/>
                     </config>
                 </config>
                 <config key="56">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Tiago  Nunes S.A."/>
+                        <entry key="StringCell" type="xstring" value="Ana-Paula Costa S.A."/>
                     </config>
                 </config>
                 <config key="57">
@@ -656,7 +656,7 @@
                 <config key="58">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Ana-Paula Costa S.A."/>
+                        <entry key="StringCell" type="xstring" value="Rui Pereira &amp; Filhos"/>
                     </config>
                 </config>
                 <config key="59">
@@ -684,19 +684,19 @@
                 <config key="0">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="ATM"/>
+                        <entry key="StringCell" type="xstring" value="online"/>
                     </config>
                 </config>
                 <config key="1">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="online"/>
+                        <entry key="StringCell" type="xstring" value="POS"/>
                     </config>
                 </config>
                 <config key="2">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="POS"/>
+                        <entry key="StringCell" type="xstring" value="ATM"/>
                     </config>
                 </config>
             </config>
@@ -732,6 +732,31 @@
                     <config key="org.knime.core.data.def.StringCell">
                         <entry key="StringCell" type="xstring" value="USD"/>
                     </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_11">
+        <entry key="column_name" type="xstring" value="transacoes_10min"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.LongCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="lower_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.LongCell"/>
+                <config key="org.knime.core.data.def.LongCell">
+                    <entry key="LongCell" type="xlong" value="1"/>
+                </config>
+            </config>
+            <config key="upper_bound">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.LongCell"/>
+                <config key="org.knime.core.data.def.LongCell">
+                    <entry key="LongCell" type="xlong" value="6"/>
                 </config>
             </config>
         </config>

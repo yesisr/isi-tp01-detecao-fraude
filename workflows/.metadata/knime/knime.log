@@ -6185,3 +6185,1671 @@ org.knime.core.node.InvalidSettingsException: Ambiguous return type! Use 'string
 2026-10-15 21:24:06,885 : INFO  : KNIME-Worker-470-Java Snippet 5:11 :  : LocalNodeExecutionJob : Java Snippet : 5:11 : Java Snippet 5:11 End execute (0 secs)
 2026-10-15 21:24:06,899 : INFO  : KNIME-Worker-471-String Manipulation 5:9 :  : LocalNodeExecutionJob : String Manipulation : 5:9 : String Manipulation 5:9 End execute (0 secs)
 2026-10-15 21:27:13,217 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x0000007001514d38 :  : FileUtil :  :  : Deleting 290 temporary files.
+2026-10-16 15:50:21,185 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-16 15:50:21,185 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-16 15:50:21,186 : INFO  : main :  : NodeLogger :  :  : # Welcome to KNIME Analytics Platform v5.12.0.v202606180846 (Build June 15, 2026)       #
+2026-10-16 15:50:21,186 : INFO  : main :  : NodeLogger :  :  : # Based on Eclipse, http://www.eclipse.org                                              #
+2026-10-16 15:50:21,186 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-16 15:50:21,186 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-16 15:50:21,186 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-16 15:50:21,186 : INFO  : main :  : NodeLogger :  :  : # Copyright by KNIME AG, Zurich, Switzerland and others.                                #
+2026-10-16 15:50:21,186 : INFO  : main :  : NodeLogger :  :  : # Website: http://www.knime.com                                                         #
+2026-10-16 15:50:21,186 : INFO  : main :  : NodeLogger :  :  : # E-mail: contact@knime.com                                                             #
+2026-10-16 15:50:21,186 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-16 15:50:21,186 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-16 15:50:21,186 : INFO  : main :  : NodeLogger :  :  : # For more details see the KNIME log file:                                              #
+2026-10-16 15:50:21,186 : INFO  : main :  : NodeLogger :  :  : # /Users/user/Documents/github_repos/tp-deteccao-fraude/workflows/.metadata/knime/knime.log
+2026-10-16 15:50:21,186 : INFO  : main :  : NodeLogger :  :  : #---------------------------------------------------------------------------------------#
+2026-10-16 15:50:21,198 : INFO  : main :  : NodeLogger :  :  : # logging date=sexta out. 16 15:50:21 WEST 2026
+2026-10-16 15:50:21,198 : INFO  : main :  : NodeLogger :  :  : # java.version=21.0.9
+2026-10-16 15:50:21,198 : INFO  : main :  : NodeLogger :  :  : # java.vm.version=21.0.9+10-LTS
+2026-10-16 15:50:21,198 : INFO  : main :  : NodeLogger :  :  : # java.vendor=Eclipse Adoptium
+2026-10-16 15:50:21,198 : INFO  : main :  : NodeLogger :  :  : # os.name=Mac OS X
+2026-10-16 15:50:21,198 : INFO  : main :  : NodeLogger :  :  : # os.arch=aarch64
+2026-10-16 15:50:21,198 : INFO  : main :  : NodeLogger :  :  : # number of CPUs=8
+2026-10-16 15:50:21,198 : INFO  : main :  : NodeLogger :  :  : # assertions=off
+2026-10-16 15:50:21,239 : INFO  : main :  : NodeLogger :  :  : # host=yaszhasd
+2026-10-16 15:50:21,245 : INFO  : main :  : NodeLogger :  :  : # username=user
+2026-10-16 15:50:21,245 : INFO  : main :  : NodeLogger :  :  : # max mem=2048MB
+2026-10-16 15:50:21,246 : INFO  : main :  : NodeLogger :  :  : # application=org.knime.product.KNIME_APPLICATION
+2026-10-16 15:50:21,252 : INFO  : main :  : NodeLogger :  :  : # KNID=11-43d603993fc620af-01-926bb5a2bde4ed1a
+2026-10-16 15:50:21,252 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-16 15:49:37,865 : INFO  : main :  : RegisterBouncyCastleProvider :  :  : Added BouncyCastleProvider to Java Security providers
+2026-10-16 15:50:22,650 : INFO  : main :  : StringHistory :  :  : History file '/Users/user/Documents/github_repos/tp-deteccao-fraude/workflows/.metadata/knime/history_database_drivers.txt' does not exist.
+2026-10-16 15:50:22,650 : INFO  : main :  : StringHistory :  :  : History file '/Users/user/Documents/github_repos/tp-deteccao-fraude/workflows/.metadata/knime/history_database_urls.txt' does not exist.
+2026-10-16 15:50:23,688 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file '/Users/user/Documents/github_repos/tp-deteccao-fraude/workflows/.metadata/knime/history_string2date-formats.txt' does not exist.
+2026-10-16 15:50:23,705 : INFO  : Node Repository Initializer :  : MovingAggregationNodeFactory :  :  : Modern dialog for Moving Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-16 15:50:24,173 : INFO  : main :  : ProcessWatchdog :  :  : KNIME Process Watchdog memory limit not configured
+2026-10-16 15:50:24,174 : INFO  : main :  : ProcessWatchdog :  :  : External process memory watchdog is disabled, because the memory limit is set to -1
+2026-10-16 15:50:24,677 : INFO  : Node Repository Initializer :  : GroupByNodeFactory :  :  : Modern dialog for GroupBy node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-16 15:50:24,838 : INFO  : main :  : StringHistory :  :  : History file '/Users/user/Documents/github_repos/tp-deteccao-fraude/workflows/.metadata/knime/history_org.knime.kerberos.name.txt' does not exist.
+2026-10-16 15:50:25,344 : INFO  : main :  : KnimeBrowserView :  :  : %cinfo%c Injecting global logger 
+      background: #00BCD4;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-16 15:50:25,928 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file '/Users/user/Documents/github_repos/tp-deteccao-fraude/workflows/.metadata/knime/history_createFileNameHistoryKey.txt' does not exist.
+2026-10-16 15:50:25,984 : INFO  : Node Repository Initializer :  : ColumnAggregatorNodeFactory :  :  : Modern dialog for Column Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-16 15:50:26,263 : INFO  : Node Repository Initializer :  : Pivot2NodeFactory :  :  : Modern dialog for Pivot node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-16 15:50:26,811 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-16 15:50:26,869 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-16 15:50:26,885 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-16 15:50:26,905 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-16 15:50:26,906 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-16 15:50:26,919 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-16 15:50:26,932 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-16 15:50:26,936 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-16 15:50:26,936 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-16 15:50:34,735 : WARN  : ModalContext :  : Node : PostgreSQL Connector : 3:1 : DB Connection no longer available. Go to advanced settings to enable connection restoration.
+2026-10-16 15:50:47,008 : INFO  : KNIME-Database-Connection-Creator-1 :  : UrlDBConnectionController : PostgreSQL Connector : 3:1 : Could not create connection to database using URL: jdbc:postgresql://localhost:5432/fraude and parameters: [password, tcpKeepAlive, user]. Exception: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2026-10-16 15:50:47,010 : ERROR : KNIME-Worker-0-PostgreSQL Connector 3:1 :  : Node : PostgreSQL Connector : 3:1 : Execute failed: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:425)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:52)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:290)
+	at org.postgresql.Driver.makeConnection(Driver.java:448)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at org.knime.database.connection.UrlDBConnectionController$ControlledDriver.connect(UrlDBConnectionController.java:104)
+	at org.knime.database.connection.UrlDBConnectionController.connect(UrlDBConnectionController.java:369)
+	at org.knime.database.connection.UserDBConnectionController.connect(UserDBConnectionController.java:307)
+	at org.knime.database.connection.UrlDBConnectionController.createConnection(UrlDBConnectionController.java:349)
+	at org.knime.database.connection.AbstractConnectionProvider.createConnection(AbstractConnectionProvider.java:104)
+	at org.knime.database.connection.impl.DBConnectionManager.lambda$4(DBConnectionManager.java:595)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:271)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:132)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:219)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:365)
+	... 14 more
+2026-10-16 15:53:06,678 : INFO  : KNIME-Worker-1-PostgreSQL Connector 3:1 :  : LocalNodeExecutionJob : PostgreSQL Connector : 3:1 : PostgreSQL Connector 3:1 End execute (0 secs)
+2026-10-16 15:53:06,709 : INFO  : KNIME-Worker-2-DB Table Selector 3:2 :  : LocalNodeExecutionJob : DB Table Selector : 3:2 : DB Table Selector 3:2 End execute (0 secs)
+2026-10-16 15:53:07,490 : INFO  : KNIME-Worker-1-DB Reader 3:3 :  : LocalNodeExecutionJob : DB Reader : 3:3 : DB Reader 3:3 End execute (0 secs)
+2026-10-16 15:53:07,531 : INFO  : KNIME-Worker-2-Number Rounder 3:4 :  : LocalNodeExecutionJob : Number Rounder : 3:4 : Number Rounder 3:4 End execute (0 secs)
+2026-10-16 15:53:07,657 : INFO  : KNIME-Worker-1-Row Filter 3:5 :  : LocalNodeExecutionJob : Row Filter : 3:5 : Row Filter 3:5 End execute (0 secs)
+2026-10-16 15:53:07,667 : INFO  : KNIME-Worker-2-Row Filter 3:12 :  : LocalNodeExecutionJob : Row Filter : 3:12 : Row Filter 3:12 End execute (0 secs)
+2026-10-16 15:53:07,747 : INFO  : KNIME-Worker-1-String Manipulation 3:10 :  : LocalNodeExecutionJob : String Manipulation : 3:10 : String Manipulation 3:10 End execute (0 secs)
+2026-10-16 15:53:07,810 : INFO  : KNIME-Worker-2-Java Snippet 3:11 :  : LocalNodeExecutionJob : Java Snippet : 3:11 : Java Snippet 3:11 End execute (0 secs)
+2026-10-16 15:53:07,839 : INFO  : KNIME-Worker-1-String Manipulation 3:9 :  : LocalNodeExecutionJob : String Manipulation : 3:9 : String Manipulation 3:9 End execute (0 secs)
+2026-10-16 15:53:21,788 : WARN  : ModalContext :  : Node : PostgreSQL Connector : 4:1 : DB Connection no longer available. Go to advanced settings to enable connection restoration.
+2026-10-16 15:53:25,217 : INFO  : KNIME-Worker-2-PostgreSQL Connector 4:1 :  : LocalNodeExecutionJob : PostgreSQL Connector : 4:1 : PostgreSQL Connector 4:1 End execute (0 secs)
+2026-10-16 15:53:25,236 : INFO  : KNIME-Worker-6-DB Table Selector 4:2 :  : LocalNodeExecutionJob : DB Table Selector : 4:2 : DB Table Selector 4:2 End execute (0 secs)
+2026-10-16 15:53:25,282 : INFO  : KNIME-Worker-4-JSON Reader 4:11 :  : LocalNodeExecutionJob : JSON Reader : 4:11 : JSON Reader 4:11 End execute (0 secs)
+2026-10-16 15:53:25,308 : INFO  : KNIME-Worker-3-JSON Reader 4:3 :  : LocalNodeExecutionJob : JSON Reader : 4:3 : JSON Reader 4:3 End execute (0 secs)
+2026-10-16 15:53:25,313 : INFO  : KNIME-Worker-5-XML Reader 4:4 :  : LocalNodeExecutionJob : XML Reader : 4:4 : XML Reader 4:4 End execute (0 secs)
+2026-10-16 15:53:25,347 : INFO  : KNIME-Worker-4-XPath 4:5 :  : LocalNodeExecutionJob : XPath : 4:5 : XPath 4:5 End execute (0 secs)
+2026-10-16 15:53:25,382 : INFO  : KNIME-Worker-1-CSV Reader 4:6 :  : LocalNodeExecutionJob : CSV Reader : 4:6 : CSV Reader 4:6 End execute (0 secs)
+2026-10-16 15:53:25,395 : INFO  : KNIME-Worker-6-JSON Path 4:10 :  : LocalNodeExecutionJob : JSON Path : 4:10 : JSON Path 4:10 End execute (0 secs)
+2026-10-16 15:53:25,416 : INFO  : KNIME-Worker-5-Number to String 4:21 :  : LocalNodeExecutionJob : Number to String : 4:21 : Number to String 4:21 End execute (0 secs)
+2026-10-16 15:53:25,422 : INFO  : KNIME-Worker-2-DB Reader 4:9 :  : LocalNodeExecutionJob : DB Reader : 4:9 : DB Reader 4:9 End execute (0 secs)
+2026-10-16 15:53:25,478 : INFO  : KNIME-Worker-3-String to Date&Time 4:22 :  : LocalNodeExecutionJob : String to Date&Time : 4:22 : String to Date&Time 4:22 End execute (0 secs)
+2026-10-16 15:53:25,489 : INFO  : KNIME-Worker-1-String Manipulation 4:24 :  : LocalNodeExecutionJob : String Manipulation : 4:24 : String Manipulation 4:24 End execute (0 secs)
+2026-10-16 15:53:25,493 : INFO  : KNIME-Worker-4-String to Date&Time 4:8 :  : LocalNodeExecutionJob : String to Date&Time : 4:8 : String to Date&Time 4:8 End execute (0 secs)
+2026-10-16 15:53:25,512 : INFO  : KNIME-Worker-6-String Manipulation 4:23 :  : LocalNodeExecutionJob : String Manipulation : 4:23 : String Manipulation 4:23 End execute (0 secs)
+2026-10-16 15:53:25,516 : INFO  : KNIME-Worker-5-Concatenate 4:20 :  : LocalNodeExecutionJob : Concatenate : 4:20 : Concatenate 4:20 End execute (0 secs)
+2026-10-16 15:53:25,807 : INFO  : KNIME-Worker-2-Duplicate Row Filter 4:15 :  : LocalNodeExecutionJob : Duplicate Row Filter : 4:15 : Duplicate Row Filter 4:15 End execute (0 secs)
+2026-10-16 15:53:26,137 : INFO  : KNIME-Worker-3-DB Writer 4:16 :  : LocalNodeExecutionJob : DB Writer : 4:16 : DB Writer 4:16 End execute (0 secs)
+2026-10-16 15:55:17,886 : INFO  : KNIME-Worker-7-JSON Reader 3:13 :  : LocalNodeExecutionJob : JSON Reader : 3:13 : JSON Reader 3:13 End execute (0 secs)
+2026-10-16 15:55:36,356 : INFO  : KNIME-Worker-8-JSON to Table 3:14 :  : LocalNodeExecutionJob : JSON to Table : 3:14 : JSON to Table 3:14 End execute (2 secs)
+2026-10-16 15:57:37,911 : WARN  : main :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.data_value/uiext-data_value/org.knime.core.data.json.JSONValue/CodeValueView.html; line: 0)
+2026-10-16 15:58:00,448 : WARN  : comm-pool-thread-6 :  : Node : JSON Path : 3:14 : No JSON path was specified, please enter at least one expression!
+2026-10-16 15:58:11,659 : INFO  : KNIME-Worker-10-JSON Path 3:14 :  : LocalNodeExecutionJob : JSON Path : 3:14 : JSON Path 3:14 End execute (0 secs)
+2026-10-16 16:01:22,570 : ERROR : KNIME-Worker-12-JSON Path 3:14 :  : Node : JSON Path : 3:14 : Execute failed: Expected at most one result, but got: 500 [[credito, credit…redito, credito]]
+   in row: Row0
+java.lang.IllegalStateException: Expected at most one result, but got: 500 [[credito, credit…redito, credito]]
+   in row: Row0
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeModel$1.getCell(JSONPathNodeModel.java:308)
+	at org.knime.core.data.container.SingleCellFactory.getCell(SingleCellFactory.java:128)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:784)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:1)
+	at org.knime.core.util.MultiThreadWorker$ComputationTask$1.call(MultiThreadWorker.java:442)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 16:01:23,851 : ERROR : KNIME-Worker-14-JSON Path 3:14 :  : Node : JSON Path : 3:14 : Execute failed: Expected at most one result, but got: 500 [[PT, PT, PT, BR,… PT, PT, PT, ES]]
+   in row: Row0
+java.lang.IllegalStateException: Expected at most one result, but got: 500 [[PT, PT, PT, BR,… PT, PT, PT, ES]]
+   in row: Row0
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeModel$1.getCell(JSONPathNodeModel.java:308)
+	at org.knime.core.data.container.SingleCellFactory.getCell(SingleCellFactory.java:128)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:784)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:1)
+	at org.knime.core.util.MultiThreadWorker$ComputationTask$1.call(MultiThreadWorker.java:442)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 16:01:36,945 : ERROR : KNIME-Worker-16-JSON Path 3:14 :  : Node : JSON Path : 3:14 : Execute failed: Expected at most one result, but got: 500 [[Sofia  Rodrigue…Joao Silva S.A.]]
+   in row: Row0
+java.lang.IllegalStateException: Expected at most one result, but got: 500 [[Sofia  Rodrigue…Joao Silva S.A.]]
+   in row: Row0
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeModel$1.getCell(JSONPathNodeModel.java:308)
+	at org.knime.core.data.container.SingleCellFactory.getCell(SingleCellFactory.java:128)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:784)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:1)
+	at org.knime.core.util.MultiThreadWorker$ComputationTask$1.call(MultiThreadWorker.java:442)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 16:02:36,458 : ERROR : KNIME-Worker-13-JSON Path 3:14 :  : Node : JSON Path : 3:14 : Execute failed: Expected at most one result, but got: 500 [[CL00001, CL0028…L00283, CL00125]]
+   in row: Row0
+java.lang.IllegalStateException: Expected at most one result, but got: 500 [[CL00001, CL0028…L00283, CL00125]]
+   in row: Row0
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeModel$1.getCell(JSONPathNodeModel.java:308)
+	at org.knime.core.data.container.SingleCellFactory.getCell(SingleCellFactory.java:128)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:784)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:1)
+	at org.knime.core.util.MultiThreadWorker$ComputationTask$1.call(MultiThreadWorker.java:442)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 16:02:37,031 : ERROR : KNIME-Worker-15-JSON Path 3:14 :  : Node : JSON Path : 3:14 : Execute failed: Expected at most one result, but got: 500 [[PT, PT, PT, BR,… PT, PT, PT, ES]]
+   in row: Row0
+java.lang.IllegalStateException: Expected at most one result, but got: 500 [[PT, PT, PT, BR,… PT, PT, PT, ES]]
+   in row: Row0
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeModel$1.getCell(JSONPathNodeModel.java:308)
+	at org.knime.core.data.container.SingleCellFactory.getCell(SingleCellFactory.java:128)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:784)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:1)
+	at org.knime.core.util.MultiThreadWorker$ComputationTask$1.call(MultiThreadWorker.java:442)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 16:02:37,207 : ERROR : KNIME-Worker-17-JSON Path 3:14 :  : Node : JSON Path : 3:14 : Execute failed: Expected at most one result, but got: 500 [[C00001, C00002,… C00499, C00500]]
+   in row: Row0
+java.lang.IllegalStateException: Expected at most one result, but got: 500 [[C00001, C00002,… C00499, C00500]]
+   in row: Row0
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeModel$1.getCell(JSONPathNodeModel.java:308)
+	at org.knime.core.data.container.SingleCellFactory.getCell(SingleCellFactory.java:128)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:784)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:1)
+	at org.knime.core.util.MultiThreadWorker$ComputationTask$1.call(MultiThreadWorker.java:442)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 16:02:37,358 : ERROR : KNIME-Worker-12-JSON Path 3:14 :  : Node : JSON Path : 3:14 : Execute failed: Expected at most one result, but got: 500 [[credito, credit…redito, credito]]
+   in row: Row0
+java.lang.IllegalStateException: Expected at most one result, but got: 500 [[credito, credit…redito, credito]]
+   in row: Row0
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeModel$1.getCell(JSONPathNodeModel.java:308)
+	at org.knime.core.data.container.SingleCellFactory.getCell(SingleCellFactory.java:128)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:784)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:1)
+	at org.knime.core.util.MultiThreadWorker$ComputationTask$1.call(MultiThreadWorker.java:442)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 16:06:11,920 : ERROR : KNIME-Worker-18-JSON Path 3:14 :  : Node : JSON Path : 3:14 : Execute failed: Expected at most one result, but got: 500 [[PT, PT, PT, BR,… PT, PT, PT, ES]]
+   in row: Row0
+java.lang.IllegalStateException: Expected at most one result, but got: 500 [[PT, PT, PT, BR,… PT, PT, PT, ES]]
+   in row: Row0
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeModel$1.getCell(JSONPathNodeModel.java:308)
+	at org.knime.core.data.container.SingleCellFactory.getCell(SingleCellFactory.java:128)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:784)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:1)
+	at org.knime.core.util.MultiThreadWorker$ComputationTask$1.call(MultiThreadWorker.java:442)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 16:07:12,722 : INFO  : KNIME-Worker-20-JSON Path 3:14 :  : LocalNodeExecutionJob : JSON Path : 3:14 : JSON Path 3:14 End execute (0 secs)
+2026-10-16 16:07:52,542 : INFO  : KNIME-Worker-22-JSON Path 3:14 :  : LocalNodeExecutionJob : JSON Path : 3:14 : JSON Path 3:14 End execute (0 secs)
+2026-10-16 16:08:59,227 : ERROR : KNIME-Worker-24-JSON Path 3:14 :  : Node : JSON Path : 3:14 : Execute failed: Expected at most one result, but got: 500 [[CL00001, CL0028…L00283, CL00125]]
+   in row: Row0
+java.lang.IllegalStateException: Expected at most one result, but got: 500 [[CL00001, CL0028…L00283, CL00125]]
+   in row: Row0
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeModel$1.getCell(JSONPathNodeModel.java:308)
+	at org.knime.core.data.container.SingleCellFactory.getCell(SingleCellFactory.java:128)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:784)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:1)
+	at org.knime.core.util.MultiThreadWorker$ComputationTask$1.call(MultiThreadWorker.java:442)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 16:09:00,380 : ERROR : KNIME-Worker-26-JSON Path 3:14 :  : Node : JSON Path : 3:14 : Execute failed: Expected at most one result, but got: 500 [[credito, credit…redito, credito]]
+   in row: Row0
+java.lang.IllegalStateException: Expected at most one result, but got: 500 [[credito, credit…redito, credito]]
+   in row: Row0
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeModel$1.getCell(JSONPathNodeModel.java:308)
+	at org.knime.core.data.container.SingleCellFactory.getCell(SingleCellFactory.java:128)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:784)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:1)
+	at org.knime.core.util.MultiThreadWorker$ComputationTask$1.call(MultiThreadWorker.java:442)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 16:09:46,309 : INFO  : KNIME-Worker-28-JSON Path 3:14 :  : LocalNodeExecutionJob : JSON Path : 3:14 : JSON Path 3:14 End execute (0 secs)
+2026-10-16 16:16:50,898 : ERROR : KNIME-Worker-30-JSON Path 3:14 :  : Node : JSON Path : 3:14 : Execute failed: Expected at most one result, but got: 500 [[C00001, C00002,… C00499, C00500]]
+   in row: Row0
+java.lang.IllegalStateException: Expected at most one result, but got: 500 [[C00001, C00002,… C00499, C00500]]
+   in row: Row0
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeModel$1.getCell(JSONPathNodeModel.java:308)
+	at org.knime.core.data.container.SingleCellFactory.getCell(SingleCellFactory.java:128)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:784)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:1)
+	at org.knime.core.util.MultiThreadWorker$ComputationTask$1.call(MultiThreadWorker.java:442)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 16:16:51,469 : ERROR : KNIME-Worker-32-JSON Path 3:14 :  : Node : JSON Path : 3:14 : Execute failed: Expected at most one result, but got: 500 [[C00001, C00002,… C00499, C00500]]
+   in row: Row0
+java.lang.IllegalStateException: Expected at most one result, but got: 500 [[C00001, C00002,… C00499, C00500]]
+   in row: Row0
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeModel$1.getCell(JSONPathNodeModel.java:308)
+	at org.knime.core.data.container.SingleCellFactory.getCell(SingleCellFactory.java:128)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:784)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:1)
+	at org.knime.core.util.MultiThreadWorker$ComputationTask$1.call(MultiThreadWorker.java:442)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 16:18:05,215 : INFO  : KNIME-Worker-34-JSON Path 3:14 :  : LocalNodeExecutionJob : JSON Path : 3:14 : JSON Path 3:14 End execute (0 secs)
+2026-10-16 16:18:12,670 : ERROR : KNIME-Worker-31-JSON Path 3:14 :  : Node : JSON Path : 3:14 : Execute failed: Expected at most one result, but got: 500 [[C00001, C00002,… C00499, C00500]]
+   in row: Row0
+java.lang.IllegalStateException: Expected at most one result, but got: 500 [[C00001, C00002,… C00499, C00500]]
+   in row: Row0
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeModel$1.getCell(JSONPathNodeModel.java:308)
+	at org.knime.core.data.container.SingleCellFactory.getCell(SingleCellFactory.java:128)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:784)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:1)
+	at org.knime.core.util.MultiThreadWorker$ComputationTask$1.call(MultiThreadWorker.java:442)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 16:18:13,320 : ERROR : KNIME-Worker-33-JSON Path 3:14 :  : Node : JSON Path : 3:14 : Execute failed: Expected at most one result, but got: 500 [[C00001, C00002,… C00499, C00500]]
+   in row: Row0
+java.lang.IllegalStateException: Expected at most one result, but got: 500 [[C00001, C00002,… C00499, C00500]]
+   in row: Row0
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeModel$1.getCell(JSONPathNodeModel.java:308)
+	at org.knime.core.data.container.SingleCellFactory.getCell(SingleCellFactory.java:128)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:784)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:1)
+	at org.knime.core.util.MultiThreadWorker$ComputationTask$1.call(MultiThreadWorker.java:442)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 16:18:13,498 : ERROR : KNIME-Worker-35-JSON Path 3:14 :  : Node : JSON Path : 3:14 : Execute failed: Expected at most one result, but got: 500 [[C00001, C00002,… C00499, C00500]]
+   in row: Row0
+java.lang.IllegalStateException: Expected at most one result, but got: 500 [[C00001, C00002,… C00499, C00500]]
+   in row: Row0
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeModel$1.getCell(JSONPathNodeModel.java:308)
+	at org.knime.core.data.container.SingleCellFactory.getCell(SingleCellFactory.java:128)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:784)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:1)
+	at org.knime.core.util.MultiThreadWorker$ComputationTask$1.call(MultiThreadWorker.java:442)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 16:20:07,684 : INFO  : KNIME-Worker-36-JSON Reader 3:13 :  : LocalNodeExecutionJob : JSON Reader : 3:13 : JSON Reader 3:13 End execute (0 secs)
+2026-10-16 16:20:21,507 : INFO  : KNIME-Worker-37-JSON to Table 3:14 :  : LocalNodeExecutionJob : JSON to Table : 3:14 : JSON to Table 3:14 End execute (1 sec)
+2026-10-16 16:21:40,240 : WARN  : comm-pool-thread-10 :  : Node : JSON Path : 3:14 : No JSON path was specified, please enter at least one expression!
+2026-10-16 16:22:03,669 : ERROR : KNIME-Worker-39-JSON Reader 3:13 :  : Node : JSON Reader : 3:13 : Execute failed: Invalid JSON Path $.[*]
+java.io.IOException: Invalid JSON Path $.[*]
+	at org.knime.json.node.filehandling.reader.JSONPathRead.initializeParser(JSONPathRead.java:106)
+	at org.knime.json.node.filehandling.reader.JSONPathRead.<init>(JSONPathRead.java:89)
+	at org.knime.json.node.filehandling.reader.JSONReader.read(JSONReader.java:78)
+	at org.knime.json.node.filehandling.reader.JSONReader.read(JSONReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.json.node.filehandling.reader.JSONMultiTableReadFactory$JSONMultiTableRead.fillRowOutput(JSONMultiTableReadFactory.java:196)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+Caused by: org.antlr.v4.runtime.misc.ParseCancellationException
+	at org.antlr.v4.runtime.BailErrorStrategy.recover(BailErrorStrategy.java:51)
+	at org.jsfr.json.compiler.JsonPathParser.relativePath(JsonPathParser.java:303)
+	at org.jsfr.json.compiler.JsonPathParser.path(JsonPathParser.java:146)
+	at org.jsfr.json.compiler.JsonPathCompiler.compile(JsonPathCompiler.java:283)
+	at org.knime.json.node.filehandling.reader.JSONPathRead.initializeParser(JSONPathRead.java:104)
+	... 23 more
+Caused by: org.antlr.v4.runtime.NoViableAltException
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.noViableAlt(ParserATNSimulator.java:2014)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.execATN(ParserATNSimulator.java:445)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.adaptivePredict(ParserATNSimulator.java:371)
+	at org.jsfr.json.compiler.JsonPathParser.relativePath(JsonPathParser.java:220)
+	... 26 more
+2026-10-16 16:22:04,729 : ERROR : KNIME-Worker-40-JSON Reader 3:13 :  : Node : JSON Reader : 3:13 : Execute failed: Invalid JSON Path $.[*]
+java.io.IOException: Invalid JSON Path $.[*]
+	at org.knime.json.node.filehandling.reader.JSONPathRead.initializeParser(JSONPathRead.java:106)
+	at org.knime.json.node.filehandling.reader.JSONPathRead.<init>(JSONPathRead.java:89)
+	at org.knime.json.node.filehandling.reader.JSONReader.read(JSONReader.java:78)
+	at org.knime.json.node.filehandling.reader.JSONReader.read(JSONReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.json.node.filehandling.reader.JSONMultiTableReadFactory$JSONMultiTableRead.fillRowOutput(JSONMultiTableReadFactory.java:196)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+Caused by: org.antlr.v4.runtime.misc.ParseCancellationException
+	at org.antlr.v4.runtime.BailErrorStrategy.recover(BailErrorStrategy.java:51)
+	at org.jsfr.json.compiler.JsonPathParser.relativePath(JsonPathParser.java:303)
+	at org.jsfr.json.compiler.JsonPathParser.path(JsonPathParser.java:146)
+	at org.jsfr.json.compiler.JsonPathCompiler.compile(JsonPathCompiler.java:283)
+	at org.knime.json.node.filehandling.reader.JSONPathRead.initializeParser(JSONPathRead.java:104)
+	... 23 more
+Caused by: org.antlr.v4.runtime.NoViableAltException
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.noViableAlt(ParserATNSimulator.java:2014)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.execATN(ParserATNSimulator.java:445)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.adaptivePredict(ParserATNSimulator.java:371)
+	at org.jsfr.json.compiler.JsonPathParser.relativePath(JsonPathParser.java:220)
+	... 26 more
+2026-10-16 16:22:05,224 : ERROR : KNIME-Worker-41-JSON Reader 3:13 :  : Node : JSON Reader : 3:13 : Execute failed: Invalid JSON Path $.[*]
+java.io.IOException: Invalid JSON Path $.[*]
+	at org.knime.json.node.filehandling.reader.JSONPathRead.initializeParser(JSONPathRead.java:106)
+	at org.knime.json.node.filehandling.reader.JSONPathRead.<init>(JSONPathRead.java:89)
+	at org.knime.json.node.filehandling.reader.JSONReader.read(JSONReader.java:78)
+	at org.knime.json.node.filehandling.reader.JSONReader.read(JSONReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.json.node.filehandling.reader.JSONMultiTableReadFactory$JSONMultiTableRead.fillRowOutput(JSONMultiTableReadFactory.java:196)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+Caused by: org.antlr.v4.runtime.misc.ParseCancellationException
+	at org.antlr.v4.runtime.BailErrorStrategy.recover(BailErrorStrategy.java:51)
+	at org.jsfr.json.compiler.JsonPathParser.relativePath(JsonPathParser.java:303)
+	at org.jsfr.json.compiler.JsonPathParser.path(JsonPathParser.java:146)
+	at org.jsfr.json.compiler.JsonPathCompiler.compile(JsonPathCompiler.java:283)
+	at org.knime.json.node.filehandling.reader.JSONPathRead.initializeParser(JSONPathRead.java:104)
+	... 23 more
+Caused by: org.antlr.v4.runtime.NoViableAltException
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.noViableAlt(ParserATNSimulator.java:2014)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.execATN(ParserATNSimulator.java:445)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.adaptivePredict(ParserATNSimulator.java:371)
+	at org.jsfr.json.compiler.JsonPathParser.relativePath(JsonPathParser.java:220)
+	... 26 more
+2026-10-16 16:22:11,769 : ERROR : KNIME-Worker-42-JSON Reader 3:13 :  : Node : JSON Reader : 3:13 : Execute failed: Invalid JSON Path $.[*]
+java.io.IOException: Invalid JSON Path $.[*]
+	at org.knime.json.node.filehandling.reader.JSONPathRead.initializeParser(JSONPathRead.java:106)
+	at org.knime.json.node.filehandling.reader.JSONPathRead.<init>(JSONPathRead.java:89)
+	at org.knime.json.node.filehandling.reader.JSONReader.read(JSONReader.java:78)
+	at org.knime.json.node.filehandling.reader.JSONReader.read(JSONReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.json.node.filehandling.reader.JSONMultiTableReadFactory$JSONMultiTableRead.fillRowOutput(JSONMultiTableReadFactory.java:191)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+Caused by: org.antlr.v4.runtime.misc.ParseCancellationException
+	at org.antlr.v4.runtime.BailErrorStrategy.recover(BailErrorStrategy.java:51)
+	at org.jsfr.json.compiler.JsonPathParser.relativePath(JsonPathParser.java:303)
+	at org.jsfr.json.compiler.JsonPathParser.path(JsonPathParser.java:146)
+	at org.jsfr.json.compiler.JsonPathCompiler.compile(JsonPathCompiler.java:283)
+	at org.knime.json.node.filehandling.reader.JSONPathRead.initializeParser(JSONPathRead.java:104)
+	... 23 more
+Caused by: org.antlr.v4.runtime.NoViableAltException
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.noViableAlt(ParserATNSimulator.java:2014)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.execATN(ParserATNSimulator.java:445)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.adaptivePredict(ParserATNSimulator.java:371)
+	at org.jsfr.json.compiler.JsonPathParser.relativePath(JsonPathParser.java:220)
+	... 26 more
+2026-10-16 16:22:13,215 : ERROR : KNIME-Worker-43-JSON Reader 3:13 :  : Node : JSON Reader : 3:13 : Execute failed: Invalid JSON Path $.[*]
+java.io.IOException: Invalid JSON Path $.[*]
+	at org.knime.json.node.filehandling.reader.JSONPathRead.initializeParser(JSONPathRead.java:106)
+	at org.knime.json.node.filehandling.reader.JSONPathRead.<init>(JSONPathRead.java:89)
+	at org.knime.json.node.filehandling.reader.JSONReader.read(JSONReader.java:78)
+	at org.knime.json.node.filehandling.reader.JSONReader.read(JSONReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.json.node.filehandling.reader.JSONMultiTableReadFactory$JSONMultiTableRead.fillRowOutput(JSONMultiTableReadFactory.java:191)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+Caused by: org.antlr.v4.runtime.misc.ParseCancellationException
+	at org.antlr.v4.runtime.BailErrorStrategy.recover(BailErrorStrategy.java:51)
+	at org.jsfr.json.compiler.JsonPathParser.relativePath(JsonPathParser.java:303)
+	at org.jsfr.json.compiler.JsonPathParser.path(JsonPathParser.java:146)
+	at org.jsfr.json.compiler.JsonPathCompiler.compile(JsonPathCompiler.java:283)
+	at org.knime.json.node.filehandling.reader.JSONPathRead.initializeParser(JSONPathRead.java:104)
+	... 23 more
+Caused by: org.antlr.v4.runtime.NoViableAltException
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.noViableAlt(ParserATNSimulator.java:2014)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.execATN(ParserATNSimulator.java:445)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.adaptivePredict(ParserATNSimulator.java:371)
+	at org.jsfr.json.compiler.JsonPathParser.relativePath(JsonPathParser.java:220)
+	... 26 more
+2026-10-16 16:22:25,300 : INFO  : KNIME-Worker-44-JSON Reader 3:13 :  : LocalNodeExecutionJob : JSON Reader : 3:13 : JSON Reader 3:13 End execute (0 secs)
+2026-10-16 16:22:25,301 : WARN  : KNIME-Worker-44-JSON Reader 3:13 :  : Node : JSON Path : 3:14 : No JSON path was specified, please enter at least one expression!
+2026-10-16 16:22:29,718 : WARN  : AWT-EventQueue-0 :  : JSONPathNodeDialog$JSONPathPreviewUpdateWorker : JSON Path : 3:14 : Error while generating JSON preview
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Cannot iterate over table: buffer has been cleared.
+	at java.base/java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.get(Unknown Source)
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeDialog$JSONPathPreviewUpdateWorker.done(JSONPathNodeDialog.java:1024)
+	at java.desktop/javax.swing.SwingWorker$4.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(Unknown Source)
+	at java.desktop/sun.swing.AccumulativeRunnable.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.Timer.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.Timer$DoPostEvent.run(Unknown Source)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Cannot iterate over table: buffer has been cleared.
+	at org.knime.core.data.container.Buffer.iteratorWithFilter(Buffer.java:1634)
+	at org.knime.core.data.container.Buffer.iteratorWithFilter(Buffer.java:1624)
+	at org.knime.core.data.container.Buffer.iterator(Buffer.java:1613)
+	at org.knime.core.data.container.BufferedContainerTable.iterator(BufferedContainerTable.java:148)
+	at org.knime.core.node.BufferedDataTable.iterator(BufferedDataTable.java:370)
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeDialog$JSONPathPreviewUpdateWorker.doInBackground(JSONPathNodeDialog.java:978)
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeDialog$JSONPathPreviewUpdateWorker.doInBackground(JSONPathNodeDialog.java:1)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2026-10-16 16:22:29,719 : WARN  : AWT-EventQueue-0 :  : JSONPathNodeDialog$JSONPathPreviewUpdateWorker : JSON Path : 3:14 : Error while generating JSON preview
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Cannot iterate over table: buffer has been cleared.
+	at java.base/java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.get(Unknown Source)
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeDialog$JSONPathPreviewUpdateWorker.done(JSONPathNodeDialog.java:1024)
+	at java.desktop/javax.swing.SwingWorker$4.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(Unknown Source)
+	at java.desktop/sun.swing.AccumulativeRunnable.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.Timer.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.Timer$DoPostEvent.run(Unknown Source)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Cannot iterate over table: buffer has been cleared.
+	at org.knime.core.data.container.Buffer.iteratorWithFilter(Buffer.java:1634)
+	at org.knime.core.data.container.Buffer.iteratorWithFilter(Buffer.java:1624)
+	at org.knime.core.data.container.Buffer.iterator(Buffer.java:1613)
+	at org.knime.core.data.container.BufferedContainerTable.iterator(BufferedContainerTable.java:148)
+	at org.knime.core.node.BufferedDataTable.iterator(BufferedDataTable.java:370)
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeDialog$JSONPathPreviewUpdateWorker.doInBackground(JSONPathNodeDialog.java:978)
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeDialog$JSONPathPreviewUpdateWorker.doInBackground(JSONPathNodeDialog.java:1)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2026-10-16 16:22:40,576 : INFO  : KNIME-Worker-39-JSON Path 3:14 :  : LocalNodeExecutionJob : JSON Path : 3:14 : JSON Path 3:14 End execute (0 secs)
+2026-10-16 16:22:47,262 : ERROR : KNIME-Worker-41-JSON Path 3:14 :  : Node : JSON Path : 3:14 : Execute failed: Expected at most one result, but got: 500 [[CL00001, CL0028…L00283, CL00125]]
+   in row: Row0
+java.lang.IllegalStateException: Expected at most one result, but got: 500 [[CL00001, CL0028…L00283, CL00125]]
+   in row: Row0
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeModel$1.getCell(JSONPathNodeModel.java:308)
+	at org.knime.core.data.container.SingleCellFactory.getCell(SingleCellFactory.java:128)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:784)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:1)
+	at org.knime.core.util.MultiThreadWorker$ComputationTask$1.call(MultiThreadWorker.java:442)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 16:22:47,812 : ERROR : KNIME-Worker-43-JSON Path 3:14 :  : Node : JSON Path : 3:14 : Execute failed: Expected at most one result, but got: 500 [[C00001, C00002,… C00499, C00500]]
+   in row: Row0
+java.lang.IllegalStateException: Expected at most one result, but got: 500 [[C00001, C00002,… C00499, C00500]]
+   in row: Row0
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeModel$1.getCell(JSONPathNodeModel.java:308)
+	at org.knime.core.data.container.SingleCellFactory.getCell(SingleCellFactory.java:128)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:784)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:1)
+	at org.knime.core.util.MultiThreadWorker$ComputationTask$1.call(MultiThreadWorker.java:442)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 16:22:47,977 : ERROR : KNIME-Worker-40-JSON Path 3:14 :  : Node : JSON Path : 3:14 : Execute failed: Expected at most one result, but got: 500 [[CL00001, CL0028…L00283, CL00125]]
+   in row: Row0
+java.lang.IllegalStateException: Expected at most one result, but got: 500 [[CL00001, CL0028…L00283, CL00125]]
+   in row: Row0
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeModel$1.getCell(JSONPathNodeModel.java:308)
+	at org.knime.core.data.container.SingleCellFactory.getCell(SingleCellFactory.java:128)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:784)
+	at org.knime.core.data.container.RearrangeColumnsTable$ConcurrentNewColCalculator.compute(RearrangeColumnsTable.java:1)
+	at org.knime.core.util.MultiThreadWorker$ComputationTask$1.call(MultiThreadWorker.java:442)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 16:23:18,643 : ERROR : KNIME-Worker-42-JSON Reader 3:13 :  : Node : JSON Reader : 3:13 : Execute failed: Invalid JSON Path $.
+java.io.IOException: Invalid JSON Path $.
+	at org.knime.json.node.filehandling.reader.JSONPathRead.initializeParser(JSONPathRead.java:106)
+	at org.knime.json.node.filehandling.reader.JSONPathRead.<init>(JSONPathRead.java:89)
+	at org.knime.json.node.filehandling.reader.JSONReader.read(JSONReader.java:78)
+	at org.knime.json.node.filehandling.reader.JSONReader.read(JSONReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.json.node.filehandling.reader.JSONMultiTableReadFactory$JSONMultiTableRead.fillRowOutput(JSONMultiTableReadFactory.java:196)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+Caused by: org.antlr.v4.runtime.misc.ParseCancellationException
+	at org.antlr.v4.runtime.BailErrorStrategy.recover(BailErrorStrategy.java:51)
+	at org.jsfr.json.compiler.JsonPathParser.relativePath(JsonPathParser.java:303)
+	at org.jsfr.json.compiler.JsonPathParser.path(JsonPathParser.java:146)
+	at org.jsfr.json.compiler.JsonPathCompiler.compile(JsonPathCompiler.java:283)
+	at org.knime.json.node.filehandling.reader.JSONPathRead.initializeParser(JSONPathRead.java:104)
+	... 23 more
+Caused by: org.antlr.v4.runtime.NoViableAltException
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.noViableAlt(ParserATNSimulator.java:2014)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.execATN(ParserATNSimulator.java:445)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.adaptivePredict(ParserATNSimulator.java:371)
+	at org.jsfr.json.compiler.JsonPathParser.relativePath(JsonPathParser.java:220)
+	... 26 more
+2026-10-16 16:23:19,866 : ERROR : KNIME-Worker-41-JSON Reader 3:13 :  : Node : JSON Reader : 3:13 : Execute failed: Invalid JSON Path $.
+java.io.IOException: Invalid JSON Path $.
+	at org.knime.json.node.filehandling.reader.JSONPathRead.initializeParser(JSONPathRead.java:106)
+	at org.knime.json.node.filehandling.reader.JSONPathRead.<init>(JSONPathRead.java:89)
+	at org.knime.json.node.filehandling.reader.JSONReader.read(JSONReader.java:78)
+	at org.knime.json.node.filehandling.reader.JSONReader.read(JSONReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.json.node.filehandling.reader.JSONMultiTableReadFactory$JSONMultiTableRead.fillRowOutput(JSONMultiTableReadFactory.java:196)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+Caused by: org.antlr.v4.runtime.misc.ParseCancellationException
+	at org.antlr.v4.runtime.BailErrorStrategy.recover(BailErrorStrategy.java:51)
+	at org.jsfr.json.compiler.JsonPathParser.relativePath(JsonPathParser.java:303)
+	at org.jsfr.json.compiler.JsonPathParser.path(JsonPathParser.java:146)
+	at org.jsfr.json.compiler.JsonPathCompiler.compile(JsonPathCompiler.java:283)
+	at org.knime.json.node.filehandling.reader.JSONPathRead.initializeParser(JSONPathRead.java:104)
+	... 23 more
+Caused by: org.antlr.v4.runtime.NoViableAltException
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.noViableAlt(ParserATNSimulator.java:2014)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.execATN(ParserATNSimulator.java:445)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.adaptivePredict(ParserATNSimulator.java:371)
+	at org.jsfr.json.compiler.JsonPathParser.relativePath(JsonPathParser.java:220)
+	... 26 more
+2026-10-16 16:23:28,254 : ERROR : KNIME-Worker-44-JSON Reader 3:13 :  : Node : JSON Reader : 3:13 : Execute failed: Invalid JSON Path $[]
+java.io.IOException: Invalid JSON Path $[]
+	at org.knime.json.node.filehandling.reader.JSONPathRead.initializeParser(JSONPathRead.java:106)
+	at org.knime.json.node.filehandling.reader.JSONPathRead.<init>(JSONPathRead.java:89)
+	at org.knime.json.node.filehandling.reader.JSONReader.read(JSONReader.java:78)
+	at org.knime.json.node.filehandling.reader.JSONReader.read(JSONReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.json.node.filehandling.reader.JSONMultiTableReadFactory$JSONMultiTableRead.fillRowOutput(JSONMultiTableReadFactory.java:196)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+Caused by: org.antlr.v4.runtime.misc.ParseCancellationException
+	at org.antlr.v4.runtime.BailErrorStrategy.recover(BailErrorStrategy.java:51)
+	at org.jsfr.json.compiler.JsonPathParser.relativePath(JsonPathParser.java:303)
+	at org.jsfr.json.compiler.JsonPathParser.path(JsonPathParser.java:146)
+	at org.jsfr.json.compiler.JsonPathCompiler.compile(JsonPathCompiler.java:283)
+	at org.knime.json.node.filehandling.reader.JSONPathRead.initializeParser(JSONPathRead.java:104)
+	... 23 more
+Caused by: org.antlr.v4.runtime.NoViableAltException
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.noViableAlt(ParserATNSimulator.java:2014)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.execATN(ParserATNSimulator.java:445)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.adaptivePredict(ParserATNSimulator.java:371)
+	at org.jsfr.json.compiler.JsonPathParser.relativePath(JsonPathParser.java:220)
+	... 26 more
+2026-10-16 16:23:30,622 : INFO  : KNIME-Worker-43-JSON Reader 3:13 :  : LocalNodeExecutionJob : JSON Reader : 3:13 : JSON Reader 3:13 End execute (0 secs)
+2026-10-16 16:23:38,648 : WARN  : main :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.data_value/uiext-data_value/org.knime.core.data.json.JSONValue/CodeValueView.html; line: 0)
+2026-10-16 16:23:44,686 : WARN  : AWT-EventQueue-0 :  : JSONPathNodeDialog$JSONPathPreviewUpdateWorker : JSON Path : 3:14 : Error while generating JSON preview
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Cannot iterate over table: buffer has been cleared.
+	at java.base/java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.get(Unknown Source)
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeDialog$JSONPathPreviewUpdateWorker.done(JSONPathNodeDialog.java:1024)
+	at java.desktop/javax.swing.SwingWorker$4.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(Unknown Source)
+	at java.desktop/sun.swing.AccumulativeRunnable.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.Timer.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.Timer$DoPostEvent.run(Unknown Source)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Cannot iterate over table: buffer has been cleared.
+	at org.knime.core.data.container.Buffer.iteratorWithFilter(Buffer.java:1634)
+	at org.knime.core.data.container.Buffer.iteratorWithFilter(Buffer.java:1624)
+	at org.knime.core.data.container.Buffer.iterator(Buffer.java:1613)
+	at org.knime.core.data.container.BufferedContainerTable.iterator(BufferedContainerTable.java:148)
+	at org.knime.core.node.BufferedDataTable.iterator(BufferedDataTable.java:370)
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeDialog$JSONPathPreviewUpdateWorker.doInBackground(JSONPathNodeDialog.java:978)
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeDialog$JSONPathPreviewUpdateWorker.doInBackground(JSONPathNodeDialog.java:1)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2026-10-16 16:23:44,688 : WARN  : AWT-EventQueue-0 :  : JSONPathNodeDialog$JSONPathPreviewUpdateWorker : JSON Path : 3:14 : Error while generating JSON preview
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Cannot iterate over table: buffer has been cleared.
+	at java.base/java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.get(Unknown Source)
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeDialog$JSONPathPreviewUpdateWorker.done(JSONPathNodeDialog.java:1024)
+	at java.desktop/javax.swing.SwingWorker$4.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.run(Unknown Source)
+	at java.desktop/sun.swing.AccumulativeRunnable.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker$DoSubmitAccumulativeRunnable.actionPerformed(Unknown Source)
+	at java.desktop/javax.swing.Timer.fireActionPerformed(Unknown Source)
+	at java.desktop/javax.swing.Timer$DoPostEvent.run(Unknown Source)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Cannot iterate over table: buffer has been cleared.
+	at org.knime.core.data.container.Buffer.iteratorWithFilter(Buffer.java:1634)
+	at org.knime.core.data.container.Buffer.iteratorWithFilter(Buffer.java:1624)
+	at org.knime.core.data.container.Buffer.iterator(Buffer.java:1613)
+	at org.knime.core.data.container.BufferedContainerTable.iterator(BufferedContainerTable.java:148)
+	at org.knime.core.node.BufferedDataTable.iterator(BufferedDataTable.java:370)
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeDialog$JSONPathPreviewUpdateWorker.doInBackground(JSONPathNodeDialog.java:978)
+	at org.knime.json.node.jsonpath.multi.JSONPathNodeDialog$JSONPathPreviewUpdateWorker.doInBackground(JSONPathNodeDialog.java:1)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2026-10-16 16:25:09,113 : ERROR : KNIME-Worker-45-JSON Reader 3:13 :  : Node : JSON Reader : 3:13 : Execute failed: Invalid JSON Path $.[*]
+java.io.IOException: Invalid JSON Path $.[*]
+	at org.knime.json.node.filehandling.reader.JSONPathRead.initializeParser(JSONPathRead.java:106)
+	at org.knime.json.node.filehandling.reader.JSONPathRead.<init>(JSONPathRead.java:89)
+	at org.knime.json.node.filehandling.reader.JSONReader.read(JSONReader.java:78)
+	at org.knime.json.node.filehandling.reader.JSONReader.read(JSONReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.json.node.filehandling.reader.JSONMultiTableReadFactory$JSONMultiTableRead.fillRowOutput(JSONMultiTableReadFactory.java:196)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+Caused by: org.antlr.v4.runtime.misc.ParseCancellationException
+	at org.antlr.v4.runtime.BailErrorStrategy.recover(BailErrorStrategy.java:51)
+	at org.jsfr.json.compiler.JsonPathParser.relativePath(JsonPathParser.java:303)
+	at org.jsfr.json.compiler.JsonPathParser.path(JsonPathParser.java:146)
+	at org.jsfr.json.compiler.JsonPathCompiler.compile(JsonPathCompiler.java:283)
+	at org.knime.json.node.filehandling.reader.JSONPathRead.initializeParser(JSONPathRead.java:104)
+	... 23 more
+Caused by: org.antlr.v4.runtime.NoViableAltException
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.noViableAlt(ParserATNSimulator.java:2014)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.execATN(ParserATNSimulator.java:445)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.adaptivePredict(ParserATNSimulator.java:371)
+	at org.jsfr.json.compiler.JsonPathParser.relativePath(JsonPathParser.java:220)
+	... 26 more
+2026-10-16 16:25:10,593 : ERROR : KNIME-Worker-46-JSON Reader 3:13 :  : Node : JSON Reader : 3:13 : Execute failed: Invalid JSON Path $.[*]
+java.io.IOException: Invalid JSON Path $.[*]
+	at org.knime.json.node.filehandling.reader.JSONPathRead.initializeParser(JSONPathRead.java:106)
+	at org.knime.json.node.filehandling.reader.JSONPathRead.<init>(JSONPathRead.java:89)
+	at org.knime.json.node.filehandling.reader.JSONReader.read(JSONReader.java:78)
+	at org.knime.json.node.filehandling.reader.JSONReader.read(JSONReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.json.node.filehandling.reader.JSONMultiTableReadFactory$JSONMultiTableRead.fillRowOutput(JSONMultiTableReadFactory.java:196)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+Caused by: org.antlr.v4.runtime.misc.ParseCancellationException
+	at org.antlr.v4.runtime.BailErrorStrategy.recover(BailErrorStrategy.java:51)
+	at org.jsfr.json.compiler.JsonPathParser.relativePath(JsonPathParser.java:303)
+	at org.jsfr.json.compiler.JsonPathParser.path(JsonPathParser.java:146)
+	at org.jsfr.json.compiler.JsonPathCompiler.compile(JsonPathCompiler.java:283)
+	at org.knime.json.node.filehandling.reader.JSONPathRead.initializeParser(JSONPathRead.java:104)
+	... 23 more
+Caused by: org.antlr.v4.runtime.NoViableAltException
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.noViableAlt(ParserATNSimulator.java:2014)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.execATN(ParserATNSimulator.java:445)
+	at org.antlr.v4.runtime.atn.ParserATNSimulator.adaptivePredict(ParserATNSimulator.java:371)
+	at org.jsfr.json.compiler.JsonPathParser.relativePath(JsonPathParser.java:220)
+	... 26 more
+2026-10-16 16:26:22,553 : INFO  : KNIME-Worker-47-JSON Reader 3:13 :  : LocalNodeExecutionJob : JSON Reader : 3:13 : JSON Reader 3:13 End execute (0 secs)
+2026-10-16 16:26:32,960 : WARN  : comm-pool-thread-13 :  : Node : JSON Path : 3:14 : No JSON path was specified, please enter at least one expression!
+2026-10-16 16:27:47,261 : INFO  : KNIME-Worker-48-JSON Path 3:14 :  : LocalNodeExecutionJob : JSON Path : 3:14 : JSON Path 3:14 End execute (0 secs)
+2026-10-16 16:29:27,990 : INFO  : KNIME-Worker-64-JSON Path 3:14 :  : LocalNodeExecutionJob : JSON Path : 3:14 : JSON Path 3:14 End execute (0 secs)
+2026-10-16 16:31:11,302 : INFO  : KNIME-Worker-81-Column Filter 3:16 :  : LocalNodeExecutionJob : Column Filter : 3:16 : Column Filter 3:16 End execute (0 secs)
+2026-10-16 16:31:26,438 : INFO  : KNIME-Worker-82-Joiner 3:15 :  : LocalNodeExecutionJob : Joiner : 3:15 : Joiner 3:15 End execute (0 secs)
+2026-10-16 16:33:14,913 : INFO  : KNIME-Worker-86-XML Reader 3:17 :  : LocalNodeExecutionJob : XML Reader : 3:17 : XML Reader 3:17 End execute (0 secs)
+2026-10-16 16:33:15,915 : INFO  : KNIME-Worker-87-XPath 3:18 :  : LocalNodeExecutionJob : XPath : 3:18 : XPath 3:18 End execute (0 secs)
+2026-10-16 16:34:07,805 : INFO  : KNIME-Worker-89-XPath 3:18 :  : LocalNodeExecutionJob : XPath : 3:18 : XPath 3:18 End execute (0 secs)
+2026-10-16 16:34:53,196 : INFO  : KNIME-Worker-90-Column Filter 3:19 :  : LocalNodeExecutionJob : Column Filter : 3:19 : Column Filter 3:19 End execute (0 secs)
+2026-10-16 16:35:21,847 : INFO  : KNIME-Worker-91-Joiner 3:20 :  : Joiner3NodeModel : Joiner : 3:20 : The result table at port 0 contains no rows
+2026-10-16 16:35:21,847 : WARN  : KNIME-Worker-91-Joiner 3:20 :  : Node : Joiner : 3:20 : Node created an empty data table.
+2026-10-16 16:35:21,848 : INFO  : KNIME-Worker-91-Joiner 3:20 :  : LocalNodeExecutionJob : Joiner : 3:20 : Joiner 3:20 End execute (0 secs)
+2026-10-16 16:35:30,342 : INFO  : KNIME-Worker-92-Joiner 3:20 :  : LocalNodeExecutionJob : Joiner : 3:20 : Joiner 3:20 End execute (0 secs)
+2026-10-16 16:37:19,465 : INFO  : KNIME-Worker-95-JSON Reader 3:22 :  : LocalNodeExecutionJob : JSON Reader : 3:22 : JSON Reader 3:22 End execute (0 secs)
+2026-10-16 16:37:31,406 : INFO  : KNIME-Worker-96-JSON Reader 3:22 :  : LocalNodeExecutionJob : JSON Reader : 3:22 : JSON Reader 3:22 End execute (0 secs)
+2026-10-16 16:38:27,805 : INFO  : KNIME-Worker-97-JSON Path 3:21 :  : LocalNodeExecutionJob : JSON Path : 3:21 : JSON Path 3:21 End execute (0 secs)
+2026-10-16 16:38:56,628 : INFO  : KNIME-Worker-103-Column Filter 3:23 :  : LocalNodeExecutionJob : Column Filter : 3:23 : Column Filter 3:23 End execute (0 secs)
+2026-10-16 16:39:40,931 : INFO  : KNIME-Worker-108-Joiner 3:24 :  : LocalNodeExecutionJob : Joiner : 3:24 : Joiner 3:24 End execute (0 secs)
+2026-10-16 17:03:38,236 : INFO  : KNIME-Worker-111-Java Snippet 3:25 :  : LocalNodeExecutionJob : Java Snippet : 3:25 : Java Snippet 3:25 End execute (0 secs)
+2026-10-16 17:10:51,015 : INFO  : KNIME-Worker-112-Java Snippet 3:25 :  : LocalNodeExecutionJob : Java Snippet : 3:25 : Java Snippet 3:25 End execute (0 secs)
+2026-10-16 17:11:34,721 : INFO  : KNIME-Worker-113-Java Snippet 3:25 :  : LocalNodeExecutionJob : Java Snippet : 3:25 : Java Snippet 3:25 End execute (0 secs)
+2026-10-16 17:17:40,722 : INFO  : KNIME-Worker-115-Date&Time to String 3:26 :  : LocalNodeExecutionJob : Date&Time to String : 3:26 : Date&Time to String 3:26 End execute (0 secs)
+2026-10-16 17:21:10,450 : INFO  : KNIME-Worker-118-Date&Time to String 3:26 :  : LocalNodeExecutionJob : Date&Time to String : 3:26 : Date&Time to String 3:26 End execute (0 secs)
+2026-10-16 17:21:26,683 : INFO  : KNIME-Worker-119-Joiner 3:24 :  : LocalNodeExecutionJob : Joiner : 3:24 : Joiner 3:24 End execute (0 secs)
+2026-10-16 17:21:53,479 : INFO  : KNIME-Worker-120-Java Snippet 3:25 :  : LocalNodeExecutionJob : Java Snippet : 3:25 : Java Snippet 3:25 End execute (0 secs)
+2026-10-16 17:27:06,956 : WARN  : comm-pool-thread-26 :  : Node : GroupBy : 3:27 : No grouping column included. Aggregate complete table.
+2026-10-16 17:27:06,962 : WARN  : comm-pool-thread-26 :  : Node : GroupBy : 3:27 : No aggregation column defined
+2026-10-16 17:27:06,963 : WARN  : comm-pool-thread-26 :  : Node : GroupBy : 3:27 : Please select at least one group or aggregation column
+2026-10-16 17:31:11,762 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object PromiseRejectionEvent] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-16 17:31:11,763 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) #<Object> (source: https://org.knime.ui.java/editor/index.html#/workflow/02_transformacao_b000afd9-ffc2-4115-8b33-41f8941cb225/root?version; line: 1)
+2026-10-16 17:31:20,831 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-16 17:31:20,831 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-16 17:31:20,831 : INFO  : main :  : NodeLogger :  :  : # Welcome to KNIME Analytics Platform v5.12.0.v202606180846 (Build June 15, 2026)       #
+2026-10-16 17:31:20,832 : INFO  : main :  : NodeLogger :  :  : # Based on Eclipse, http://www.eclipse.org                                              #
+2026-10-16 17:31:20,832 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-16 17:31:20,832 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-16 17:31:20,832 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-16 17:31:20,832 : INFO  : main :  : NodeLogger :  :  : # Copyright by KNIME AG, Zurich, Switzerland and others.                                #
+2026-10-16 17:31:20,832 : INFO  : main :  : NodeLogger :  :  : # Website: http://www.knime.com                                                         #
+2026-10-16 17:31:20,832 : INFO  : main :  : NodeLogger :  :  : # E-mail: contact@knime.com                                                             #
+2026-10-16 17:31:20,832 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-16 17:31:20,832 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-16 17:31:20,832 : INFO  : main :  : NodeLogger :  :  : # For more details see the KNIME log file:                                              #
+2026-10-16 17:31:20,832 : INFO  : main :  : NodeLogger :  :  : # /Users/user/Documents/github_repos/tp-deteccao-fraude/workflows/.metadata/knime/knime.log
+2026-10-16 17:31:20,832 : INFO  : main :  : NodeLogger :  :  : #---------------------------------------------------------------------------------------#
+2026-10-16 17:31:20,843 : INFO  : main :  : NodeLogger :  :  : # logging date=sexta out. 16 17:31:20 WEST 2026
+2026-10-16 17:31:20,843 : INFO  : main :  : NodeLogger :  :  : # java.version=21.0.9
+2026-10-16 17:31:20,844 : INFO  : main :  : NodeLogger :  :  : # java.vm.version=21.0.9+10-LTS
+2026-10-16 17:31:20,844 : INFO  : main :  : NodeLogger :  :  : # java.vendor=Eclipse Adoptium
+2026-10-16 17:31:20,844 : INFO  : main :  : NodeLogger :  :  : # os.name=Mac OS X
+2026-10-16 17:31:20,844 : INFO  : main :  : NodeLogger :  :  : # os.arch=aarch64
+2026-10-16 17:31:20,844 : INFO  : main :  : NodeLogger :  :  : # number of CPUs=8
+2026-10-16 17:31:20,844 : INFO  : main :  : NodeLogger :  :  : # assertions=off
+2026-10-16 17:31:20,891 : INFO  : main :  : NodeLogger :  :  : # host=yaszhasd
+2026-10-16 17:31:20,894 : INFO  : main :  : NodeLogger :  :  : # username=user
+2026-10-16 17:31:20,894 : INFO  : main :  : NodeLogger :  :  : # max mem=2048MB
+2026-10-16 17:31:20,895 : INFO  : main :  : NodeLogger :  :  : # application=org.knime.product.KNIME_APPLICATION
+2026-10-16 17:31:20,900 : INFO  : main :  : NodeLogger :  :  : # KNID=11-43d603993fc620af-01-926bb5a2bde4ed1a
+2026-10-16 17:31:20,900 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-16 17:31:17,789 : INFO  : main :  : RegisterBouncyCastleProvider :  :  : Added BouncyCastleProvider to Java Security providers
+2026-10-16 17:31:22,197 : INFO  : main :  : StringHistory :  :  : History file '/Users/user/Documents/github_repos/tp-deteccao-fraude/workflows/.metadata/knime/history_database_drivers.txt' does not exist.
+2026-10-16 17:31:22,197 : INFO  : main :  : StringHistory :  :  : History file '/Users/user/Documents/github_repos/tp-deteccao-fraude/workflows/.metadata/knime/history_database_urls.txt' does not exist.
+2026-10-16 17:31:23,388 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file '/Users/user/Documents/github_repos/tp-deteccao-fraude/workflows/.metadata/knime/history_string2date-formats.txt' does not exist.
+2026-10-16 17:31:23,411 : INFO  : Node Repository Initializer :  : MovingAggregationNodeFactory :  :  : Modern dialog for Moving Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-16 17:31:23,856 : INFO  : main :  : ProcessWatchdog :  :  : KNIME Process Watchdog memory limit not configured
+2026-10-16 17:31:23,856 : INFO  : main :  : ProcessWatchdog :  :  : External process memory watchdog is disabled, because the memory limit is set to -1
+2026-10-16 17:31:24,573 : INFO  : main :  : StringHistory :  :  : History file '/Users/user/Documents/github_repos/tp-deteccao-fraude/workflows/.metadata/knime/history_org.knime.kerberos.name.txt' does not exist.
+2026-10-16 17:31:24,976 : INFO  : main :  : KnimeBrowserView :  :  : %cinfo%c Injecting global logger 
+      background: #00BCD4;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-16 17:31:25,438 : INFO  : Node Repository Initializer :  : Pivot2NodeFactory :  :  : Modern dialog for Pivot node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-16 17:31:25,457 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file '/Users/user/Documents/github_repos/tp-deteccao-fraude/workflows/.metadata/knime/history_createFileNameHistoryKey.txt' does not exist.
+2026-10-16 17:31:26,001 : INFO  : Node Repository Initializer :  : ColumnAggregatorNodeFactory :  :  : Modern dialog for Column Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-16 17:31:26,080 : INFO  : Node Repository Initializer :  : GroupByNodeFactory :  :  : Modern dialog for GroupBy node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-16 17:31:26,975 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-16 17:31:27,011 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-16 17:31:27,024 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-16 17:31:27,033 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-16 17:31:27,039 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-16 17:31:27,040 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-16 17:31:27,073 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-16 17:31:27,081 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-16 17:31:27,081 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-16 17:31:27,703 : WARN  : ModalContext :  : Node : PostgreSQL Connector : 3:1 : DB Connection no longer available. Go to advanced settings to enable connection restoration.
+2026-10-16 17:39:09,318 : WARN  : ModalContext :  : Node : PostgreSQL Connector : 4:1 : DB Connection no longer available. Go to advanced settings to enable connection restoration.
+2026-10-16 17:39:18,907 : WARN  : comm-pool-thread-4 :  : Node : CSV Reader : 3:28 : Please specify a file
+2026-10-16 17:39:49,155 : INFO  : KNIME-Worker-1-CSV Reader 3:28 :  : LocalNodeExecutionJob : CSV Reader : 3:28 : CSV Reader 3:28 End execute (0 secs)
+2026-10-16 17:39:49,169 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-16 17:41:47,751 : INFO  : KNIME-Worker-1-Joiner 3:27 :  : LocalNodeExecutionJob : Joiner : 3:27 : Joiner 3:27 End execute (0 secs)
+2026-10-16 17:44:53,298 : WARN  : comm-pool-thread-7 :  : Node : GroupBy : 3:29 : No grouping column included. Aggregate complete table.
+2026-10-16 17:44:53,299 : WARN  : comm-pool-thread-7 :  : Node : GroupBy : 3:29 : No aggregation column defined
+2026-10-16 17:44:53,345 : WARN  : comm-pool-thread-7 :  : Node : GroupBy : 3:29 : Please select at least one group or aggregation column
+2026-10-16 17:46:27,428 : WARN  : main :  : Node : GroupBy : 3:29 : No aggregation column defined
+2026-10-16 17:47:43,366 : INFO  : KNIME-Worker-3-GroupBy 3:29 :  : LocalNodeExecutionJob : GroupBy : 3:29 : GroupBy 3:29 End execute (0 secs)
+2026-10-16 17:48:09,041 : INFO  : KNIME-Worker-3-GroupBy 3:29 :  : LocalNodeExecutionJob : GroupBy : 3:29 : GroupBy 3:29 End execute (0 secs)
+2026-10-16 17:49:13,561 : INFO  : KNIME-Worker-6-Sorter 3:30 :  : LocalNodeExecutionJob : Sorter : 3:30 : Sorter 3:30 End execute (0 secs)
+2026-10-16 17:50:26,113 : WARN  : comm-pool-thread-10 :  : Node : Moving Aggregator : 3:31 : No aggregation column was defined. No aggregation will be done.
+2026-10-16 17:50:27,855 : WARN  : main :  : KnimeBrowserView :  :  : %cwarn%c Tried to mark event as handled for "floating-connector::onEscape" but was already marked by "floating-connector::onEscape" 
+      background: #f39c12;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-16 17:58:54,141 : WARN  : comm-pool-thread-14 :  : Node : DB Table Selector : 3:2 : Database connection does not exist. Please reset the corresponding connector node.
+2026-10-16 17:58:56,926 : INFO  : KNIME-Worker-7-CSV Reader 3:28 :  : LocalNodeExecutionJob : CSV Reader : 3:28 : CSV Reader 3:28 End execute (0 secs)
+2026-10-16 17:58:56,971 : INFO  : KNIME-Worker-8-XML Reader 3:17 :  : LocalNodeExecutionJob : XML Reader : 3:17 : XML Reader 3:17 End execute (0 secs)
+2026-10-16 17:58:56,981 : INFO  : KNIME-Worker-7-XPath 3:18 :  : LocalNodeExecutionJob : XPath : 3:18 : XPath 3:18 End execute (0 secs)
+2026-10-16 17:58:56,982 : INFO  : KNIME-Worker-8-Column Filter 3:19 :  : LocalNodeExecutionJob : Column Filter : 3:19 : Column Filter 3:19 End execute (0 secs)
+2026-10-16 17:58:56,988 : INFO  : KNIME-Worker-11-JSON Reader 3:22 :  : LocalNodeExecutionJob : JSON Reader : 3:22 : JSON Reader 3:22 End execute (0 secs)
+2026-10-16 17:58:57,002 : INFO  : KNIME-Worker-10-JSON Reader 3:13 :  : LocalNodeExecutionJob : JSON Reader : 3:13 : JSON Reader 3:13 End execute (0 secs)
+2026-10-16 17:58:57,034 : INFO  : KNIME-Worker-7-JSON Path 3:21 :  : LocalNodeExecutionJob : JSON Path : 3:21 : JSON Path 3:21 End execute (0 secs)
+2026-10-16 17:58:57,038 : INFO  : KNIME-Worker-19-Column Filter 3:23 :  : LocalNodeExecutionJob : Column Filter : 3:23 : Column Filter 3:23 End execute (0 secs)
+2026-10-16 17:58:57,070 : INFO  : KNIME-Worker-22-JSON Path 3:14 :  : LocalNodeExecutionJob : JSON Path : 3:14 : JSON Path 3:14 End execute (0 secs)
+2026-10-16 17:58:57,071 : INFO  : KNIME-Worker-8-Column Filter 3:16 :  : LocalNodeExecutionJob : Column Filter : 3:16 : Column Filter 3:16 End execute (0 secs)
+2026-10-16 17:58:57,094 : INFO  : KNIME-Worker-9-PostgreSQL Connector 3:1 :  : LocalNodeExecutionJob : PostgreSQL Connector : 3:1 : PostgreSQL Connector 3:1 End execute (0 secs)
+2026-10-16 17:58:57,128 : INFO  : KNIME-Worker-13-DB Table Selector 3:2 :  : LocalNodeExecutionJob : DB Table Selector : 3:2 : DB Table Selector 3:2 End execute (0 secs)
+2026-10-16 17:58:58,073 : INFO  : KNIME-Worker-11-DB Reader 3:3 :  : LocalNodeExecutionJob : DB Reader : 3:3 : DB Reader 3:3 End execute (0 secs)
+2026-10-16 17:58:58,125 : INFO  : KNIME-Worker-20-Number Rounder 3:4 :  : LocalNodeExecutionJob : Number Rounder : 3:4 : Number Rounder 3:4 End execute (0 secs)
+2026-10-16 17:58:58,187 : INFO  : KNIME-Worker-15-Row Filter 3:5 :  : LocalNodeExecutionJob : Row Filter : 3:5 : Row Filter 3:5 End execute (0 secs)
+2026-10-16 17:58:58,196 : INFO  : KNIME-Worker-24-Row Filter 3:12 :  : LocalNodeExecutionJob : Row Filter : 3:12 : Row Filter 3:12 End execute (0 secs)
+2026-10-16 17:58:58,338 : INFO  : KNIME-Worker-7-String Manipulation 3:10 :  : LocalNodeExecutionJob : String Manipulation : 3:10 : String Manipulation 3:10 End execute (0 secs)
+2026-10-16 17:58:58,409 : INFO  : KNIME-Worker-14-Java Snippet 3:11 :  : LocalNodeExecutionJob : Java Snippet : 3:11 : Java Snippet 3:11 End execute (0 secs)
+2026-10-16 17:58:58,446 : INFO  : KNIME-Worker-12-String Manipulation 3:9 :  : LocalNodeExecutionJob : String Manipulation : 3:9 : String Manipulation 3:9 End execute (0 secs)
+2026-10-16 17:58:58,465 : INFO  : KNIME-Worker-18-Joiner 3:15 :  : LocalNodeExecutionJob : Joiner : 3:15 : Joiner 3:15 End execute (0 secs)
+2026-10-16 17:58:58,477 : INFO  : KNIME-Worker-10-Joiner 3:20 :  : LocalNodeExecutionJob : Joiner : 3:20 : Joiner 3:20 End execute (0 secs)
+2026-10-16 17:58:58,483 : INFO  : KNIME-Worker-16-Date&Time to String 3:26 :  : LocalNodeExecutionJob : Date&Time to String : 3:26 : Date&Time to String 3:26 End execute (0 secs)
+2026-10-16 17:58:58,493 : INFO  : KNIME-Worker-23-Joiner 3:24 :  : LocalNodeExecutionJob : Joiner : 3:24 : Joiner 3:24 End execute (0 secs)
+2026-10-16 17:58:58,502 : INFO  : KNIME-Worker-17-Java Snippet 3:25 :  : LocalNodeExecutionJob : Java Snippet : 3:25 : Java Snippet 3:25 End execute (0 secs)
+2026-10-16 17:58:58,509 : INFO  : KNIME-Worker-21-Joiner 3:27 :  : LocalNodeExecutionJob : Joiner : 3:27 : Joiner 3:27 End execute (0 secs)
+2026-10-16 17:58:58,518 : INFO  : KNIME-Worker-19-GroupBy 3:29 :  : LocalNodeExecutionJob : GroupBy : 3:29 : GroupBy 3:29 End execute (0 secs)
+2026-10-16 17:58:58,519 : INFO  : KNIME-Worker-22-Sorter 3:30 :  : LocalNodeExecutionJob : Sorter : 3:30 : Sorter 3:30 End execute (0 secs)
+2026-10-16 17:58:58,528 : INFO  : KNIME-Worker-8-Moving Aggregator 3:31 :  : LocalNodeExecutionJob : Moving Aggregator : 3:31 : Moving Aggregator 3:31 End execute (0 secs)
+2026-10-16 18:02:01,276 : INFO  : KNIME-Worker-25-Joiner 3:30 :  : LocalNodeExecutionJob : Joiner : 3:30 : Joiner 3:30 End execute (0 secs)
+2026-10-16 18:03:40,625 : WARN  : comm-pool-thread-15 :  : Node : Math Formula : 3:31 : No configuration available
+2026-10-16 18:04:27,215 : INFO  : KNIME-Worker-26-Math Formula 3:31 :  : LocalNodeExecutionJob : Math Formula : 3:31 : Math Formula 3:31 End execute (0 secs)
+2026-10-16 18:09:19,911 : INFO  : comm-pool-thread-17 :  : ExtractDateTimeFieldsNodeModel2 : Date&Time Part Extractor : 3:32 : No fields will be extracted. Output table will equal input table.
+2026-10-16 18:09:36,057 : INFO  : KNIME-Worker-30-Date&Time Part Extractor 3:32 :  : LocalNodeExecutionJob : Date&Time Part Extractor : 3:32 : Date&Time Part Extractor 3:32 End execute (0 secs)
+2026-10-16 18:09:45,851 : INFO  : KNIME-Worker-41-Date&Time Part Extractor 3:32 :  : LocalNodeExecutionJob : Date&Time Part Extractor : 3:32 : Date&Time Part Extractor 3:32 End execute (0 secs)
+2026-10-16 18:10:23,072 : WARN  : main :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.base.expressions.node.row.mapper.ExpressionRowMapperNodeFactory/row-mapper.html; line: 0)
+2026-10-16 18:10:24,214 : WARN  : comm-pool-thread-19 :  : Node : Expression : 3:33 : The expression node has not yet been configured. Enter an expression.
+2026-10-16 18:10:24,294 : WARN  : main :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.base.expressions.node.row.mapper.ExpressionRowMapperNodeFactory/row-mapper.html; line: 0)
+2026-10-16 18:10:38,808 : INFO  : KNIME-Worker-42-Expression 3:33 :  : ColumnarPreferenceUtils : Expression : 3:33 : Column Data Cache size is 1637 MB.
+2026-10-16 18:10:38,816 : INFO  : KNIME-Worker-42-Expression 3:33 :  : ColumnarPreferenceUtils : Expression : 3:33 : Small Table Cache size is 32 MB
+2026-10-16 18:10:38,975 : INFO  : KNIME-Worker-42-Expression 3:33 :  : LocalNodeExecutionJob : Expression : 3:33 : Expression 3:33 End execute (1 sec)
+2026-10-16 18:11:53,732 : WARN  : main :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.base.expressions.node.row.mapper.ExpressionRowMapperNodeFactory/row-mapper.html; line: 0)
+2026-10-16 18:12:02,579 : WARN  : main :  : KnimeBrowserView :  :  : An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. (source: https://org.knime.core.ui.dialog/uiext-dialog/org.knime.base.expressions.node.row.mapper.ExpressionRowMapperNodeFactory/row-mapper.html; line: 0)
+2026-10-16 18:12:51,447 : INFO  : KNIME-Worker-45-Rule-based Row Splitter 3:34 :  : RuleEngineFilterNodeModel : Rule-based Row Splitter : 3:34 : The result table at port 0 contains no rows
+2026-10-16 18:12:51,448 : INFO  : KNIME-Worker-45-Rule-based Row Splitter 3:34 :  : LocalNodeExecutionJob : Rule-based Row Splitter : 3:34 : Rule-based Row Splitter 3:34 End execute (0 secs)
+2026-10-16 18:13:09,596 : INFO  : KNIME-Worker-46-Rule-based Row Splitter 3:34 :  : RuleEngineFilterNodeModel : Rule-based Row Splitter : 3:34 : The result table at port 1 contains no rows
+2026-10-16 18:13:09,597 : INFO  : KNIME-Worker-46-Rule-based Row Splitter 3:34 :  : LocalNodeExecutionJob : Rule-based Row Splitter : 3:34 : Rule-based Row Splitter 3:34 End execute (0 secs)
+2026-10-16 18:13:35,849 : INFO  : KNIME-Worker-49-Sorter 3:35 :  : SorterNodeModel : Sorter : 3:35 : The result table at port 0 contains no rows
+2026-10-16 18:13:35,849 : WARN  : KNIME-Worker-49-Sorter 3:35 :  : Node : Sorter : 3:35 : Node created an empty data table.
+2026-10-16 18:13:35,849 : INFO  : KNIME-Worker-49-Sorter 3:35 :  : LocalNodeExecutionJob : Sorter : 3:35 : Sorter 3:35 End execute (0 secs)
+2026-10-16 18:13:46,976 : INFO  : KNIME-Worker-53-Sorter 3:35 :  : SorterNodeModel : Sorter : 3:35 : The result table at port 0 contains no rows
+2026-10-16 18:13:46,976 : WARN  : KNIME-Worker-53-Sorter 3:35 :  : Node : Sorter : 3:35 : Node created an empty data table.
+2026-10-16 18:13:46,976 : INFO  : KNIME-Worker-53-Sorter 3:35 :  : LocalNodeExecutionJob : Sorter : 3:35 : Sorter 3:35 End execute (0 secs)
+2026-10-16 18:13:46,992 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-16 18:13:59,882 : INFO  : KNIME-Worker-55-Rule-based Row Splitter 3:34 :  : RuleEngineFilterNodeModel : Rule-based Row Splitter : 3:34 : The result table at port 0 contains no rows
+2026-10-16 18:13:59,882 : INFO  : KNIME-Worker-55-Rule-based Row Splitter 3:34 :  : LocalNodeExecutionJob : Rule-based Row Splitter : 3:34 : Rule-based Row Splitter 3:34 End execute (0 secs)
+2026-10-16 18:13:59,897 : INFO  : KNIME-Worker-56-Sorter 3:35 :  : LocalNodeExecutionJob : Sorter : 3:35 : Sorter 3:35 End execute (0 secs)
+2026-10-16 18:15:03,113 : INFO  : KNIME-Worker-59-Rule-based Row Splitter 3:34 :  : RuleEngineFilterNodeModel : Rule-based Row Splitter : 3:34 : The result table at port 1 contains no rows
+2026-10-16 18:15:03,113 : INFO  : KNIME-Worker-59-Rule-based Row Splitter 3:34 :  : LocalNodeExecutionJob : Rule-based Row Splitter : 3:34 : Rule-based Row Splitter 3:34 End execute (0 secs)
+2026-10-16 18:15:05,848 : INFO  : KNIME-Worker-61-Sorter 3:35 :  : SorterNodeModel : Sorter : 3:35 : The result table at port 0 contains no rows
+2026-10-16 18:15:05,848 : WARN  : KNIME-Worker-61-Sorter 3:35 :  : Node : Sorter : 3:35 : Node created an empty data table.
+2026-10-16 18:15:05,848 : INFO  : KNIME-Worker-61-Sorter 3:35 :  : LocalNodeExecutionJob : Sorter : 3:35 : Sorter 3:35 End execute (0 secs)
+2026-10-16 18:16:16,971 : INFO  : KNIME-Worker-62-PostgreSQL Connector 4:1 :  : LocalNodeExecutionJob : PostgreSQL Connector : 4:1 : PostgreSQL Connector 4:1 End execute (0 secs)
+2026-10-16 18:16:16,991 : INFO  : KNIME-Worker-63-DB Table Selector 4:2 :  : LocalNodeExecutionJob : DB Table Selector : 4:2 : DB Table Selector 4:2 End execute (0 secs)
+2026-10-16 18:16:17,548 : INFO  : KNIME-Worker-64-DB Reader 4:9 :  : LocalNodeExecutionJob : DB Reader : 4:9 : DB Reader 4:9 End execute (0 secs)
+2026-10-16 18:16:17,607 : INFO  : KNIME-Worker-65-String to Date&Time 4:22 :  : LocalNodeExecutionJob : String to Date&Time : 4:22 : String to Date&Time 4:22 End execute (0 secs)
+2026-10-16 18:16:17,636 : INFO  : KNIME-Worker-66-String Manipulation 4:24 :  : LocalNodeExecutionJob : String Manipulation : 4:24 : String Manipulation 4:24 End execute (0 secs)
+2026-10-16 18:16:17,640 : INFO  : KNIME-Worker-67-Concatenate 4:20 :  : LocalNodeExecutionJob : Concatenate : 4:20 : Concatenate 4:20 End execute (0 secs)
+2026-10-16 18:16:17,923 : INFO  : KNIME-Worker-68-Duplicate Row Filter 4:15 :  : LocalNodeExecutionJob : Duplicate Row Filter : 4:15 : Duplicate Row Filter 4:15 End execute (0 secs)
+2026-10-16 18:16:18,363 : INFO  : KNIME-Worker-69-DB Writer 4:16 :  : LocalNodeExecutionJob : DB Writer : 4:16 : DB Writer 4:16 End execute (0 secs)
+2026-10-16 18:16:21,867 : INFO  : KNIME-Worker-72-PostgreSQL Connector 3:1 :  : LocalNodeExecutionJob : PostgreSQL Connector : 3:1 : PostgreSQL Connector 3:1 End execute (0 secs)
+2026-10-16 18:16:21,892 : INFO  : KNIME-Worker-75-DB Table Selector 3:2 :  : LocalNodeExecutionJob : DB Table Selector : 3:2 : DB Table Selector 3:2 End execute (0 secs)
+2026-10-16 18:16:21,894 : INFO  : KNIME-Worker-74-JSON Reader 3:22 :  : LocalNodeExecutionJob : JSON Reader : 3:22 : JSON Reader 3:22 End execute (0 secs)
+2026-10-16 18:16:21,898 : INFO  : KNIME-Worker-71-XML Reader 3:17 :  : LocalNodeExecutionJob : XML Reader : 3:17 : XML Reader 3:17 End execute (0 secs)
+2026-10-16 18:16:21,910 : INFO  : KNIME-Worker-60-XPath 3:18 :  : LocalNodeExecutionJob : XPath : 3:18 : XPath 3:18 End execute (0 secs)
+2026-10-16 18:16:21,915 : INFO  : KNIME-Worker-75-Column Filter 3:19 :  : LocalNodeExecutionJob : Column Filter : 3:19 : Column Filter 3:19 End execute (0 secs)
+2026-10-16 18:16:21,919 : INFO  : KNIME-Worker-73-JSON Reader 3:13 :  : LocalNodeExecutionJob : JSON Reader : 3:13 : JSON Reader 3:13 End execute (0 secs)
+2026-10-16 18:16:21,920 : INFO  : KNIME-Worker-59-JSON Path 3:21 :  : LocalNodeExecutionJob : JSON Path : 3:21 : JSON Path 3:21 End execute (0 secs)
+2026-10-16 18:16:21,953 : INFO  : KNIME-Worker-70-CSV Reader 3:28 :  : LocalNodeExecutionJob : CSV Reader : 3:28 : CSV Reader 3:28 End execute (0 secs)
+2026-10-16 18:16:22,030 : INFO  : KNIME-Worker-74-Column Filter 3:23 :  : LocalNodeExecutionJob : Column Filter : 3:23 : Column Filter 3:23 End execute (0 secs)
+2026-10-16 18:16:22,122 : INFO  : KNIME-Worker-76-DB Reader 3:3 :  : LocalNodeExecutionJob : DB Reader : 3:3 : DB Reader 3:3 End execute (0 secs)
+2026-10-16 18:16:22,123 : INFO  : KNIME-Worker-67-JSON Path 3:14 :  : LocalNodeExecutionJob : JSON Path : 3:14 : JSON Path 3:14 End execute (0 secs)
+2026-10-16 18:16:22,249 : INFO  : KNIME-Worker-59-Column Filter 3:16 :  : LocalNodeExecutionJob : Column Filter : 3:16 : Column Filter 3:16 End execute (0 secs)
+2026-10-16 18:16:22,290 : INFO  : KNIME-Worker-65-Number Rounder 3:4 :  : LocalNodeExecutionJob : Number Rounder : 3:4 : Number Rounder 3:4 End execute (0 secs)
+2026-10-16 18:16:22,328 : INFO  : KNIME-Worker-64-Row Filter 3:5 :  : LocalNodeExecutionJob : Row Filter : 3:5 : Row Filter 3:5 End execute (0 secs)
+2026-10-16 18:16:22,338 : INFO  : KNIME-Worker-61-Row Filter 3:12 :  : LocalNodeExecutionJob : Row Filter : 3:12 : Row Filter 3:12 End execute (0 secs)
+2026-10-16 18:16:22,413 : INFO  : KNIME-Worker-74-String Manipulation 3:10 :  : LocalNodeExecutionJob : String Manipulation : 3:10 : String Manipulation 3:10 End execute (0 secs)
+2026-10-16 18:16:22,476 : INFO  : KNIME-Worker-71-Java Snippet 3:11 :  : LocalNodeExecutionJob : Java Snippet : 3:11 : Java Snippet 3:11 End execute (0 secs)
+2026-10-16 18:16:22,494 : INFO  : KNIME-Worker-63-String Manipulation 3:9 :  : LocalNodeExecutionJob : String Manipulation : 3:9 : String Manipulation 3:9 End execute (0 secs)
+2026-10-16 18:16:22,512 : INFO  : KNIME-Worker-70-Joiner 3:15 :  : LocalNodeExecutionJob : Joiner : 3:15 : Joiner 3:15 End execute (0 secs)
+2026-10-16 18:16:22,520 : INFO  : KNIME-Worker-66-Joiner 3:20 :  : LocalNodeExecutionJob : Joiner : 3:20 : Joiner 3:20 End execute (0 secs)
+2026-10-16 18:16:22,523 : INFO  : KNIME-Worker-75-Date&Time to String 3:26 :  : LocalNodeExecutionJob : Date&Time to String : 3:26 : Date&Time to String 3:26 End execute (0 secs)
+2026-10-16 18:16:22,533 : INFO  : KNIME-Worker-72-Joiner 3:24 :  : LocalNodeExecutionJob : Joiner : 3:24 : Joiner 3:24 End execute (0 secs)
+2026-10-16 18:16:22,543 : INFO  : KNIME-Worker-62-Java Snippet 3:25 :  : LocalNodeExecutionJob : Java Snippet : 3:25 : Java Snippet 3:25 End execute (0 secs)
+2026-10-16 18:16:22,549 : INFO  : KNIME-Worker-69-Joiner 3:27 :  : LocalNodeExecutionJob : Joiner : 3:27 : Joiner 3:27 End execute (0 secs)
+2026-10-16 18:16:22,557 : INFO  : KNIME-Worker-68-GroupBy 3:29 :  : LocalNodeExecutionJob : GroupBy : 3:29 : GroupBy 3:29 End execute (0 secs)
+2026-10-16 18:16:22,566 : INFO  : KNIME-Worker-60-Joiner 3:30 :  : LocalNodeExecutionJob : Joiner : 3:30 : Joiner 3:30 End execute (0 secs)
+2026-10-16 18:16:22,573 : INFO  : KNIME-Worker-73-Math Formula 3:31 :  : LocalNodeExecutionJob : Math Formula : 3:31 : Math Formula 3:31 End execute (0 secs)
+2026-10-16 18:16:22,587 : INFO  : KNIME-Worker-76-Date&Time Part Extractor 3:32 :  : LocalNodeExecutionJob : Date&Time Part Extractor : 3:32 : Date&Time Part Extractor 3:32 End execute (0 secs)
+2026-10-16 18:16:22,646 : INFO  : KNIME-Worker-65-Expression 3:33 :  : LocalNodeExecutionJob : Expression : 3:33 : Expression 3:33 End execute (0 secs)
+2026-10-16 18:16:22,653 : INFO  : KNIME-Worker-69-Rule-based Row Splitter 3:34 :  : RuleEngineFilterNodeModel : Rule-based Row Splitter : 3:34 : The result table at port 1 contains no rows
+2026-10-16 18:16:22,653 : INFO  : KNIME-Worker-69-Rule-based Row Splitter 3:34 :  : LocalNodeExecutionJob : Rule-based Row Splitter : 3:34 : Rule-based Row Splitter 3:34 End execute (0 secs)
+2026-10-16 18:16:22,655 : INFO  : KNIME-Worker-66-Sorter 3:35 :  : SorterNodeModel : Sorter : 3:35 : The result table at port 0 contains no rows
+2026-10-16 18:16:22,655 : WARN  : KNIME-Worker-66-Sorter 3:35 :  : Node : Sorter : 3:35 : Node created an empty data table.
+2026-10-16 18:16:22,655 : INFO  : KNIME-Worker-66-Sorter 3:35 :  : LocalNodeExecutionJob : Sorter : 3:35 : Sorter 3:35 End execute (0 secs)
+2026-10-16 18:23:54,733 : ERROR : KNIME-Worker-78-XML Reader 3:17 :  : Node : XML Reader : 3:17 : Execute failed: The root node does not have a namespace URI.
+java.io.IOException: The root node does not have a namespace URI.
+	at org.knime.xml.node.filehandling.reader.XPathRead.extractRootNamespace(XPathRead.java:296)
+	at org.knime.xml.node.filehandling.reader.XPathRead.getRootNameSpace(XPathRead.java:271)
+	at org.knime.xml.node.filehandling.reader.XPathRead.createXPathMatcher(XPathRead.java:213)
+	at org.knime.xml.node.filehandling.reader.XPathRead.<init>(XPathRead.java:127)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:77)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.xml.node.filehandling.reader.XMLMultiTableReadFactory$XMLMultiTableRead.fillRowOutput(XMLMultiTableReadFactory.java:197)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 18:23:56,514 : ERROR : KNIME-Worker-79-XML Reader 3:17 :  : Node : XML Reader : 3:17 : Execute failed: The root node does not have a namespace URI.
+java.io.IOException: The root node does not have a namespace URI.
+	at org.knime.xml.node.filehandling.reader.XPathRead.extractRootNamespace(XPathRead.java:296)
+	at org.knime.xml.node.filehandling.reader.XPathRead.getRootNameSpace(XPathRead.java:271)
+	at org.knime.xml.node.filehandling.reader.XPathRead.createXPathMatcher(XPathRead.java:213)
+	at org.knime.xml.node.filehandling.reader.XPathRead.<init>(XPathRead.java:127)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:77)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.xml.node.filehandling.reader.XMLMultiTableReadFactory$XMLMultiTableRead.fillRowOutput(XMLMultiTableReadFactory.java:197)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 18:24:09,091 : ERROR : KNIME-Worker-80-XML Reader 3:17 :  : Node : XML Reader : 3:17 : Execute failed: The root node does not have a namespace URI.
+java.io.IOException: The root node does not have a namespace URI.
+	at org.knime.xml.node.filehandling.reader.XPathRead.extractRootNamespace(XPathRead.java:296)
+	at org.knime.xml.node.filehandling.reader.XPathRead.getRootNameSpace(XPathRead.java:271)
+	at org.knime.xml.node.filehandling.reader.XPathRead.createXPathMatcher(XPathRead.java:213)
+	at org.knime.xml.node.filehandling.reader.XPathRead.<init>(XPathRead.java:127)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:77)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.xml.node.filehandling.reader.XMLMultiTableReadFactory$XMLMultiTableRead.fillRowOutput(XMLMultiTableReadFactory.java:197)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 18:24:09,937 : ERROR : KNIME-Worker-81-XML Reader 3:17 :  : Node : XML Reader : 3:17 : Execute failed: The root node does not have a namespace URI.
+java.io.IOException: The root node does not have a namespace URI.
+	at org.knime.xml.node.filehandling.reader.XPathRead.extractRootNamespace(XPathRead.java:296)
+	at org.knime.xml.node.filehandling.reader.XPathRead.getRootNameSpace(XPathRead.java:271)
+	at org.knime.xml.node.filehandling.reader.XPathRead.createXPathMatcher(XPathRead.java:213)
+	at org.knime.xml.node.filehandling.reader.XPathRead.<init>(XPathRead.java:127)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:77)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.xml.node.filehandling.reader.XMLMultiTableReadFactory$XMLMultiTableRead.fillRowOutput(XMLMultiTableReadFactory.java:197)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 18:24:10,512 : ERROR : KNIME-Worker-82-XML Reader 3:17 :  : Node : XML Reader : 3:17 : Execute failed: The root node does not have a namespace URI.
+java.io.IOException: The root node does not have a namespace URI.
+	at org.knime.xml.node.filehandling.reader.XPathRead.extractRootNamespace(XPathRead.java:296)
+	at org.knime.xml.node.filehandling.reader.XPathRead.getRootNameSpace(XPathRead.java:271)
+	at org.knime.xml.node.filehandling.reader.XPathRead.createXPathMatcher(XPathRead.java:213)
+	at org.knime.xml.node.filehandling.reader.XPathRead.<init>(XPathRead.java:127)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:77)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.xml.node.filehandling.reader.XMLMultiTableReadFactory$XMLMultiTableRead.fillRowOutput(XMLMultiTableReadFactory.java:197)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 18:24:12,980 : INFO  : KNIME-Worker-83-XML Reader 3:17 :  : LocalNodeExecutionJob : XML Reader : 3:17 : XML Reader 3:17 End execute (0 secs)
+2026-10-16 18:25:46,154 : INFO  : KNIME-Worker-84-XPath 3:18 :  : LocalNodeExecutionJob : XPath : 3:18 : XPath 3:18 End execute (0 secs)
+2026-10-16 18:26:32,976 : ERROR : KNIME-Worker-86-XML Reader 3:17 :  : Node : XML Reader : 3:17 : Execute failed: The root node does not have a namespace URI.
+java.io.IOException: The root node does not have a namespace URI.
+	at org.knime.xml.node.filehandling.reader.XPathRead.extractRootNamespace(XPathRead.java:296)
+	at org.knime.xml.node.filehandling.reader.XPathRead.getRootNameSpace(XPathRead.java:271)
+	at org.knime.xml.node.filehandling.reader.XPathRead.createXPathMatcher(XPathRead.java:213)
+	at org.knime.xml.node.filehandling.reader.XPathRead.<init>(XPathRead.java:127)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:77)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.xml.node.filehandling.reader.XMLMultiTableReadFactory$XMLMultiTableRead.fillRowOutput(XMLMultiTableReadFactory.java:197)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 18:26:37,987 : ERROR : KNIME-Worker-87-XML Reader 3:17 :  : Node : XML Reader : 3:17 : Execute failed: The root node does not have a namespace URI.
+java.io.IOException: The root node does not have a namespace URI.
+	at org.knime.xml.node.filehandling.reader.XPathRead.extractRootNamespace(XPathRead.java:296)
+	at org.knime.xml.node.filehandling.reader.XPathRead.getRootNameSpace(XPathRead.java:271)
+	at org.knime.xml.node.filehandling.reader.XPathRead.createXPathMatcher(XPathRead.java:213)
+	at org.knime.xml.node.filehandling.reader.XPathRead.<init>(XPathRead.java:127)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:77)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.xml.node.filehandling.reader.XMLMultiTableReadFactory$XMLMultiTableRead.fillRowOutput(XMLMultiTableReadFactory.java:197)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 18:26:38,688 : ERROR : KNIME-Worker-88-XML Reader 3:17 :  : Node : XML Reader : 3:17 : Execute failed: The root node does not have a namespace URI.
+java.io.IOException: The root node does not have a namespace URI.
+	at org.knime.xml.node.filehandling.reader.XPathRead.extractRootNamespace(XPathRead.java:296)
+	at org.knime.xml.node.filehandling.reader.XPathRead.getRootNameSpace(XPathRead.java:271)
+	at org.knime.xml.node.filehandling.reader.XPathRead.createXPathMatcher(XPathRead.java:213)
+	at org.knime.xml.node.filehandling.reader.XPathRead.<init>(XPathRead.java:127)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:77)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.xml.node.filehandling.reader.XMLMultiTableReadFactory$XMLMultiTableRead.fillRowOutput(XMLMultiTableReadFactory.java:197)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 18:26:39,200 : ERROR : KNIME-Worker-89-XML Reader 3:17 :  : Node : XML Reader : 3:17 : Execute failed: The root node does not have a namespace URI.
+java.io.IOException: The root node does not have a namespace URI.
+	at org.knime.xml.node.filehandling.reader.XPathRead.extractRootNamespace(XPathRead.java:296)
+	at org.knime.xml.node.filehandling.reader.XPathRead.getRootNameSpace(XPathRead.java:271)
+	at org.knime.xml.node.filehandling.reader.XPathRead.createXPathMatcher(XPathRead.java:213)
+	at org.knime.xml.node.filehandling.reader.XPathRead.<init>(XPathRead.java:127)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:77)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.xml.node.filehandling.reader.XMLMultiTableReadFactory$XMLMultiTableRead.fillRowOutput(XMLMultiTableReadFactory.java:197)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 18:26:40,157 : ERROR : KNIME-Worker-90-XML Reader 3:17 :  : Node : XML Reader : 3:17 : Execute failed: The root node does not have a namespace URI.
+java.io.IOException: The root node does not have a namespace URI.
+	at org.knime.xml.node.filehandling.reader.XPathRead.extractRootNamespace(XPathRead.java:296)
+	at org.knime.xml.node.filehandling.reader.XPathRead.getRootNameSpace(XPathRead.java:271)
+	at org.knime.xml.node.filehandling.reader.XPathRead.createXPathMatcher(XPathRead.java:213)
+	at org.knime.xml.node.filehandling.reader.XPathRead.<init>(XPathRead.java:127)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:77)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.xml.node.filehandling.reader.XMLMultiTableReadFactory$XMLMultiTableRead.fillRowOutput(XMLMultiTableReadFactory.java:197)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 18:26:40,346 : ERROR : KNIME-Worker-91-XML Reader 3:17 :  : Node : XML Reader : 3:17 : Execute failed: The root node does not have a namespace URI.
+java.io.IOException: The root node does not have a namespace URI.
+	at org.knime.xml.node.filehandling.reader.XPathRead.extractRootNamespace(XPathRead.java:296)
+	at org.knime.xml.node.filehandling.reader.XPathRead.getRootNameSpace(XPathRead.java:271)
+	at org.knime.xml.node.filehandling.reader.XPathRead.createXPathMatcher(XPathRead.java:213)
+	at org.knime.xml.node.filehandling.reader.XPathRead.<init>(XPathRead.java:127)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:77)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.xml.node.filehandling.reader.XMLMultiTableReadFactory$XMLMultiTableRead.fillRowOutput(XMLMultiTableReadFactory.java:197)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 18:27:38,893 : INFO  : KNIME-Worker-92-XML Reader 3:17 :  : LocalNodeExecutionJob : XML Reader : 3:17 : XML Reader 3:17 End execute (0 secs)
+2026-10-16 18:28:37,728 : ERROR : KNIME-Worker-93-XML Reader 3:17 :  : Node : XML Reader : 3:17 : Execute failed: The root node does not have a namespace URI.
+java.io.IOException: The root node does not have a namespace URI.
+	at org.knime.xml.node.filehandling.reader.XPathRead.extractRootNamespace(XPathRead.java:296)
+	at org.knime.xml.node.filehandling.reader.XPathRead.getRootNameSpace(XPathRead.java:271)
+	at org.knime.xml.node.filehandling.reader.XPathRead.createXPathMatcher(XPathRead.java:213)
+	at org.knime.xml.node.filehandling.reader.XPathRead.<init>(XPathRead.java:127)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:77)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.xml.node.filehandling.reader.XMLMultiTableReadFactory$XMLMultiTableRead.fillRowOutput(XMLMultiTableReadFactory.java:197)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 18:28:39,115 : ERROR : KNIME-Worker-94-XML Reader 3:17 :  : Node : XML Reader : 3:17 : Execute failed: The root node does not have a namespace URI.
+java.io.IOException: The root node does not have a namespace URI.
+	at org.knime.xml.node.filehandling.reader.XPathRead.extractRootNamespace(XPathRead.java:296)
+	at org.knime.xml.node.filehandling.reader.XPathRead.getRootNameSpace(XPathRead.java:271)
+	at org.knime.xml.node.filehandling.reader.XPathRead.createXPathMatcher(XPathRead.java:213)
+	at org.knime.xml.node.filehandling.reader.XPathRead.<init>(XPathRead.java:127)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:77)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.xml.node.filehandling.reader.XMLMultiTableReadFactory$XMLMultiTableRead.fillRowOutput(XMLMultiTableReadFactory.java:197)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 18:28:39,524 : ERROR : KNIME-Worker-95-XML Reader 3:17 :  : Node : XML Reader : 3:17 : Execute failed: The root node does not have a namespace URI.
+java.io.IOException: The root node does not have a namespace URI.
+	at org.knime.xml.node.filehandling.reader.XPathRead.extractRootNamespace(XPathRead.java:296)
+	at org.knime.xml.node.filehandling.reader.XPathRead.getRootNameSpace(XPathRead.java:271)
+	at org.knime.xml.node.filehandling.reader.XPathRead.createXPathMatcher(XPathRead.java:213)
+	at org.knime.xml.node.filehandling.reader.XPathRead.<init>(XPathRead.java:127)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:77)
+	at org.knime.xml.node.filehandling.reader.XMLReader.read(XMLReader.java:1)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.createRead(DefaultStagedMultiTableRead.java:231)
+	at org.knime.filehandling.core.node.table.reader.DefaultStagedMultiTableRead.lambda$0(DefaultStagedMultiTableRead.java:193)
+	at org.knime.filehandling.core.node.table.reader.DefaultMultiTableRead.fillRowOutput(DefaultMultiTableRead.java:194)
+	at org.knime.xml.node.filehandling.reader.XMLMultiTableReadFactory$XMLMultiTableRead.fillRowOutput(XMLMultiTableReadFactory.java:197)
+	at org.knime.filehandling.core.node.table.reader.util.MultiTableRead.readTable(MultiTableRead.java:128)
+	at org.knime.filehandling.core.node.table.reader.MultiTableReader.readTable(MultiTableReader.java:178)
+	at org.knime.filehandling.core.node.table.reader.CommonTableReaderNodeModel.execute(CommonTableReaderNodeModel.java:176)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-16 18:29:40,221 : INFO  : KNIME-Worker-98-XML Reader 3:17 :  : LocalNodeExecutionJob : XML Reader : 3:17 : XML Reader 3:17 End execute (0 secs)
+2026-10-16 18:29:48,181 : INFO  : KNIME-Worker-99-XPath 3:18 :  : LocalNodeExecutionJob : XPath : 3:18 : XPath 3:18 End execute (0 secs)
+2026-10-16 18:30:15,524 : INFO  : KNIME-Worker-100-XPath 3:18 :  : LocalNodeExecutionJob : XPath : 3:18 : XPath 3:18 End execute (0 secs)
+2026-10-16 18:30:21,165 : INFO  : KNIME-Worker-101-XPath 3:18 :  : LocalNodeExecutionJob : XPath : 3:18 : XPath 3:18 End execute (0 secs)
+2026-10-16 18:30:21,174 : INFO  : KNIME-Worker-102-Column Filter 3:19 :  : LocalNodeExecutionJob : Column Filter : 3:19 : Column Filter 3:19 End execute (0 secs)
+2026-10-16 18:30:21,196 : INFO  : KNIME-Worker-103-Joiner 3:20 :  : LocalNodeExecutionJob : Joiner : 3:20 : Joiner 3:20 End execute (0 secs)
+2026-10-16 18:30:21,225 : INFO  : KNIME-Worker-104-Date&Time to String 3:26 :  : LocalNodeExecutionJob : Date&Time to String : 3:26 : Date&Time to String 3:26 End execute (0 secs)
+2026-10-16 18:30:21,272 : INFO  : KNIME-Worker-105-Joiner 3:24 :  : LocalNodeExecutionJob : Joiner : 3:24 : Joiner 3:24 End execute (0 secs)
+2026-10-16 18:30:21,329 : INFO  : KNIME-Worker-106-Java Snippet 3:25 :  : LocalNodeExecutionJob : Java Snippet : 3:25 : Java Snippet 3:25 End execute (0 secs)
+2026-10-16 18:30:21,352 : INFO  : KNIME-Worker-107-Joiner 3:27 :  : LocalNodeExecutionJob : Joiner : 3:27 : Joiner 3:27 End execute (0 secs)
+2026-10-16 18:30:21,376 : INFO  : KNIME-Worker-108-GroupBy 3:29 :  : LocalNodeExecutionJob : GroupBy : 3:29 : GroupBy 3:29 End execute (0 secs)
+2026-10-16 18:30:21,407 : INFO  : KNIME-Worker-109-Joiner 3:30 :  : LocalNodeExecutionJob : Joiner : 3:30 : Joiner 3:30 End execute (0 secs)
+2026-10-16 18:30:21,439 : INFO  : KNIME-Worker-110-Math Formula 3:31 :  : LocalNodeExecutionJob : Math Formula : 3:31 : Math Formula 3:31 End execute (0 secs)
+2026-10-16 18:30:21,546 : INFO  : KNIME-Worker-111-Date&Time Part Extractor 3:32 :  : LocalNodeExecutionJob : Date&Time Part Extractor : 3:32 : Date&Time Part Extractor 3:32 End execute (0 secs)
+2026-10-16 18:30:21,682 : INFO  : KNIME-Worker-96-Expression 3:33 :  : LocalNodeExecutionJob : Expression : 3:33 : Expression 3:33 End execute (0 secs)
+2026-10-16 18:30:21,711 : INFO  : KNIME-Worker-105-Rule-based Row Splitter 3:34 :  : LocalNodeExecutionJob : Rule-based Row Splitter : 3:34 : Rule-based Row Splitter 3:34 End execute (0 secs)
+2026-10-16 18:30:21,713 : INFO  : KNIME-Worker-113-Sorter 3:35 :  : LocalNodeExecutionJob : Sorter : 3:35 : Sorter 3:35 End execute (0 secs)
+2026-10-16 18:31:13,049 : INFO  : KNIME-Worker-102-Sorter 3:35 :  : LocalNodeExecutionJob : Sorter : 3:35 : Sorter 3:35 End execute (0 secs)
+2026-10-16 18:32:20,007 : INFO  : KNIME-Worker-118-PostgreSQL Connector 4:1 :  : LocalNodeExecutionJob : PostgreSQL Connector : 4:1 : PostgreSQL Connector 4:1 End execute (0 secs)
+2026-10-16 18:32:20,022 : INFO  : KNIME-Worker-119-DB Table Selector 4:2 :  : LocalNodeExecutionJob : DB Table Selector : 4:2 : DB Table Selector 4:2 End execute (0 secs)
+2026-10-16 18:32:20,043 : INFO  : KNIME-Worker-117-CSV Reader 4:6 :  : LocalNodeExecutionJob : CSV Reader : 4:6 : CSV Reader 4:6 End execute (0 secs)
+2026-10-16 18:32:20,062 : INFO  : KNIME-Worker-121-Number to String 4:21 :  : LocalNodeExecutionJob : Number to String : 4:21 : Number to String 4:21 End execute (0 secs)
+2026-10-16 18:32:20,099 : INFO  : KNIME-Worker-122-String to Date&Time 4:8 :  : LocalNodeExecutionJob : String to Date&Time : 4:8 : String to Date&Time 4:8 End execute (0 secs)
+2026-10-16 18:32:20,114 : INFO  : KNIME-Worker-123-String Manipulation 4:23 :  : LocalNodeExecutionJob : String Manipulation : 4:23 : String Manipulation 4:23 End execute (0 secs)
+2026-10-16 18:32:20,128 : INFO  : KNIME-Worker-120-DB Reader 4:9 :  : LocalNodeExecutionJob : DB Reader : 4:9 : DB Reader 4:9 End execute (0 secs)
+2026-10-16 18:32:20,167 : INFO  : KNIME-Worker-124-String to Date&Time 4:22 :  : LocalNodeExecutionJob : String to Date&Time : 4:22 : String to Date&Time 4:22 End execute (0 secs)
+2026-10-16 18:32:20,177 : INFO  : KNIME-Worker-125-String Manipulation 4:24 :  : LocalNodeExecutionJob : String Manipulation : 4:24 : String Manipulation 4:24 End execute (0 secs)
+2026-10-16 18:32:20,180 : INFO  : KNIME-Worker-126-Concatenate 4:20 :  : LocalNodeExecutionJob : Concatenate : 4:20 : Concatenate 4:20 End execute (0 secs)
+2026-10-16 18:32:20,355 : INFO  : KNIME-Worker-107-Duplicate Row Filter 4:15 :  : LocalNodeExecutionJob : Duplicate Row Filter : 4:15 : Duplicate Row Filter 4:15 End execute (0 secs)
+2026-10-16 18:32:20,725 : INFO  : KNIME-Worker-103-DB Writer 4:16 :  : LocalNodeExecutionJob : DB Writer : 4:16 : DB Writer 4:16 End execute (0 secs)
+2026-10-16 18:33:29,517 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x0000000301547680 :  : FileUtil :  :  : Deleting 101 temporary files.
