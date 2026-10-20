@@ -1,0 +1,65 @@
+{
+  "version" : "5.12.0.v202606180846",
+  "projects" : [ {
+    "name" : "03_carga_notificacao.knwf",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "03_carga_notificacao.knwf"
+    }
+  }, {
+    "name" : "00_orquestrador",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "00_orquestrador"
+    }
+  }, {
+    "name" : "01_ingestao",
+    "active" : true,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "01_ingestao"
+    }
+  } ],
+  "mostRecentlyUsedProjects" : [ {
+    "name" : "02_transformacao",
+    "timeUsed" : "2026-10-20T20:09:30.204101+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "02_transformacao"
+    }
+  }, {
+    "name" : "03_carga_notificacao.knwf",
+    "timeUsed" : "2026-10-20T20:09:44.347387+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "03_carga_notificacao.knwf"
+    }
+  }, {
+    "name" : "00_orquestrador",
+    "timeUsed" : "2026-10-20T20:09:50.215715+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "00_orquestrador"
+    }
+  }, {
+    "name" : "01_ingestao",
+    "timeUsed" : "2026-10-20T20:19:48.446132+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "01_ingestao"
+    }
+  } ]
+}

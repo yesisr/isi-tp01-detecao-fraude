@@ -1,0 +1,23 @@
+{
+    "schema": {
+        "type": "object",
+        "properties": {
+            "todas_pontuadas": {
+                "type": "string",
+                "format": "binary"
+            },
+            "alertas": {
+                "type": "string",
+                "format": "binary"
+            }
+        }
+    },
+    "encoding": {
+        "todas_pontuadas": {
+            "contentType": "knime-port/org.knime.core.node.BufferedDataTable"
+        },
+        "alertas": {
+            "contentType": "knime-port/org.knime.core.node.BufferedDataTable"
+        }
+    }
+}
