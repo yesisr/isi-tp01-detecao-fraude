@@ -83,7 +83,7 @@ O dashboard **`Dashboard - Deteção Fraude`** está versionado em `src/grafana/
 | Países de Risco          | os 5 países com mais alertas, a partir de `mart_resumo_diario`;                                     |
 | Valor Total e Sinalizado | valor total transacionado versus valor sinalizado, por dia (`mart_resumo_diario` e `mart_alertas`). |
 
-## MailHog (notificações por email)
+## MailHog
 
 O MailHog é o servidor SMTP de testes usado na notificação: guarda as mensagens enviadas pelo KNIME e permite lê-las na interface web <http://localhost:8025>, sem enviar nada para o exterior. O node **Send Email** do `03_carga_notificacao` liga-se a `localhost:1025`:
 
