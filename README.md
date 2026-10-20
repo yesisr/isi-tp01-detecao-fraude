@@ -55,7 +55,7 @@ O fluxo principal é:
 
 3. Abrir no KNIME a pasta `dataintegration/workflows/00_orquestrador/` e executar o workflow `00_orquestrador`.
 
-4. Consultar os resultados na base de dados `fraude`, no dashboard do Grafana (<http://localhost:3000>) e nos ficheiros exportados em `data/output/`.
+4. Consultar os resultados na base de dados `fraude`, no dashboard do Grafana (<http://localhost:3000>), na caixa de correio do MailHog (<http://localhost:8025>) e nos ficheiros exportados em `data/output/`.
 
 Para parar os serviços:
 
@@ -68,7 +68,7 @@ docker compose down
 - PostgreSQL: `localhost:5432` — base de dados `fraude`, utilizador `etl`;
 - Node-RED: <http://localhost:1880>;
 - Grafana: <http://localhost:3000>;
-- MailHog: <http://localhost:8025>;
+- MailHog: <http://localhost:8025> (SMTP em `localhost:1025`);
 - Mosquitto MQTT: `localhost:1883`.
 
 ## Grafana
@@ -82,5 +82,19 @@ O dashboard **`Dashboard - Deteção Fraude`** está versionado em `src/grafana/
 | Alertas por hora         | número de alertas por hora, juntando `mart_alertas` a `stg_ingestao`;                               |
 | Países de Risco          | os 5 países com mais alertas, a partir de `mart_resumo_diario`;                                     |
 | Valor Total e Sinalizado | valor total transacionado versus valor sinalizado, por dia (`mart_resumo_diario` e `mart_alertas`). |
+
+## MailHog (notificações por email)
+
+O MailHog é o servidor SMTP de testes usado na notificação: guarda as mensagens enviadas pelo KNIME e permite lê-las na interface web <http://localhost:8025>, sem enviar nada para o exterior. O node **Send Email** do `03_carga_notificacao` liga-se a `localhost:1025`:
+
+| Campo          | Valor                                                      |
+| -------------- | ---------------------------------------------------------- |
+| Servidor SMTP  | `localhost`, porta `1025`                                  |
+| Remetente      | `knime@localhost`                                          |
+| Destinatário   | `fraude@example.test`                                      |
+| Assunto        | `Alertas de fraude`                                        |
+| Corpo          | `Foram identificados $${ICount(id_transacao)}$$ alertas.`  |
+
+O email **só é enviado quando existe pelo menos um alerta**. O ramo de notificação é alimentado exclusivamente pela saída `alertas` do `02_transformacao` — as transações que o score sinaliza como suspeitas — e o corpo da mensagem é construído a partir do número de linhas desse ramo (`GroupBy` → `Table Row to Variable` → `Send Email`). Se não houver alertas, a tabela chega vazia ao `Table Row to Variable`, a variável usada no corpo nunca é definida e não há mensagem a enviar: nunca sai um email "sem novidades".
 
 **NOTA**: Os caminhos de ficheiros dos nodes KNIME foram ajustados para esta cópia. Se a pasta for extraída noutro local ou computador, atualizar nos workflows os caminhos dos dados em `data/input/` e dos ficheiros de saída em `data/output/`.
