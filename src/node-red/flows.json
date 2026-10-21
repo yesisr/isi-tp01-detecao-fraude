@@ -7,14 +7,6 @@
         "info": ""
     },
     {
-        "id": "f79f631168d0cdfd",
-        "type": "tab",
-        "label": "Flow 1",
-        "disabled": true,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "brk1",
         "type": "mqtt-broker",
         "name": "mosquitto",

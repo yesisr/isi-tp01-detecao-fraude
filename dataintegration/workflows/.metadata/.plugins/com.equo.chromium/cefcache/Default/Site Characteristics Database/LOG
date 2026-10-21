@@ -1,3 +1,2 @@
-2026/10/20-20:21:14.145 1b603 Reusing MANIFEST /Users/user/Documents/github_repos/isi-tp01-detecao-fraude/dataintegration/workflows/.metadata/.plugins/com.equo.chromium/cefcache/Default/Site Characteristics Database/MANIFEST-000001
-2026/10/20-20:21:14.145 1b603 Recovering log #3
-2026/10/20-20:21:14.145 1b603 Reusing old log /Users/user/Documents/github_repos/isi-tp01-detecao-fraude/dataintegration/workflows/.metadata/.plugins/com.equo.chromium/cefcache/Default/Site Characteristics Database/000003.log 
+2026/10/21-13:41:52.597 1a503 Creating DB /Users/user/Documents/github_repos/isi-tp01-detecao-fraude/dataintegration/workflows/.metadata/.plugins/com.equo.chromium/cefcache/Default/Site Characteristics Database since it was missing.
+2026/10/21-13:41:52.610 1a503 Reusing MANIFEST /Users/user/Documents/github_repos/isi-tp01-detecao-fraude/dataintegration/workflows/.metadata/.plugins/com.equo.chromium/cefcache/Default/Site Characteristics Database/MANIFEST-000001

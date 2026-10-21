@@ -29,7 +29,7 @@
                                 "config",
                                 "context"
                             ],
-                            "height": 302,
+                            "height": 304,
                             "hidden": false,
                             "active": "config"
                         },
@@ -47,7 +47,7 @@
                             "tabs": [
                                 "explorer"
                             ],
-                            "height": 302,
+                            "height": 304,
                             "hidden": false,
                             "active": "explorer"
                         },
